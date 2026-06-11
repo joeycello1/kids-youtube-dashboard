@@ -1,8 +1,8 @@
 // src/lib/utils/fetchData.js
 
 export async function loadDashboardData() {
-  const raw = await (await fetch('/data.json')).json();
-  const stats = await (await fetch('/stats.json')).json();
+  const raw = await (await fetch(`${import.meta.env.BASE_URL}data.json`)).json();
+  const stats = await (await fetch(`${import.meta.env.BASE_URL}stats.json`)).json();
 
   const viralMap = new Map(
     stats.mostViral48h.map(v => [v.videoId, v.viewsPerHour])
