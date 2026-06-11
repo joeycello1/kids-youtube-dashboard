@@ -1,5 +1,61 @@
 [
   {
+    "timestamp": "2026-06-11T22:47:22.000Z",
+    "firstSeen": "2026-06-11T22:56:09.239Z",
+    "title": "Trump believes Iran's supreme leader signed off on the emerging deal",
+    "videoUrl": "https://www.youtube.com/watch?v=2a2G1sXq7sg",
+    "channelName": "Associated Press",
+    "summary": "\"I understand the answer is yes\" President Donald Trump said when asked by reporters if Ayatollah Mojtaba Khamenei has agreed to the deal aimed at winding down the conflict. Subscribe: Read more: This video may be available for archive licensing via",
+    "keyword": "Associated Press",
+    "thumbnail": "https://i3.ytimg.com/vi/2a2G1sXq7sg/hqdefault.jpg",
+    "views": 113,
+    "ratingAvg": 5,
+    "videoCategory": "NEWS",
+    "videoId": "2a2G1sXq7sg"
+  },
+  {
+    "timestamp": "2026-06-11T22:46:09.000Z",
+    "firstSeen": "2026-06-11T22:56:32.923Z",
+    "title": "Surveillance program set to expire as Congress rejects FISA extension",
+    "videoUrl": "https://www.youtube.com/watch?v=Uc0cCBak3_E",
+    "channelName": "PBS NewsHour",
+    "summary": "President Trump announced his plans to nominate Jay Clayton as director of national intelligence. The choice comes as lawmakers refused to extend a key surveillance tool over stalled privacy concerns and questions about the qualifications of the interim intelligence chief. Congressional corresponden",
+    "keyword": "PBS NewsHour",
+    "thumbnail": "https://i2.ytimg.com/vi/Uc0cCBak3_E/hqdefault.jpg",
+    "views": 198,
+    "ratingAvg": 5,
+    "videoCategory": "NEWS",
+    "videoId": "Uc0cCBak3_E"
+  },
+  {
+    "timestamp": "2026-06-11T22:44:33.000Z",
+    "firstSeen": "2026-06-11T22:56:13.726Z",
+    "title": "Washington Today (6-11-26): House defeats FISA extension; Pres. Trump says Iran deal being finalized",
+    "videoUrl": "https://www.youtube.com/watch?v=cnnlUAZaKnk",
+    "channelName": "C?SPAN",
+    "summary": "House votes down an extension of the foreign spying power called FISA Sect. 702 a day before it is set to expire, with many Democrats upset at President Trump naming FHFA Director Bill Pulte as Acting Director of National Intelligence. After the vote, President Trump nominates Jay Clayton, U.S. Atto",
+    "keyword": "C?SPAN",
+    "thumbnail": "https://i4.ytimg.com/vi/cnnlUAZaKnk/hqdefault.jpg",
+    "views": 25,
+    "ratingAvg": 0,
+    "videoCategory": "NEWS",
+    "videoId": "cnnlUAZaKnk"
+  },
+  {
+    "timestamp": "2026-06-11T22:34:42.000Z",
+    "firstSeen": "2026-06-11T22:56:33.084Z",
+    "title": "News Wrap: Apparent anti-Trump message etched into National Mall",
+    "videoUrl": "https://www.youtube.com/watch?v=jeJNaIh5smg",
+    "channelName": "PBS NewsHour",
+    "summary": "In our news wrap Thursday, the Interior Department is investigating what appears to be an anti-Trump message etched into the grass of the National Mall in Washington, severe storms in the Midwest are disrupting travel and the gunman who killed Minnesota House Speaker Melissa Hortman and her husband ",
+    "keyword": "PBS NewsHour",
+    "thumbnail": "https://i3.ytimg.com/vi/jeJNaIh5smg/hqdefault.jpg",
+    "views": 1084,
+    "ratingAvg": 5,
+    "videoCategory": "NEWS",
+    "videoId": "jeJNaIh5smg"
+  },
+  {
     "timestamp": "2026-06-11T22:27:37.000Z",
     "firstSeen": "2026-06-11T22:31:06.862Z",
     "title": "Mark Carney says opening of Canada-US bridge is delayed over unresolved 'issues'",
@@ -36,7 +92,7 @@
     "summary": "",
     "keyword": "Louis Rossmann",
     "thumbnail": "https://i3.ytimg.com/vi/ZPJdbfhm6es/hqdefault.jpg",
-    "views": 2711,
+    "views": 3714,
     "ratingAvg": 5,
     "videoCategory": "TECH",
     "videoId": "ZPJdbfhm6es"
@@ -148,7 +204,7 @@
     "summary": "",
     "keyword": "Louis Rossmann",
     "thumbnail": "https://i2.ytimg.com/vi/1cP02BMBzuo/hqdefault.jpg",
-    "views": 27848,
+    "views": 32337,
     "ratingAvg": 5,
     "videoCategory": "TECH",
     "videoId": "1cP02BMBzuo"
@@ -266,6 +322,20 @@
     "videoId": "jSkGZZTczw4"
   },
   {
+    "timestamp": "2026-06-11T15:14:50.000Z",
+    "firstSeen": "2026-06-11T22:56:09.960Z",
+    "title": "Mexico vs South Africa: LIVE watch party for FIFA World Cup 2026",
+    "videoUrl": "https://www.youtube.com/watch?v=5Sf0BoLOzvo",
+    "channelName": "Associated Press",
+    "summary": "Live from watch parties in Mexico and the U.S. as Mexico gets the 2026 FIFA World Cup started against South Africa in Mexico City.",
+    "keyword": "Associated Press",
+    "thumbnail": "https://i2.ytimg.com/vi/5Sf0BoLOzvo/hqdefault.jpg",
+    "views": 377646,
+    "ratingAvg": 5,
+    "videoCategory": "NEWS",
+    "videoId": "5Sf0BoLOzvo"
+  },
+  {
     "timestamp": "2026-06-11T15:00:08.000Z",
     "firstSeen": "2026-06-11T16:58:40.371Z",
     "title": "Jon Stewart on the Most Rewarding Part of His Job - After the Cut",
@@ -274,7 +344,7 @@
     "summary": "\"What I feel best about is when we execute to the highest of our intention.\" Jon Stewart reflects on the most gratifying part of his job at The Daily Show, including the humbling challenges that come with it. Subscribe to The Daily Show: Follow The Daily Show:\nTwitter: Facebook: Instagram: Stream fu",
     "keyword": "The Daily Show",
     "thumbnail": "https://i2.ytimg.com/vi/9wCFFF39el4/hqdefault.jpg",
-    "views": 42741,
+    "views": 46336,
     "ratingAvg": 5,
     "videoCategory": "ENT",
     "videoId": "9wCFFF39el4"
@@ -302,7 +372,7 @@
     "summary": "Troy Iwata takes a break from America's problems by taking aim at OTHER countries' problems, like the steady sinking of Mexico City, France's drunken deer hazard, Hong Kong's claw machine addiction crisis, and the rise of bread made from mummy yeast, in another round of \"So Not Our Problem!\" Subscri",
     "keyword": "The Daily Show",
     "thumbnail": "https://i3.ytimg.com/vi/v1ADRmW1a3E/hqdefault.jpg",
-    "views": 122296,
+    "views": 127708,
     "ratingAvg": 5,
     "videoCategory": "ENT",
     "videoId": "v1ADRmW1a3E"
@@ -316,7 +386,7 @@
     "summary": "Conan shows Patton Oswalt & the gang his favorite blooper from way back when movies couldn't be puased. Subscribe to watch more Team Coco videos FOLLOW TEAM COCO PODCASTS ON SOCIAL\nConan O?Brien on Twitter Team Coco Podcasts on Instagram FOLLOW TEAM COCO ON SOCIAL\nTeam Coco on Facebook Team Coco on ",
     "keyword": "Conan O'Brien",
     "thumbnail": "https://i1.ytimg.com/vi/8MXGwyBEQU4/hqdefault.jpg",
-    "views": 13792,
+    "views": 14708,
     "ratingAvg": 5,
     "videoCategory": "ENT",
     "videoId": "8MXGwyBEQU4"
@@ -330,7 +400,7 @@
     "summary": "Conan chats with Zach, an animator from Ohio, about proposing underneath a cosmic event & his sword collection. Subscribe to watch more Team Coco videos Listen to the Full Podcast FOLLOW TEAM COCO PODCASTS ON SOCIAL\nConan O?Brien on X Team Coco Podcasts on Instagram FOLLOW TEAM COCO ON SOCIAL\nTeam C",
     "keyword": "Conan O'Brien",
     "thumbnail": "https://i2.ytimg.com/vi/-rR6him79B0/hqdefault.jpg",
-    "views": 16322,
+    "views": 16947,
     "ratingAvg": 5,
     "videoCategory": "ENT",
     "videoId": "-rR6him79B0"
@@ -442,7 +512,7 @@
     "summary": "What is ancient astronomy hiding about our true history? Graham Hancock reveals the catastrophe that erased 12,800 years of our past, what the Great Pyramid is actually trying to tell us, and what he refuses to leave unsaid with heart surgery just weeks away.\nGraham Hancock is a best selling writer ",
     "keyword": "AI",
     "thumbnail": "https://i1.ytimg.com/vi/Xs94KBeIiAo/hqdefault.jpg",
-    "views": 1484214,
+    "views": 1578140,
     "ratingAvg": 5,
     "videoCategory": "ENT",
     "videoId": "Xs94KBeIiAo"
@@ -456,7 +526,7 @@
     "summary": "TIMESTAMPS: 0:00 What Section 1201 of the DMCA actually does 0:17 Examples of digital locks 1:10 Bruce Lehman made the DMCA 1:30 Bruce Lehman admits DMCA is a failure 2:40 Anecdote on owning your screwups 3:28 He knows he screwed up 4:19 Lehman brags about the end-run around Congress 6:23 Lehman's b",
     "keyword": "Louis Rossmann",
     "thumbnail": "https://i4.ytimg.com/vi/O0-j89LJysY/hqdefault.jpg",
-    "views": 77152,
+    "views": 77841,
     "ratingAvg": 5,
     "videoCategory": "TECH",
     "videoId": "O0-j89LJysY"
@@ -470,7 +540,7 @@
     "summary": "Actor and producer Nina Dobrev sits down with Desi Lydic to discuss starring in the crime thriller, ?The Get Out.? They talk about the joy of playing a buttoned-up bank teller who?s totally unhinged, awkward make-out scenes with her co-star and longtime friend Aaron Paul, and channeling her wild sid",
     "keyword": "The Daily Show",
     "thumbnail": "https://i4.ytimg.com/vi/OjmoLec5_sM/hqdefault.jpg",
-    "views": 32864,
+    "views": 33456,
     "ratingAvg": 5,
     "videoCategory": "ENT",
     "videoId": "OjmoLec5_sM"
@@ -484,7 +554,7 @@
     "summary": "Melania ushers in the age of AI while sounding like a robot, tensions rise again in Iran as the U.S. and Tehran trade blows, and Desi Lydic wonders when Trump will stop futzing with UFC coins and end the war. Plus, Jordan Klepper gets on the Trump administration?s commemorative coin train to fix inf",
     "keyword": "The Daily Show, AI",
     "thumbnail": "https://i4.ytimg.com/vi/gmpaIbsPpFo/hqdefault.jpg",
-    "views": 1265529,
+    "views": 1287005,
     "ratingAvg": 5,
     "videoCategory": "ENT",
     "videoId": "gmpaIbsPpFo"
@@ -546,48 +616,6 @@
     "videoId": "pxP6L7wF-U4"
   },
   {
-    "timestamp": "2026-06-10T22:53:48.000Z",
-    "firstSeen": "2026-06-10T22:58:57.390Z",
-    "title": "How the loss of USAID has weakened the fight against Ebola",
-    "videoUrl": "https://www.youtube.com/watch?v=O1EAt77Wh1U",
-    "channelName": "PBS NewsHour",
-    "summary": "The Ebola outbreak in the Democratic Republic of the Congo and Uganda is escalating quickly. There are growing warnings that, without a stronger response, this Ebola outbreak could become one of the deadliest. William Brangham takes a closer look with Jeremy Konyndyk, the president of Refugees Inter",
-    "keyword": "PBS NewsHour",
-    "thumbnail": "https://i4.ytimg.com/vi/O1EAt77Wh1U/hqdefault.jpg",
-    "views": 17,
-    "ratingAvg": 5,
-    "videoCategory": "NEWS",
-    "videoId": "O1EAt77Wh1U"
-  },
-  {
-    "timestamp": "2026-06-10T22:48:09.000Z",
-    "firstSeen": "2026-06-10T22:58:57.697Z",
-    "title": "Survey reveals political and cultural factions shaping the midterms",
-    "videoUrl": "https://www.youtube.com/watch?v=tYbbrJI66Mo",
-    "channelName": "PBS NewsHour",
-    "summary": "A new report from the Pew Research Center says American politics are not as simple as red versus blue. Pew surveyed more than 10,000 people and split the public into nine distinct groups along political and cultural values. Despite a polarized political environment, the report finds a minority of Am",
-    "keyword": "PBS NewsHour",
-    "thumbnail": "https://i1.ytimg.com/vi/tYbbrJI66Mo/hqdefault.jpg",
-    "views": 163,
-    "ratingAvg": 5,
-    "videoCategory": "NEWS",
-    "videoId": "tYbbrJI66Mo"
-  },
-  {
-    "timestamp": "2026-06-10T22:41:20.000Z",
-    "firstSeen": "2026-06-10T22:56:41.596Z",
-    "title": "Ian McKellen unveils a plaque on the childhood home of Laurence Olivier",
-    "videoUrl": "https://www.youtube.com/watch?v=YlEXYAY6BBQ",
-    "channelName": "Associated Press",
-    "summary": "One British acting great, Ian McKellen, unveils a blue plaque on the childhood home of another, Sir Laurence Olivier, at 22 Lupus Street in Pimlico, London. Subscribe: Read more: This video may be available for archive licensing via",
-    "keyword": "Associated Press",
-    "thumbnail": "https://i2.ytimg.com/vi/YlEXYAY6BBQ/hqdefault.jpg",
-    "views": 48,
-    "ratingAvg": 5,
-    "videoCategory": "NEWS",
-    "videoId": "YlEXYAY6BBQ"
-  },
-  {
     "timestamp": "2026-06-10T12:32:24.000Z",
     "firstSeen": "2026-06-10T19:59:22.848Z",
     "title": "Mark Zuckerberg: Human Status Update | The Daily Showography",
@@ -596,7 +624,7 @@
     "summary": "Much like his apps, Mark Zuckerberg has gotten a lot of updates over the years. From boy genius-ish to king of the Metaverse to one of Trump's besties, the Zuck has worn many hats and generated tons of controversy along the way. Follow his shape-shifting journey from dorm-room entrepreneur to scienc",
     "keyword": "The Daily Show",
     "thumbnail": "https://i4.ytimg.com/vi/34Pj5JjgmV4/hqdefault.jpg",
-    "views": 257144,
+    "views": 259226,
     "ratingAvg": 5,
     "videoCategory": "ENT",
     "videoId": "34Pj5JjgmV4"
@@ -624,7 +652,7 @@
     "summary": "\"This book is about transcending what other people think about us, the limitations they put on us, limitations society puts on us, and transcending the limitations we put on ourselves.? Award-winning actress and LGBTQ+ advocate Laverne Cox joins Desi Lydic to talk about her new memoir ?Transcendent.",
     "keyword": "The Daily Show",
     "thumbnail": "https://i1.ytimg.com/vi/XX572u5gtRM/hqdefault.jpg",
-    "views": 48612,
+    "views": 48960,
     "ratingAvg": 5,
     "videoCategory": "ENT",
     "videoId": "XX572u5gtRM"
@@ -638,7 +666,7 @@
     "summary": "The Knicks took an L in Game 3 of the NBA Finals while Trump took a nap, and the president turns a blind eye to another loss: Spencer Pratt in the L.A. mayoral race. Upset at the drawn-out ballot count and falling rank of his fellow reality TV star Republican, Trump pulls the \"rigged election\" card,",
     "keyword": "The Daily Show",
     "thumbnail": "https://i1.ytimg.com/vi/hHUvoN9Pccg/hqdefault.jpg",
-    "views": 2013439,
+    "views": 2021187,
     "ratingAvg": 5,
     "videoCategory": "ENT",
     "videoId": "hHUvoN9Pccg"
@@ -652,7 +680,7 @@
     "summary": "",
     "keyword": "Louis Rossmann",
     "thumbnail": "https://i4.ytimg.com/vi/ScsahA7OzVo/hqdefault.jpg",
-    "views": 301899,
+    "views": 302728,
     "ratingAvg": 5,
     "videoCategory": "TECH",
     "videoId": "ScsahA7OzVo"
@@ -666,7 +694,7 @@
     "summary": "Sona insisted that she would never call Conan a \"little b*tch,\" but video evidence proves otherwise. SPONSOR\nMiller Lite\nCelebrate Responsibly. Miller Brewing Company, Milwaukee WI. 96 calories and 3.2 carbs per 12 oz. Subscribe to watch more Team Coco videos FOLLOW TEAM COCO PODCASTS ON SOCIAL\nCona",
     "keyword": "Conan O'Brien",
     "thumbnail": "https://i3.ytimg.com/vi/FC2Skl1FW38/hqdefault.jpg",
-    "views": 70650,
+    "views": 70807,
     "ratingAvg": 5,
     "videoCategory": "ENT",
     "videoId": "FC2Skl1FW38"
@@ -680,7 +708,7 @@
     "summary": "",
     "keyword": "Samsung",
     "thumbnail": "https://i4.ytimg.com/vi/WpPIW4aeeag/hqdefault.jpg",
-    "views": 660148,
+    "views": 663197,
     "ratingAvg": 5,
     "videoCategory": "TECH",
     "videoId": "WpPIW4aeeag"
@@ -722,7 +750,7 @@
     "summary": "NEW LISTING: NEW DATASHEET: OLD LISTING: OLD DATASHEET:",
     "keyword": "Louis Rossmann",
     "thumbnail": "https://i4.ytimg.com/vi/S3QaHx0--mU/hqdefault.jpg",
-    "views": 180077,
+    "views": 180338,
     "ratingAvg": 5,
     "videoCategory": "TECH",
     "videoId": "S3QaHx0--mU"
@@ -750,7 +778,7 @@
     "summary": "Jeremy Corbell makes public an extraordinary ultimatum to the US Government. This is UFO News! PATREON ? YOUTUBE MEMBERSHIP ? ONE-TIME DONATION ? SHIRTS & HOODIES ? Twitter ? Instagram ? Facebook ? Subscribe ? Website ? Business contact: PostDisclosureWorld@proton.me",
     "keyword": "UFO, Corbell",
     "thumbnail": "https://i1.ytimg.com/vi/XQqGQB4KnEg/hqdefault.jpg",
-    "views": 27328,
+    "views": 27355,
     "ratingAvg": 5,
     "videoCategory": "UAP",
     "videoId": "XQqGQB4KnEg"
@@ -764,7 +792,7 @@
     "summary": "",
     "keyword": "Louis Rossmann",
     "thumbnail": "https://i1.ytimg.com/vi/lrORu-N6erY/hqdefault.jpg",
-    "views": 156881,
+    "views": 157179,
     "ratingAvg": 5,
     "videoCategory": "TECH",
     "videoId": "lrORu-N6erY"
@@ -792,7 +820,7 @@
     "summary": "Comedian and actor Patton Oswalt feels relieved about being Conan O?Brien?s friend. Patton sits down with Conan once again to discuss the ridiculousness of the modern day press tour, obsessing over Martin and Lewis knock-offs, and exploring the idea of finding comfort in being overwhelmed in his new",
     "keyword": "Conan O'Brien",
     "thumbnail": "https://i4.ytimg.com/vi/Kh86oQ72W-c/hqdefault.jpg",
-    "views": 172466,
+    "views": 173027,
     "ratingAvg": 5,
     "videoCategory": "ENT",
     "videoId": "Kh86oQ72W-c"
@@ -806,7 +834,7 @@
     "summary": "Why is the economy collapsing? Nick Hanauer and Daniel Priestley debate the wealth divide, why wages should be double what they are, what AI is doing to your job, and whether capitalism can still fix itself! Nick Hanauer is a venture capitalist and serial entrepreneur, the first non-family investor ",
     "keyword": "AI",
     "thumbnail": "https://i2.ytimg.com/vi/uLBsHXNEwAU/hqdefault.jpg",
-    "views": 885096,
+    "views": 887059,
     "ratingAvg": 5,
     "videoCategory": "ENT",
     "videoId": "uLBsHXNEwAU"
@@ -820,7 +848,7 @@
     "summary": "",
     "keyword": "Louis Rossmann",
     "thumbnail": "https://i4.ytimg.com/vi/OPCwZaxOBu4/hqdefault.jpg",
-    "views": 521155,
+    "views": 522112,
     "ratingAvg": 5,
     "videoCategory": "TECH",
     "videoId": "OPCwZaxOBu4"
@@ -848,7 +876,7 @@
     "summary": "@electronicsrepairschool",
     "keyword": "Louis Rossmann",
     "thumbnail": "https://i2.ytimg.com/vi/9SHG7XmkIOo/hqdefault.jpg",
-    "views": 96959,
+    "views": 97025,
     "ratingAvg": 5,
     "videoCategory": "TECH",
     "videoId": "9SHG7XmkIOo"
@@ -862,7 +890,7 @@
     "summary": "Tickets To Live Show: AREA 52 Shop: Patreon Exclusive Content: Second Channel: @Area52Clips Join The Area52 Discord: Luigi Vendittelli, director of the hit documentary S4: The Bob Lazar Story, returns for one of the wildest conversations we've ever had on the show.From his days as the youngest MUFON",
     "keyword": "UFO",
     "thumbnail": "https://i3.ytimg.com/vi/zOSK26sXT1Q/hqdefault.jpg",
-    "views": 412346,
+    "views": 413125,
     "ratingAvg": 5,
     "videoCategory": "UAP",
     "videoId": "zOSK26sXT1Q"
@@ -890,7 +918,7 @@
     "summary": "Conan's assistant David discovered Conan's kryptonite: corny Hallmark holiday movies. Subscribe to watch more Team Coco videos FOLLOW TEAM COCO PODCASTS ON SOCIAL\nConan O?Brien on Twitter Team Coco Podcasts on Instagram FOLLOW TEAM COCO ON SOCIAL\nTeam Coco on Facebook Team Coco on Twitter Team Coco ",
     "keyword": "Conan O'Brien",
     "thumbnail": "https://i2.ytimg.com/vi/aRw58OJO0Gs/hqdefault.jpg",
-    "views": 71419,
+    "views": 71447,
     "ratingAvg": 5,
     "videoCategory": "ENT",
     "videoId": "aRw58OJO0Gs"
@@ -904,7 +932,7 @@
     "summary": "",
     "keyword": "Louis Rossmann",
     "thumbnail": "https://i2.ytimg.com/vi/E1B2cWEaWDw/hqdefault.jpg",
-    "views": 618741,
+    "views": 619131,
     "ratingAvg": 5,
     "videoCategory": "TECH",
     "videoId": "E1B2cWEaWDw"
@@ -918,7 +946,7 @@
     "summary": "The fired-up denizens of UFO World loudly and consistently call for UAP insiders to step forward. \"Spill everything,\" they demand. \"No one would dare mess with you.\" Such bravado is easy to make for observers who have no skin in the game and for whom UFO disclosure is a spectator sport viewed from t",
     "keyword": "Corbell, UAP, UFO, whistleblower",
     "thumbnail": "https://i3.ytimg.com/vi/rk0y6oeI2k0/hqdefault.jpg",
-    "views": 62045,
+    "views": 62081,
     "ratingAvg": 5,
     "videoCategory": "UAP",
     "videoId": "rk0y6oeI2k0"
@@ -946,7 +974,7 @@
     "summary": "",
     "keyword": "Louis Rossmann",
     "thumbnail": "https://i4.ytimg.com/vi/7OJxy2n7FI8/hqdefault.jpg",
-    "views": 96896,
+    "views": 96962,
     "ratingAvg": 5,
     "videoCategory": "TECH",
     "videoId": "7OJxy2n7FI8"
@@ -974,7 +1002,7 @@
     "summary": "Bible sales are soaring, and the world's leading thinkers are quietly returning to faith.\nOxford mathematician and Christian apologist John Lennox explains why the race to \"solve death\" is 2,000 years too late, why no machine can ever replicate human consciousness, what AI reveals about God, and wha",
     "keyword": "AI, AGI, artificial intelligence",
     "thumbnail": "https://i1.ytimg.com/vi/dLrvJeSugkM/hqdefault.jpg",
-    "views": 1820210,
+    "views": 1822868,
     "ratingAvg": 5,
     "videoCategory": "ENT",
     "videoId": "dLrvJeSugkM"
@@ -988,7 +1016,7 @@
     "summary": "",
     "keyword": "Amazon Prime",
     "thumbnail": "https://i3.ytimg.com/vi/VIhdqHsoTDM/hqdefault.jpg",
-    "views": 130368,
+    "views": 130388,
     "ratingAvg": 5,
     "videoCategory": "TECH",
     "videoId": "VIhdqHsoTDM"
@@ -1016,7 +1044,7 @@
     "summary": "There are reports that Trump will soon issue an executive order leading to UFO transparency. This is UFO News! PATREON ? YOUTUBE MEMBERSHIP ? ONE-TIME DONATION ? SHIRTS & HOODIES ? Twitter ? Instagram ? Facebook ? Subscribe ? Website ? Business contact: PostDisclosureWorld@proton.me",
     "keyword": "UFO",
     "thumbnail": "https://i4.ytimg.com/vi/sCygJvgYjcM/hqdefault.jpg",
-    "views": 13147,
+    "views": 13151,
     "ratingAvg": 5,
     "videoCategory": "UAP",
     "videoId": "sCygJvgYjcM"
@@ -1030,7 +1058,7 @@
     "summary": "John C. Reilly talks to Ted Danson about bringing back empathy with his vaudeville-style music act Mister Romantic, how he met his wife on ?Casualties of War,? hiding his acting dreams from his dad, his long relationship with Paul Thomas Anderson, why he tried talking Leonardo DiCaprio out of doing ",
     "keyword": "Conan O'Brien",
     "thumbnail": "https://i2.ytimg.com/vi/-IeU1MUZyCU/hqdefault.jpg",
-    "views": 24678,
+    "views": 24707,
     "ratingAvg": 5,
     "videoCategory": "ENT",
     "videoId": "-IeU1MUZyCU"
@@ -1086,7 +1114,7 @@
     "summary": "AI Expert Mo Gawdat returns to The Diary Of A CEO to reveal why AGI has already arrived, why 30% of jobs will disappear by 2027, and why the most dangerous thing about AI isn't the technology - it's the people in charge of it. Mo Gawdat is the former Chief Business Officer at Google X, founder of On",
     "keyword": "AI, AGI",
     "thumbnail": "https://i3.ytimg.com/vi/RwlgFC6S-OE/hqdefault.jpg",
-    "views": 3344807,
+    "views": 3346584,
     "ratingAvg": 5,
     "videoCategory": "ENT",
     "videoId": "RwlgFC6S-OE"
@@ -1100,7 +1128,7 @@
     "summary": "Get 33% off Your first 6 months of Cape: Take your personal data back with Incogni! Use code AREA52 at the link below and get 60% off an annual plan: AREA 52 Shop: Tickets to the Live Show: Ben Woodruff (Skinwalker Ranch biologist, paleontologist & falconer) drops his most detailed interview yet abo",
     "keyword": "anomalous, UFO",
     "thumbnail": "https://i1.ytimg.com/vi/0e3-ssiKUMM/hqdefault.jpg",
-    "views": 973583,
+    "views": 973714,
     "ratingAvg": 5,
     "videoCategory": "UAP",
     "videoId": "0e3-ssiKUMM"
@@ -1114,7 +1142,7 @@
     "summary": "Shark Tank's Kevin O'Leary and political commentator Cenk Uygur go head to head on whether AI will save or destroy the economy, why American politicians are being bought by AI companies, whether Israel is the real force driving America's war with Iran, and why Cenk believes Tucker Carlson is the onl",
     "keyword": "AI",
     "thumbnail": "https://i1.ytimg.com/vi/H-8NrKFQKhU/hqdefault.jpg",
-    "views": 1376257,
+    "views": 1376649,
     "ratingAvg": 5,
     "videoCategory": "ENT",
     "videoId": "H-8NrKFQKhU"
@@ -1128,7 +1156,7 @@
     "summary": "Why are UFOs invisible to our current sensors? In this video, we dive into the intersection of evolutionary biology, biosemiotics, and the theories of Jacques Vall?e and Donald Hoffman to explain the 'Control System' hypothesis. What is the UFO phenomenon, where does it come from, why is it here ? a",
     "keyword": "UFO, UAP",
     "thumbnail": "https://i4.ytimg.com/vi/kSrKGS_UrhI/hqdefault.jpg",
-    "views": 32639,
+    "views": 32727,
     "ratingAvg": 5,
     "videoCategory": "UAP",
     "videoId": "kSrKGS_UrhI"
@@ -1170,7 +1198,7 @@
     "summary": "Create Incredible Visuals with Higgsfield Cinema Studio: TICKETS to the Live Show: Journalist @JeremyCorbell from the Weaponized podcast joins me in the SCIF to discuss \"Sleeping Dog\", a documentary film by director Michael Lazovsky about his life as a UFO investigator. This film includes some milit",
     "keyword": "Corbell, AARO, UAP, UFO, whistleblower",
     "thumbnail": "https://i2.ytimg.com/vi/MVjBLIsXFHQ/hqdefault.jpg",
-    "views": 537729,
+    "views": 537869,
     "ratingAvg": 5,
     "videoCategory": "UAP",
     "videoId": "MVjBLIsXFHQ"
