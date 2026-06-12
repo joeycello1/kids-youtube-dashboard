@@ -17,6 +17,7 @@
     sortMode,
     activeVideo
   } from './lib/stores/ui.js';
+  import { watched } from './lib/stores/watchedStore.js';
 
   // Utils
   import { loadDashboardData } from './lib/utils/fetchData.js';
@@ -42,12 +43,61 @@
 
   // Sorting
   $: sortedVideos = sortVideos(filteredVideos, $sortMode);
+
+  // Play Next Video auto-function
+  function playNextVideo() {
+    if (!filteredVideos || filteredVideos.length === 0) {
+      activeVideo.set(null);
+      return;
+    }
+
+    // RANDOM MODE
+    if ($sortMode === 'random') {
+      const unwatched = filteredVideos.filter(v => !$watched.has(v.videoId));
+
+      // If everything is watched, fall back to full list
+      const pool = unwatched.length > 0 ? unwatched : filteredVideos;
+
+      const randomIndex = Math.floor(Math.random() * pool.length);
+      activeVideo.set(pool[randomIndex]);
+      return;
+    }
+
+    // NORMAL MODE
+    const index = filteredVideos.findIndex(v => v.videoId === $activeVideo.videoId);
+
+    const next = filteredVideos[index + 1];
+
+    if (next) {
+      activeVideo.set(next);
+    } else {
+      activeVideo.set(null); // End of list → close modal
+    }
+  }
+
+  function shufflePlay() {
+    // Enable random mode
+    sortMode.set('random');
+
+    // Pick a random video from the *current filtered list*
+    const pool = filteredVideos;
+    if (!pool || pool.length === 0) return;
+
+    const randomIndex = Math.floor(Math.random() * pool.length);
+    const randomVideo = pool[randomIndex];
+
+    // Open the modal with that video
+    activeVideo.set(randomVideo);
+  }
+
+
 </script>
 
 <!-- Modal -->
 {#if $activeVideo}
   <VideoModal
     video={$activeVideo}
+    playNextVideo={playNextVideo}
     onClose={() => activeVideo.set(null)}
   />
 {/if}
@@ -78,6 +128,10 @@
     onInput={(v) => searchQuery.set(v)}
   />
 </div>
+
+<button class="shuffle-play" on:click={shufflePlay}>
+  🔀 Shuffle Play
+</button>
 
 <!-- Video Grid -->
 <div class="grid">
@@ -113,5 +167,19 @@
     flex-wrap: wrap;
     gap: 8px;
     margin: 12px 0 20px;
+  }
+
+  .shuffle-play {
+    padding: 0.5rem 1rem;
+    background: #444;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+
+  .shuffle-play:hover {
+    background: #666;
   }
 </style>

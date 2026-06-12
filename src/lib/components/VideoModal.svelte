@@ -1,6 +1,17 @@
 <script>
+  
+  import YouTubePlayer from './YouTubePlayer.svelte';
+  import { markWatched } from '../stores/watchedStore.js';
+
   export let video;
   export let onClose;
+  export let playNextVideo;
+
+  function skipVideo() {
+    markWatched(video.videoId);
+    playNextVideo();
+  }
+
 </script>
 
 <div
@@ -14,16 +25,15 @@
 <div class="modal">
   <button class="close-btn" on:click={onClose}>×</button>
 
-  <iframe
-    title="YouTube video player"
-    width="100%"
-    height="500"
-    src={`https://www.youtube.com/embed/${video.videoId}`}
-    allow="autoplay; encrypted-media"
-    allowfullscreen
-  ></iframe>
+  <YouTubePlayer
+    videoId={video.videoId}
+    on:ended={playNextVideo}
+  />
 
   <h3>{video.title}</h3>
+  <button class="skip-button" on:click={skipVideo}>
+    Skip
+  </button>
   <p>{video.timestamp.toLocaleString()}</p>
 </div>
 
@@ -59,5 +69,18 @@
     font-size: 1.5rem;
     cursor: pointer;
     color: #fff;
+  }
+
+  .skip-button {
+    padding: 0.5rem 1rem;
+    background: #444;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .skip-button:hover {
+    background: #666;
   }
 </style>

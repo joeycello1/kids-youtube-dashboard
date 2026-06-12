@@ -1,7 +1,12 @@
 <script>
   export let video;
+
+  $: isWatched = $watched.has(video.videoId);
+
   export let onKeywordClick;
   export let onOpenVideo;
+  import { watched } from '../stores/watchedStore.js';
+
 </script>
 
 <div class="card">
@@ -18,6 +23,8 @@
 
   <h3 class="title">{video.title}</h3>
   <p class="channel">{video.channelName}</p>
+  {#if isWatched}<div class="watched-ribbon">WATCHED</div>{/if}
+  
 
   <!-- Keyword chips -->
   <div class="chip-row">
@@ -36,6 +43,7 @@
 <style>
   .card {
     border: 1px solid #333;
+    position: relative;
     border-radius: 8px;
     padding: 8px;
     width: 250px;
@@ -94,4 +102,18 @@
   .chip:hover {
     background: #333;
   }
+
+  .watched-ribbon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #e50914; /* Netflix red */
+    color: white;
+    padding: 4px 8px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border-bottom-left-radius: 4px;
+    z-index: 10;
+  }
+
 </style>
