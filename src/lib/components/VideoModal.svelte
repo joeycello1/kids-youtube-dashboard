@@ -7,7 +7,10 @@
   export let onClose;
   export let playNextVideo;
 
+  let manualStart = true;
+
   function skipVideo() {
+    manualStart = false; // skip is intentional
     markWatched(video.videoId);
     playNextVideo();
   }
@@ -27,7 +30,13 @@
 
   <YouTubePlayer
     videoId={video.videoId}
-    on:ended={playNextVideo}
+    on:ended={() => {
+      if (manualStart) {
+        manualStart = false;
+        return; // user clicked manually — do NOT skip
+      }
+      playNextVideo();
+    }}
   />
 
   <h3>{video.title}</h3>
