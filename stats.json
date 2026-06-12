@@ -2,31 +2,31 @@
   "videosPerChannel": [
     {
       "channel": "Associated Press",
-      "count": 6
-    },
-    {
-      "channel": "PBS NewsHour",
       "count": 9
     },
     {
+      "channel": "Reuters",
+      "count": 9
+    },
+    {
+      "channel": "The Daily Show",
+      "count": 12
+    },
+    {
+      "channel": "The Hill",
+      "count": 9
+    },
+    {
+      "channel": "PBS NewsHour",
+      "count": 10
+    },
+    {
       "channel": "C‑SPAN",
-      "count": 4
+      "count": 3
     },
     {
       "channel": "Louis Rossmann",
       "count": 15
-    },
-    {
-      "channel": "The Hill",
-      "count": 8
-    },
-    {
-      "channel": "Reuters",
-      "count": 7
-    },
-    {
-      "channel": "The Daily Show",
-      "count": 10
     },
     {
       "channel": "Conan O'Brien",
@@ -60,7 +60,23 @@
   "keywordFrequency": [
     {
       "keyword": "Associated Press",
-      "count": 6
+      "count": 9
+    },
+    {
+      "keyword": "Reuters",
+      "count": 9
+    },
+    {
+      "keyword": "The Daily Show",
+      "count": 11
+    },
+    {
+      "keyword": "The Hill",
+      "count": 9
+    },
+    {
+      "keyword": "PBS NewsHour, AI",
+      "count": 1
     },
     {
       "keyword": "PBS NewsHour",
@@ -68,27 +84,15 @@
     },
     {
       "keyword": "C‑SPAN",
-      "count": 4
+      "count": 3
     },
     {
       "keyword": "Louis Rossmann",
       "count": 12
     },
     {
-      "keyword": "The Hill",
-      "count": 8
-    },
-    {
-      "keyword": "Reuters",
-      "count": 7
-    },
-    {
       "keyword": "PBS NewsHour, artificial intelligence",
       "count": 1
-    },
-    {
-      "keyword": "The Daily Show",
-      "count": 9
     },
     {
       "keyword": "Conan O'Brien",
@@ -165,12 +169,16 @@
   ],
   "dailySummary": [
     {
+      "date": "2026-06-12",
+      "videos": 9
+    },
+    {
       "date": "2026-06-11",
-      "videos": 42
+      "videos": 43
     },
     {
       "date": "2026-06-10",
-      "videos": 6
+      "videos": 4
     },
     {
       "date": "2026-06-09",
@@ -232,7 +240,23 @@
   "topKeywordsWeek": [
     {
       "keyword": "Associated Press",
-      "matches": 6
+      "matches": 9
+    },
+    {
+      "keyword": "Reuters",
+      "matches": 9
+    },
+    {
+      "keyword": "The Daily Show",
+      "matches": 11
+    },
+    {
+      "keyword": "The Hill",
+      "matches": 9
+    },
+    {
+      "keyword": "PBS NewsHour, AI",
+      "matches": 1
     },
     {
       "keyword": "PBS NewsHour",
@@ -240,27 +264,15 @@
     },
     {
       "keyword": "C‑SPAN",
-      "matches": 4
+      "matches": 3
     },
     {
       "keyword": "Louis Rossmann",
-      "matches": 9
-    },
-    {
-      "keyword": "The Hill",
       "matches": 8
-    },
-    {
-      "keyword": "Reuters",
-      "matches": 7
     },
     {
       "keyword": "PBS NewsHour, artificial intelligence",
       "matches": 1
-    },
-    {
-      "keyword": "The Daily Show",
-      "matches": 9
     },
     {
       "keyword": "Conan O'Brien",
@@ -296,281 +308,345 @@
       "title": "Archaeology WARNING: They Secretly Found Antarctica 300 Years Before Us! - Graham Hancock",
       "channel": "Diary of a CEO",
       "videoId": "Xs94KBeIiAo",
-      "viewsPerHour": 96384,
-      "views": 2082377,
-      "ageHours": 21.6
+      "viewsPerHour": 95114,
+      "views": 2245709,
+      "ageHours": 23.6
+    },
+    {
+      "title": "Trump's sharp Iran reversal: Teases deal & cancels strikes after Kharg Island threats",
+      "channel": "The Hill",
+      "videoId": "NrQBcucSLxM",
+      "viewsPerHour": 77384,
+      "views": 433584,
+      "ageHours": 5.6
     },
     {
       "title": "Trump Sells UFC Coins as Iran Strikes & Melania Pushes AI in a Speech Worthy of AI | The Daily Show",
       "channel": "The Daily Show",
       "videoId": "gmpaIbsPpFo",
-      "viewsPerHour": 52982,
+      "viewsPerHour": 49269,
       "views": 1410186,
-      "ageHours": 26.6
+      "ageHours": 28.6
     },
     {
       "title": "LIVE: Fans watch opening World Cup match in Mexico",
       "channel": "Reuters",
       "videoId": "R02egjcxpUw",
-      "viewsPerHour": 43646,
+      "viewsPerHour": 38769,
       "views": 695993,
-      "ageHours": 15.9
+      "ageHours": 18
+    },
+    {
+      "title": "Trump Goes Ocean’s Eleven on Iran’s Oil & Knicks Put Off Winning to the Last Second | The Daily Show",
+      "channel": "The Daily Show",
+      "videoId": "dsYiYMCVVqI",
+      "viewsPerHour": 36096,
+      "views": 163264,
+      "ageHours": 4.5
     },
     {
       "title": "Mexico vs South Africa: LIVE watch party for FIFA World Cup 2026",
       "channel": "Associated Press",
       "videoId": "5Sf0BoLOzvo",
-      "viewsPerHour": 28269,
+      "viewsPerHour": 24579,
       "views": 377646,
-      "ageHours": 13.4
+      "ageHours": 15.4
     },
     {
       "title": "Drunken Deer, Claw Machine Addiction & Mummy-Infused Bread Are So Not Our Problem! | The Daily Show",
       "channel": "The Daily Show",
       "videoId": "v1ADRmW1a3E",
-      "viewsPerHour": 10203,
+      "viewsPerHour": 9078,
       "views": 165139,
-      "ageHours": 16.2
-    },
-    {
-      "title": "Stop killing games will DIE if the ESA wins - ACT NOW!",
-      "channel": "Louis Rossmann",
-      "videoId": "1cP02BMBzuo",
-      "viewsPerHour": 7235,
-      "views": 65019,
-      "ageHours": 9
+      "ageHours": 18.2
     },
     {
       "title": "Mark Zuckerberg: Human Status Update | The Daily Showography",
       "channel": "The Daily Show",
       "videoId": "34Pj5JjgmV4",
-      "viewsPerHour": 6753,
+      "viewsPerHour": 6431,
       "views": 270547,
-      "ageHours": 40.1
+      "ageHours": 42.1
+    },
+    {
+      "title": "PBS News Hour full episode, June 11, 2026",
+      "channel": "PBS NewsHour",
+      "videoId": "NZWE_th1Ar0",
+      "viewsPerHour": 6322,
+      "views": 42413,
+      "ageHours": 6.7
+    },
+    {
+      "title": "Stop killing games will DIE if the ESA wins - ACT NOW!",
+      "channel": "Louis Rossmann",
+      "videoId": "1cP02BMBzuo",
+      "viewsPerHour": 5915,
+      "views": 65019,
+      "ageHours": 11
     },
     {
       "title": "Jon Stewart on the Most Rewarding Part of His Job - After the Cut",
       "channel": "The Daily Show",
       "videoId": "9wCFFF39el4",
-      "viewsPerHour": 5127,
+      "viewsPerHour": 4468,
       "views": 69745,
-      "ageHours": 13.6
+      "ageHours": 15.6
     },
     {
       "title": "The author of the DMCA admits he tricked Congress",
       "channel": "Louis Rossmann",
       "videoId": "O0-j89LJysY",
-      "viewsPerHour": 3399,
+      "viewsPerHour": 3140,
       "views": 82761,
-      "ageHours": 24.3
+      "ageHours": 26.4
     },
     {
-      "title": "PBS News Hour full show, June 10, 2026",
-      "channel": "PBS NewsHour",
-      "videoId": "U8iwyGivwOU",
-      "viewsPerHour": 3120,
-      "views": 91295,
-      "ageHours": 29.3
-    },
-    {
-      "title": "Trump hates Bill Clinton's policies; will he DO something about it?",
-      "channel": "Louis Rossmann",
-      "videoId": "ZPJdbfhm6es",
-      "viewsPerHour": 1686,
-      "views": 11345,
-      "ageHours": 6.7
+      "title": "Chris Evert & Martina Navratilova - “Chris & Martina: The Final Set” | The Daily Show",
+      "channel": "The Daily Show",
+      "videoId": "Sn8euNZzzc4",
+      "viewsPerHour": 2143,
+      "views": 6682,
+      "ageHours": 3.1
     },
     {
       "title": "Nina Dobrev - Starring in “The Get Out” & Producing Projects For Women By Women | The Daily Show",
       "channel": "The Daily Show",
       "videoId": "OjmoLec5_sM",
-      "viewsPerHour": 1463,
+      "viewsPerHour": 1355,
       "views": 36729,
-      "ageHours": 25.1
+      "ageHours": 27.1
+    },
+    {
+      "title": "Trump hates Bill Clinton's policies; will he DO something about it?",
+      "channel": "Louis Rossmann",
+      "videoId": "ZPJdbfhm6es",
+      "viewsPerHour": 1299,
+      "views": 11345,
+      "ageHours": 8.7
+    },
+    {
+      "title": "FIFA World Cup 2026 LIVE: South Korea fans celebrate 2-1 victory",
+      "channel": "Associated Press",
+      "videoId": "tBBtfvG1mh4",
+      "viewsPerHour": 1234,
+      "views": 3128,
+      "ageHours": 2.5
     },
     {
       "title": "Conan Shares His Favorite Blooper From \"Death Wish 4\" | Conan O'Brien Needs A Friend",
       "channel": "Conan O'Brien",
       "videoId": "8MXGwyBEQU4",
-      "viewsPerHour": 1357,
+      "viewsPerHour": 1211,
       "views": 22533,
-      "ageHours": 16.6
+      "ageHours": 18.6
     },
     {
       "title": "Conan Mocks Another Sword Collector | Conan O'Brien Needs A Fan",
       "channel": "Conan O'Brien",
       "videoId": "-rR6him79B0",
-      "viewsPerHour": 1298,
+      "viewsPerHour": 1158,
       "views": 21551,
-      "ageHours": 16.6
+      "ageHours": 18.6
     },
     {
-      "title": "U.S. continues Iran strikes: Trump says 'we're going to hit them hard again'",
-      "channel": "The Hill",
-      "videoId": "P3jy81ma1Cs",
-      "viewsPerHour": 1089,
-      "views": 30617,
-      "ageHours": 28.1
-    },
-    {
-      "title": "2026 Congressional Baseball Game",
-      "channel": "C‑SPAN",
-      "videoId": "DgxdAOw1Yzw",
-      "viewsPerHour": 748,
-      "views": 20108,
-      "ageHours": 26.9
-    },
-    {
-      "title": "America's 250th anniversary revives questions about religion and the founders",
+      "title": "World Cup players challenged by dangerously hot weather",
       "channel": "PBS NewsHour",
-      "videoId": "pxP6L7wF-U4",
-      "viewsPerHour": 648,
-      "views": 19003,
-      "ageHours": 29.3
+      "videoId": "vb3kRweeplM",
+      "viewsPerHour": 1023,
+      "views": 7577,
+      "ageHours": 7.4
+    },
+    {
+      "title": "The Department of Revenge' explores Trump's use of DOJ to settle political scores",
+      "channel": "PBS NewsHour",
+      "videoId": "VJkgA6DO8Wg",
+      "viewsPerHour": 497,
+      "views": 3715,
+      "ageHours": 7.5
     },
     {
       "title": "LIVE: Taylor Swift attends Songwriters Hall of Fame Induction red carpet",
       "channel": "Associated Press",
       "videoId": "S4zKpGOzLkw",
-      "viewsPerHour": 494,
+      "viewsPerHour": 381,
       "views": 3348,
-      "ageHours": 6.8
+      "ageHours": 8.8
     },
     {
       "title": "PBS News Hour live episode, June 11, 2026",
       "channel": "PBS NewsHour",
       "videoId": "aYp6TU4ymP4",
-      "viewsPerHour": 480,
+      "viewsPerHour": 376,
       "views": 3490,
-      "ageHours": 7.3
+      "ageHours": 9.3
     },
     {
       "title": "WATCH LIVE: Senate Banking Committee holds hearing on artificial intelligence",
       "channel": "PBS NewsHour",
       "videoId": "nnblxMfRRZA",
-      "viewsPerHour": 382,
+      "viewsPerHour": 330,
       "views": 4828,
-      "ageHours": 12.6
-    },
-    {
-      "title": "News Wrap: Apparent anti-Trump message etched into National Mall",
-      "channel": "PBS NewsHour",
-      "videoId": "jeJNaIh5smg",
-      "viewsPerHour": 180,
-      "views": 1084,
-      "ageHours": 6
+      "ageHours": 14.7
     },
     {
       "title": "WATCH LIVE: House expected to vote on short-term FISA extension",
       "channel": "PBS NewsHour",
       "videoId": "pEYNASgQ76k",
-      "viewsPerHour": 167,
+      "viewsPerHour": 144,
       "views": 2076,
-      "ageHours": 12.4
+      "ageHours": 14.4
     },
     {
-      "title": "Belfast riots ERUPT after Sudanese immigrant allegedly STABS man; Musk ENCOURAGES protests | RISING",
-      "channel": "The Hill",
-      "videoId": "cUBBM99xogE",
-      "viewsPerHour": 132,
-      "views": 1600,
-      "ageHours": 12.1
+      "title": "Celebrations across Mexico after World Cup opener win",
+      "channel": "Reuters",
+      "videoId": "g02OLVKeNGg",
+      "viewsPerHour": 141,
+      "views": 345,
+      "ageHours": 2.5
+    },
+    {
+      "title": "News Wrap: Apparent anti-Trump message etched into National Mall",
+      "channel": "PBS NewsHour",
+      "videoId": "jeJNaIh5smg",
+      "viewsPerHour": 135,
+      "views": 1084,
+      "ageHours": 8
     },
     {
       "title": "US strikes Iran again, Trump says US snuck out millions of oil barrels - The Hill | NEWSNATION",
       "channel": "The Hill",
       "videoId": "GnokRd_3vqQ",
-      "viewsPerHour": 128,
+      "viewsPerHour": 117,
       "views": 2642,
-      "ageHours": 20.6
+      "ageHours": 22.6
+    },
+    {
+      "title": "Belfast riots ERUPT after Sudanese immigrant allegedly STABS man; Musk ENCOURAGES protests | RISING",
+      "channel": "The Hill",
+      "videoId": "cUBBM99xogE",
+      "viewsPerHour": 113,
+      "views": 1600,
+      "ageHours": 14.1
     },
     {
       "title": "Timothy Simons (Full Episode) | Where Everybody Knows Your Name",
       "channel": "Conan O'Brien",
       "videoId": "f35XHkV76MY",
-      "viewsPerHour": 113,
+      "viewsPerHour": 107,
       "views": 4579,
-      "ageHours": 40.6
+      "ageHours": 42.6
+    },
+    {
+      "title": "Dem NJ Candidate Dr. Adam Hamawy on surging progressive movement",
+      "channel": "The Hill",
+      "videoId": "EuLeDN-h0a0",
+      "viewsPerHour": 86,
+      "views": 571,
+      "ageHours": 6.6
     },
     {
       "title": "WATCH: Trump signs proclamation opening more protected ocean areas to commercial fishing",
       "channel": "PBS NewsHour",
       "videoId": "RbYkCeK_Qkg",
-      "viewsPerHour": 79,
+      "viewsPerHour": 61,
       "views": 545,
-      "ageHours": 6.9
+      "ageHours": 8.9
     },
     {
       "title": "Trump calls off threatened strikes, says deal with Iran is close",
       "channel": "PBS NewsHour",
       "videoId": "PM1Xi_a3VPQ",
-      "viewsPerHour": 76,
+      "viewsPerHour": 58,
       "views": 481,
-      "ageHours": 6.3
+      "ageHours": 8.3
+    },
+    {
+      "title": "Families of Mexico's missing march for answers as World Cup kicks off",
+      "channel": "Associated Press",
+      "videoId": "aqC0qYHzb8Y",
+      "viewsPerHour": 56,
+      "views": 145,
+      "ageHours": 2.6
     },
     {
       "title": "Watch live: Pentagon - Shelter in place after air quality issue detected",
       "channel": "The Hill",
       "videoId": "G9K4pAftXuY",
-      "viewsPerHour": 63,
+      "viewsPerHour": 54,
       "views": 795,
-      "ageHours": 12.7
+      "ageHours": 14.7
     },
     {
-      "title": "Surveillance program set to expire as Congress rejects FISA extension",
-      "channel": "PBS NewsHour",
-      "videoId": "Uc0cCBak3_E",
-      "viewsPerHour": 34,
-      "views": 198,
-      "ageHours": 5.8
+      "title": "SpaceX prices record $75 billion IPO at $135 a share",
+      "channel": "Reuters",
+      "videoId": "aey06X507lo",
+      "viewsPerHour": 45,
+      "views": 109,
+      "ageHours": 2.4
     },
     {
       "title": "Bill Gates says Epstein tried LEVERAGING affairs against him (Plus: Iran Strikes LAUNCHED) | RISING",
       "channel": "The Hill",
       "videoId": "nL6tLwpixOk",
-      "viewsPerHour": 33,
+      "viewsPerHour": 26,
       "views": 233,
-      "ageHours": 7.1
+      "ageHours": 9.1
+    },
+    {
+      "title": "Surveillance program set to expire as Congress rejects FISA extension",
+      "channel": "PBS NewsHour",
+      "videoId": "Uc0cCBak3_E",
+      "viewsPerHour": 25,
+      "views": 198,
+      "ageHours": 7.8
+    },
+    {
+      "title": "Al Pacino jokes 'the glasses' is what keeps him going at 86",
+      "channel": "Associated Press",
+      "videoId": "KfNOFez6GZo",
+      "viewsPerHour": 22,
+      "views": 47,
+      "ageHours": 2.1
     },
     {
       "title": "Rubio touts UFC fight at the White House, calls it 'United Nations of fighting'",
       "channel": "The Hill",
       "videoId": "agaWKjoWJZ4",
-      "viewsPerHour": 28,
+      "viewsPerHour": 22,
       "views": 210,
-      "ageHours": 7.6
+      "ageHours": 9.6
     },
     {
       "title": "Sports Diplomacy Agreement",
       "channel": "C‑SPAN",
       "videoId": "odLPq8g9CZg",
-      "viewsPerHour": 24,
+      "viewsPerHour": 19,
       "views": 202,
-      "ageHours": 8.5
+      "ageHours": 10.5
     },
     {
       "title": "Trump believes Iran's supreme leader signed off on the emerging deal",
       "channel": "Associated Press",
       "videoId": "2a2G1sXq7sg",
-      "viewsPerHour": 19,
+      "viewsPerHour": 14,
       "views": 113,
-      "ageHours": 5.8
+      "ageHours": 7.8
     },
     {
       "title": "Ukraine accuses Russia of recruiting teenage girls to kill servicemen",
       "channel": "Reuters",
       "videoId": "6dNMVav04R0",
-      "viewsPerHour": 12,
+      "viewsPerHour": 10,
       "views": 149,
-      "ageHours": 12.2
+      "ageHours": 14.2
     },
     {
       "title": "LIVE: US Ambassador Mike Huckabee speaks at Jerusalem Summit",
       "channel": "Reuters",
       "videoId": "cq93QvNjV2c",
-      "viewsPerHour": 12,
+      "viewsPerHour": 10,
       "views": 153,
-      "ageHours": 12.6
+      "ageHours": 14.6
     },
     {
       "title": "FIFA president says Iran, ticket prices and visas main issues on World Cup eve",
@@ -578,15 +654,15 @@
       "videoId": "scHh-Fa1KtE",
       "viewsPerHour": 6,
       "views": 117,
-      "ageHours": 18.1
+      "ageHours": 20.1
     },
     {
       "title": "Faithful find joy and importance in Pope Leo's visit to mountainous Montserrat abbey",
       "channel": "Associated Press",
       "videoId": "KQug6rQ00ck",
-      "viewsPerHour": 6,
+      "viewsPerHour": 5,
       "views": 110,
-      "ageHours": 19.1
+      "ageHours": 21.1
     },
     {
       "title": "Blanche, Mullin address Somali FIFA World Cup referee being denied US entry: 'Can't get cleared'",
@@ -594,23 +670,7 @@
       "videoId": "WGpsDl8V1mU",
       "viewsPerHour": 4,
       "views": 53,
-      "ageHours": 11.9
-    },
-    {
-      "title": "Macro Matters: ECB 'could reverse rate rises next year'",
-      "channel": "Reuters",
-      "videoId": "jSkGZZTczw4",
-      "viewsPerHour": 4,
-      "views": 55,
-      "ageHours": 12.9
-    },
-    {
-      "title": "Washington Today (6-11-26): House defeats FISA extension; Pres. Trump says Iran deal being finalized",
-      "channel": "C‑SPAN",
-      "videoId": "cnnlUAZaKnk",
-      "viewsPerHour": 4,
-      "views": 25,
-      "ageHours": 5.9
+      "ageHours": 13.9
     },
     {
       "title": "ExMo Podcast: Presidential Libraries: Top Moments from 10 Dedication Cerem. with Tevi Troy (part I)",
@@ -618,23 +678,31 @@
       "videoId": "reS7YIzTGUw",
       "viewsPerHour": 4,
       "views": 83,
-      "ageHours": 20.1
+      "ageHours": 22.1
+    },
+    {
+      "title": "Macro Matters: ECB 'could reverse rate rises next year'",
+      "channel": "Reuters",
+      "videoId": "jSkGZZTczw4",
+      "viewsPerHour": 4,
+      "views": 55,
+      "ageHours": 14.9
     },
     {
       "title": "LIVE: N.Ireland police speak after second night of unrest in Belfast",
       "channel": "Reuters",
       "videoId": "kTBn-rNSxX4",
-      "viewsPerHour": 4,
+      "viewsPerHour": 3,
       "views": 69,
-      "ageHours": 18
+      "ageHours": 20
     },
     {
-      "title": "Democrats do not love the inflation': House Dems' leader Hakeem Jeffries on Trump's economic impact",
-      "channel": "The Hill",
-      "videoId": "FOEtSgO7kzs",
+      "title": "Washington Today (6-11-26): House defeats FISA extension; Pres. Trump says Iran deal being finalized",
+      "channel": "C‑SPAN",
+      "videoId": "cnnlUAZaKnk",
       "viewsPerHour": 3,
-      "views": 20,
-      "ageHours": 7.6
+      "views": 25,
+      "ageHours": 7.9
     },
     {
       "title": "Is the ECB about to signal more rate hikes? | Reuters Morning Bid",
@@ -642,7 +710,15 @@
       "videoId": "6X73keYBfyM",
       "viewsPerHour": 2,
       "views": 44,
-      "ageHours": 18
+      "ageHours": 20
+    },
+    {
+      "title": "Democrats do not love the inflation': House Dems' leader Hakeem Jeffries on Trump's economic impact",
+      "channel": "The Hill",
+      "videoId": "FOEtSgO7kzs",
+      "viewsPerHour": 2,
+      "views": 20,
+      "ageHours": 9.6
     },
     {
       "title": "Rare footage from the 1994 World Cup | Reuters Archive",
@@ -650,15 +726,15 @@
       "videoId": "r4oPkrAmaC0",
       "viewsPerHour": 1,
       "views": 24,
-      "ageHours": 18
+      "ageHours": 20
     },
     {
       "title": "Mark Carney says opening of Canada-US bridge is delayed over unresolved 'issues'",
       "channel": "Associated Press",
       "videoId": "lqeKSJHZn8Y",
-      "viewsPerHour": 1,
+      "viewsPerHour": 0,
       "views": 4,
-      "ageHours": 6.1
+      "ageHours": 8.2
     }
   ]
 }
