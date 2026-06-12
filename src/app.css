@@ -54,6 +54,16 @@ body {
   margin: 0;
 }
 
+html, body {
+  background: var(--bg);
+  min-height: 100%;
+}
+
+#app, main {
+  background: var(--bg);
+  min-height: 100dvh;
+}
+
 h1,
 h2 {
   font-family: var(--heading);
