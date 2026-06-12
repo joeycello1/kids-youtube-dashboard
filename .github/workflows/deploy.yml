@@ -3,6 +3,10 @@ name: Deploy Svelte App to GitHub Pages
 on:
   push:
     branches: [ main ]
+    paths:
+      - 'src/**'
+      - 'public/**'
+      - '*.json'
   workflow_dispatch:
 
 permissions:
