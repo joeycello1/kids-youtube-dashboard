@@ -1,5 +1,6 @@
 <script>
   export let video;
+  $: console.log("Card sees watched:", video.watched);
   export let onKeywordClick;
   export let onOpenVideo;
 </script>
