@@ -19,9 +19,7 @@
     manualStart = false; // skip is intentional
 
     // 1. Instant UI update
-    console.log("Before:", video.watched);
     video.watched = true;
-    console.log("After:", video.watched);
 
     // 2. Backend sync (non-blocking)
     syncWatched(video.videoId);
