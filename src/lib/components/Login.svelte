@@ -5,12 +5,17 @@
   let name = "";
   let error = "";
 
+  const isGithubPages = window.location.hostname.includes("github.io");
+  const basePath = isGithubPages
+    ? `/${window.location.pathname.split('/')[1]}`
+    : "";
+
   const sfx = {
-    correct: new Audio("/static/sounds/correct.mp3"),
-    lowercase: new Audio("/static/sounds/lowercase.mp3"),
-    uppercase: new Audio("/static/sounds/uppercase.mp3"),
-    mixed: new Audio("/static/sounds/mixed.mp3"),
-    unknown: new Audio("/static/sounds/unknown.mp3")
+    correct:   new Audio(`${basePath}/sounds/correct.mp3`),
+    lowercase: new Audio(`${basePath}/sounds/lowercase.mp3`),
+    uppercase: new Audio(`${basePath}/sounds/uppercase.mp3`),
+    mixed:     new Audio(`${basePath}/sounds/mixed.mp3`),
+    unknown:   new Audio(`${basePath}/sounds/unknown.mp3`)
   };
 
 
