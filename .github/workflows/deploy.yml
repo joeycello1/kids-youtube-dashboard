@@ -23,10 +23,6 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-      - name: Copy JSON files into public folder
-        run: |
-          cp data.json public/jonah.json
-          cp data.json public/kieran.json
       
       - name: Build
         run: npm run build
