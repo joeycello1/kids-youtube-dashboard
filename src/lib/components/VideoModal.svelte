@@ -6,6 +6,7 @@
   export let onPlayed;
 
   let player;
+  let videos = [];
   let apiReady = false;
   let errorMessage = "";
 
