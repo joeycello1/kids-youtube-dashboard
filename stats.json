@@ -1,24 +1,24 @@
 {
   "videosPerChannel": [
     {
-      "channel": "Associated Press",
-      "count": 10
-    },
-    {
-      "channel": "MS NOW",
-      "count": 5
-    },
-    {
-      "channel": "Louis Rossmann",
-      "count": 19
-    },
-    {
       "channel": "Reuters",
       "count": 5
     },
     {
+      "channel": "Associated Press",
+      "count": 10
+    },
+    {
       "channel": "The Hill",
-      "count": 6
+      "count": 4
+    },
+    {
+      "channel": "MS NOW",
+      "count": 3
+    },
+    {
+      "channel": "Louis Rossmann",
+      "count": 19
     },
     {
       "channel": "The Daily Show",
@@ -75,24 +75,24 @@
   ],
   "keywordFrequency": [
     {
-      "keyword": "Associated Press",
-      "count": 10
-    },
-    {
-      "keyword": "MS NOW",
-      "count": 5
-    },
-    {
-      "keyword": "Louis Rossmann",
-      "count": 16
-    },
-    {
       "keyword": "Reuters",
       "count": 5
     },
     {
+      "keyword": "Associated Press",
+      "count": 10
+    },
+    {
       "keyword": "The Hill",
-      "count": 6
+      "count": 4
+    },
+    {
+      "keyword": "MS NOW",
+      "count": 3
+    },
+    {
+      "keyword": "Louis Rossmann",
+      "count": 16
     },
     {
       "keyword": "The Daily Show, AI",
@@ -194,11 +194,11 @@
   "dailySummary": [
     {
       "date": "2026-06-14",
-      "videos": 7
+      "videos": 12
     },
     {
       "date": "2026-06-13",
-      "videos": 24
+      "videos": 15
     },
     {
       "date": "2026-06-12",
@@ -283,24 +283,24 @@
   ],
   "topKeywordsWeek": [
     {
-      "keyword": "Associated Press",
-      "matches": 10
-    },
-    {
-      "keyword": "MS NOW",
-      "matches": 5
-    },
-    {
-      "keyword": "Louis Rossmann",
-      "matches": 10
-    },
-    {
       "keyword": "Reuters",
       "matches": 5
     },
     {
+      "keyword": "Associated Press",
+      "matches": 10
+    },
+    {
       "keyword": "The Hill",
-      "matches": 6
+      "matches": 4
+    },
+    {
+      "keyword": "MS NOW",
+      "matches": 3
+    },
+    {
+      "keyword": "Louis Rossmann",
+      "matches": 10
     },
     {
       "keyword": "The Daily Show, AI",
@@ -349,10 +349,6 @@
     {
       "keyword": "UFO, Corbell",
       "matches": 1
-    },
-    {
-      "keyword": "Grusch, UFO",
-      "matches": 1
     }
   ],
   "mostViral48h": [
@@ -360,265 +356,241 @@
       "title": "LIVE: See Donald Trump's name off Kennedy Center when tarp is removed",
       "channel": "MS NOW",
       "videoId": "1SvjzURhZO0",
-      "viewsPerHour": 167253,
+      "viewsPerHour": 143435,
       "views": 2005964,
-      "ageHours": 12
+      "ageHours": 14
     },
     {
       "title": "LIVE: New York Knicks fans celebrate after winning NBA championship",
       "channel": "Associated Press",
       "videoId": "n1i6K_nW2y0",
-      "viewsPerHour": 23597,
+      "viewsPerHour": 20313,
       "views": 290707,
-      "ageHours": 12.3
-    },
-    {
-      "title": "Brazil vs Morocco: LIVE watch party of 2026 FIFA World Cup",
-      "channel": "Associated Press",
-      "videoId": "ycwyecbqFls",
-      "viewsPerHour": 9411,
-      "views": 182169,
-      "ageHours": 19.4
+      "ageHours": 14.3
     },
     {
       "title": "Anthropic CEO learns meaning of \"life comes at you fast\" ",
       "channel": "Louis Rossmann",
       "videoId": "ZL1GRDrDUww",
-      "viewsPerHour": 8924,
-      "views": 167602,
-      "ageHours": 18.8
+      "viewsPerHour": 8549,
+      "views": 177586,
+      "ageHours": 20.8
+    },
+    {
+      "title": "Brazil vs Morocco: LIVE watch party of 2026 FIFA World Cup",
+      "channel": "Associated Press",
+      "videoId": "ycwyecbqFls",
+      "viewsPerHour": 8533,
+      "views": 182169,
+      "ageHours": 21.3
     },
     {
       "title": "Jon Stewart on Elmo’s Knicks Betrayal & Desi Lydic on Trump’s Iran Oil Heist | The Daily Show",
       "channel": "The Daily Show",
       "videoId": "_f5ioBvQTVs",
-      "viewsPerHour": 7807,
-      "views": 215545,
-      "ageHours": 27.6
+      "viewsPerHour": 7598,
+      "views": 224907,
+      "ageHours": 29.6
     },
     {
       "title": "Ford CEO says you shouldn't repair your car because it risks loss of life 🤦 They want to kill repair",
       "channel": "Louis Rossmann",
       "videoId": "M2qvkLcy7yA",
-      "viewsPerHour": 5203,
-      "views": 205939,
-      "ageHours": 39.6
-    },
-    {
-      "title": "Celebrations erupt in New York after Knicks win first NBA championship in 53 years",
-      "channel": "Associated Press",
-      "videoId": "Z7QHyvCO31c",
-      "viewsPerHour": 3181,
-      "views": 29520,
-      "ageHours": 9.3
+      "viewsPerHour": 5190,
+      "views": 215767,
+      "ageHours": 41.6
     },
     {
       "title": "Trump Name Removal from Kennedy Center",
       "channel": "C‑SPAN",
       "videoId": "uZfkRJXVPx8",
-      "viewsPerHour": 2976,
+      "viewsPerHour": 2838,
       "views": 121868,
-      "ageHours": 40.9
+      "ageHours": 42.9
+    },
+    {
+      "title": "Celebrations erupt in New York after Knicks win first NBA championship in 53 years",
+      "channel": "Associated Press",
+      "videoId": "Z7QHyvCO31c",
+      "viewsPerHour": 2619,
+      "views": 29520,
+      "ageHours": 11.3
     },
     {
       "title": "Timelapse: Crew cover the Kennedy Center signage before removing Trump's name",
       "channel": "Associated Press",
       "videoId": "0wiEUv7B5fQ",
-      "viewsPerHour": 2752,
+      "viewsPerHour": 2506,
       "views": 55925,
-      "ageHours": 20.3
+      "ageHours": 22.3
     },
     {
       "title": "The Dreame X40 Ultra is the worst vacuum money can buy",
       "channel": "Louis Rossmann",
       "videoId": "cxwK1glWtXI",
-      "viewsPerHour": 1974,
-      "views": 27026,
-      "ageHours": 13.7
+      "viewsPerHour": 1883,
+      "views": 29529,
+      "ageHours": 15.7
     },
     {
       "title": "Thousands protest in Albania against tourism project linked to Jared Kushner",
       "channel": "Associated Press",
       "videoId": "Rh1IDc7DPkE",
-      "viewsPerHour": 1856,
+      "viewsPerHour": 1634,
       "views": 27178,
-      "ageHours": 14.6
+      "ageHours": 16.6
     },
     {
       "title": "‘Trump can’t rewrite history’: JFK’s grandson on removal of Trump’s name from Kennedy Center",
       "channel": "MS NOW",
       "videoId": "zhSDoAY3xqU",
-      "viewsPerHour": 1747,
+      "viewsPerHour": 1584,
       "views": 33934,
-      "ageHours": 19.4
+      "ageHours": 21.4
     },
     {
-      "title": "LIVE: New York Knicks fans celebrate after NBA championship win",
-      "channel": "Associated Press",
-      "videoId": "dXs0-ZUtEXc",
-      "viewsPerHour": 647,
-      "views": 5515,
-      "ageHours": 8.5
+      "title": "Israel says it struck Hezbollah targets in Beirut's southern suburbs",
+      "channel": "Reuters",
+      "videoId": "sBiiDUXApeA",
+      "viewsPerHour": 659,
+      "views": 1772,
+      "ageHours": 2.7
     },
     {
       "title": "Seth Rogen on Male Friendships, Marriage and Hollywood | The Interview",
       "channel": "The Interview",
       "videoId": "Kt11UnYXzCw",
-      "viewsPerHour": 626,
-      "views": 19796,
-      "ageHours": 31.6
+      "viewsPerHour": 649,
+      "views": 21811,
+      "ageHours": 33.6
+    },
+    {
+      "title": "Germany vs Curaçao: LIVE watch party for FIFA World Cup 2026",
+      "channel": "Associated Press",
+      "videoId": "HIKfBBA1-hE",
+      "viewsPerHour": 567,
+      "views": 3468,
+      "ageHours": 6.1
+    },
+    {
+      "title": "LIVE: New York Knicks fans celebrate after NBA championship win",
+      "channel": "Associated Press",
+      "videoId": "dXs0-ZUtEXc",
+      "viewsPerHour": 525,
+      "views": 5515,
+      "ageHours": 10.5
+    },
+    {
+      "title": "Knicks Win NBA Title After 53 Years | Reuters World News",
+      "channel": "Reuters",
+      "videoId": "OVS8Z2TOuqQ",
+      "viewsPerHour": 393,
+      "views": 1654,
+      "ageHours": 4.2
     },
     {
       "title": "Trump's name removed from Kennedy Center",
       "channel": "The Hill",
       "videoId": "D4FH27HS928",
-      "viewsPerHour": 341,
+      "viewsPerHour": 306,
       "views": 6049,
-      "ageHours": 17.7
+      "ageHours": 19.7
     },
     {
       "title": "Trump Name Removal from Kennedy Center",
       "channel": "C‑SPAN",
       "videoId": "yVaizxACmjQ",
-      "viewsPerHour": 318,
+      "viewsPerHour": 304,
       "views": 14143,
-      "ageHours": 44.5
+      "ageHours": 46.4
+    },
+    {
+      "title": "British Royals attend Trooping the Colour parade for King's official birthday",
+      "channel": "Associated Press",
+      "videoId": "vCpDlcN0EqM",
+      "viewsPerHour": 177,
+      "views": 539,
+      "ageHours": 3.1
     },
     {
       "title": "Former DNC Chair brings bold prediction for midterms: Watch Democrats in Ohio stun",
       "channel": "MS NOW",
       "videoId": "CLBbXB4UML8",
-      "viewsPerHour": 147,
+      "viewsPerHour": 134,
       "views": 2912,
-      "ageHours": 19.8
+      "ageHours": 21.7
     },
     {
       "title": "Trump says war deal to be signed Sunday as Iran questions timing",
       "channel": "Reuters",
       "videoId": "qxCF0E8hxDE",
-      "viewsPerHour": 127,
+      "viewsPerHour": 114,
       "views": 2357,
-      "ageHours": 18.6
+      "ageHours": 20.6
     },
     {
       "title": "Excitement in Boston ahead of Haiti-Scotland World Cup match",
       "channel": "Reuters",
       "videoId": "fCDw7vjaVk8",
-      "viewsPerHour": 56,
+      "viewsPerHour": 51,
       "views": 974,
-      "ageHours": 17.3
+      "ageHours": 19.3
     },
     {
-      "title": "America’s Youngest Detainees: ICE has detained over 500 babies and toddlers under Trump",
-      "channel": "MS NOW",
-      "videoId": "mnlYYD-R2zU",
-      "viewsPerHour": 49,
-      "views": 1201,
-      "ageHours": 24.6
+      "title": "Elon Musk ENCOURAGES Belfast protests; Trump Admin LAUNCHES denaturalization push | RISING",
+      "channel": "The Hill",
+      "videoId": "t-NnG2civw0",
+      "viewsPerHour": 45,
+      "views": 209,
+      "ageHours": 4.6
     },
     {
       "title": "Tens of thousands march through Rome in rival anti and pro-migration rallies",
       "channel": "Associated Press",
       "videoId": "N-GCL6-_aLg",
-      "viewsPerHour": 48,
+      "viewsPerHour": 37,
       "views": 320,
-      "ageHours": 6.6
+      "ageHours": 8.6
     },
     {
       "title": "Iran, unlike Trump, says no Sunday deal signing: Dem House Foreign Affairs member comments on status",
       "channel": "The Hill",
       "videoId": "WOZ_jckvrAs",
-      "viewsPerHour": 27,
-      "views": 534,
-      "ageHours": 19.6
-    },
-    {
-      "title": "Kushner project planned on disputed land, Albanian villagers say",
-      "channel": "Reuters",
-      "videoId": "sj4KuhAqLy0",
       "viewsPerHour": 25,
-      "views": 633,
-      "ageHours": 25.7
-    },
-    {
-      "title": "Paraguay fans upset by loss to USA in World Cup group opener",
-      "channel": "Associated Press",
-      "videoId": "ZFtRZKN1WEQ",
-      "viewsPerHour": 21,
-      "views": 546,
-      "ageHours": 25.7
-    },
-    {
-      "title": "Gaza pet owners struggle to care for animals amid vet shortages",
-      "channel": "Associated Press",
-      "videoId": "0gDsHMK068s",
-      "viewsPerHour": 18,
-      "views": 485,
-      "ageHours": 26.6
+      "views": 534,
+      "ageHours": 21.6
     },
     {
       "title": "Jasmine Crockett DEFENDS Karmelo Anthony; Scott Pelley WRONG on Renee Good: Robby Soave | RISING",
       "channel": "The Hill",
       "videoId": "eN_je4NJnQQ",
-      "viewsPerHour": 18,
-      "views": 373,
-      "ageHours": 20.6
-    },
-    {
-      "title": "Is the Iran nuclear deal finally within reach?| Reuters World News",
-      "channel": "Reuters",
-      "videoId": "rgcZP5xgV1U",
       "viewsPerHour": 17,
-      "views": 424,
-      "ageHours": 25.4
-    },
-    {
-      "title": "I love the inflation': Trump message falls flat; NBA finals crowd boos president; U-turn on Iran",
-      "channel": "The Hill",
-      "videoId": "dHFjTeHXBEk",
-      "viewsPerHour": 16,
-      "views": 435,
-      "ageHours": 27.6
-    },
-    {
-      "title": "MS NOW Highlights - June 12",
-      "channel": "MS NOW",
-      "videoId": "Zsmy9hYHPxk",
-      "viewsPerHour": 11,
-      "views": 259,
-      "ageHours": 23.9
+      "views": 373,
+      "ageHours": 22.6
     },
     {
       "title": "Washington Today (6-12-26): Elon Musk is 1st trillionaire after IPO; U.S.-Iran peace talks progress",
       "channel": "C‑SPAN",
       "videoId": "ltRdhXzaK-o",
-      "viewsPerHour": 8,
-      "views": 322,
-      "ageHours": 41.7
-    },
-    {
-      "title": "Pavlich HIGHLIGHTS: Hilton & Platner advance in primaries, Trump-Iran deal on horizon | NEWSNATION",
-      "channel": "The Hill",
-      "videoId": "s7d4lOEjeLI",
       "viewsPerHour": 7,
-      "views": 161,
-      "ageHours": 24.6
+      "views": 322,
+      "ageHours": 43.7
     },
     {
       "title": "Tartan Army celebrates Scotland's World Cup return",
       "channel": "Reuters",
       "videoId": "9utXyZ_9grM",
-      "viewsPerHour": 6,
+      "viewsPerHour": 5,
       "views": 105,
-      "ageHours": 18.6
+      "ageHours": 20.6
     },
     {
       "title": "1 dead and 22 injured after tent collapses at a church event in Virginia",
       "channel": "Associated Press",
       "videoId": "FW7q5Mw5GiY",
-      "viewsPerHour": 5,
+      "viewsPerHour": 4,
       "views": 89,
-      "ageHours": 18
+      "ageHours": 20
     },
     {
       "title": "CEASEFIRE PODCAST: Cliff May, Evelyn Farkas, Alex Vogel and Dan Kanninen",
@@ -626,15 +598,7 @@
       "videoId": "iG6FaU7x-DQ",
       "viewsPerHour": 4,
       "views": 187,
-      "ageHours": 41.6
-    },
-    {
-      "title": "Megyn Kelly, Trump push La election SKEPTICISM; Trump WALKS OFF interview: Lindsey Granger | RISING",
-      "channel": "The Hill",
-      "videoId": "P-UHnPII2_A",
-      "viewsPerHour": 3,
-      "views": 72,
-      "ageHours": 26.6
+      "ageHours": 43.6
     }
   ]
 }
