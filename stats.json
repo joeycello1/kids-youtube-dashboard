@@ -1,0 +1,596 @@
+{
+  "videosPerChannel": [
+    {
+      "channel": "Reuters",
+      "count": 5
+    },
+    {
+      "channel": "Associated Press",
+      "count": 10
+    },
+    {
+      "channel": "The Hill",
+      "count": 4
+    },
+    {
+      "channel": "MS NOW",
+      "count": 3
+    },
+    {
+      "channel": "Louis Rossmann",
+      "count": 19
+    },
+    {
+      "channel": "The Daily Show",
+      "count": 14
+    },
+    {
+      "channel": "The Interview",
+      "count": 5
+    },
+    {
+      "channel": "C‑SPAN",
+      "count": 4
+    },
+    {
+      "channel": "Area 52",
+      "count": 4
+    },
+    {
+      "channel": "Conan O'Brien",
+      "count": 12
+    },
+    {
+      "channel": "Last Week Tonight",
+      "count": 5
+    },
+    {
+      "channel": "Diary of a CEO",
+      "count": 5
+    },
+    {
+      "channel": "The Rest Is Science",
+      "count": 4
+    },
+    {
+      "channel": "More Perfect Union",
+      "count": 4
+    },
+    {
+      "channel": "Post Disclosure World",
+      "count": 3
+    },
+    {
+      "channel": "Jeremy Corbell",
+      "count": 4
+    },
+    {
+      "channel": "Chris Lehto",
+      "count": 1
+    },
+    {
+      "channel": "Project Unity",
+      "count": 1
+    }
+  ],
+  "keywordFrequency": [
+    {
+      "keyword": "Reuters",
+      "count": 5
+    },
+    {
+      "keyword": "Associated Press",
+      "count": 10
+    },
+    {
+      "keyword": "The Hill",
+      "count": 4
+    },
+    {
+      "keyword": "MS NOW",
+      "count": 3
+    },
+    {
+      "keyword": "Louis Rossmann",
+      "count": 16
+    },
+    {
+      "keyword": "The Daily Show, AI",
+      "count": 2
+    },
+    {
+      "keyword": "The Interview",
+      "count": 5
+    },
+    {
+      "keyword": "C‑SPAN",
+      "count": 4
+    },
+    {
+      "keyword": "testimony, UFO, Giza",
+      "count": 1
+    },
+    {
+      "keyword": "Conan O'Brien",
+      "count": 12
+    },
+    {
+      "keyword": "The Daily Show",
+      "count": 12
+    },
+    {
+      "keyword": "Last Week Tonight",
+      "count": 5
+    },
+    {
+      "keyword": "AI",
+      "count": 4
+    },
+    {
+      "keyword": "The Rest Is Science",
+      "count": 4
+    },
+    {
+      "keyword": "More Perfect Union",
+      "count": 4
+    },
+    {
+      "keyword": "Samsung",
+      "count": 1
+    },
+    {
+      "keyword": "UFO, Corbell",
+      "count": 1
+    },
+    {
+      "keyword": "Grusch, UFO",
+      "count": 1
+    },
+    {
+      "keyword": "UFO",
+      "count": 2
+    },
+    {
+      "keyword": "Corbell, UAP, UFO, whistleblower",
+      "count": 1
+    },
+    {
+      "keyword": "Corbell, UFO, George Knapp",
+      "count": 2
+    },
+    {
+      "keyword": "AI, AGI, artificial intelligence",
+      "count": 1
+    },
+    {
+      "keyword": "Amazon Prime",
+      "count": 1
+    },
+    {
+      "keyword": "AI, AGI",
+      "count": 1
+    },
+    {
+      "keyword": "anomalous, UFO",
+      "count": 1
+    },
+    {
+      "keyword": "UFO, UAP",
+      "count": 1
+    },
+    {
+      "keyword": "Corbell, UFO, whistleblower, testimony, UAP",
+      "count": 1
+    },
+    {
+      "keyword": "Giza",
+      "count": 1
+    },
+    {
+      "keyword": "Corbell, AARO, UAP, UFO, whistleblower",
+      "count": 1
+    }
+  ],
+  "dailySummary": [
+    {
+      "date": "2026-06-14",
+      "videos": 12
+    },
+    {
+      "date": "2026-06-13",
+      "videos": 15
+    },
+    {
+      "date": "2026-06-12",
+      "videos": 9
+    },
+    {
+      "date": "2026-06-11",
+      "videos": 11
+    },
+    {
+      "date": "2026-06-10",
+      "videos": 8
+    },
+    {
+      "date": "2026-06-09",
+      "videos": 8
+    },
+    {
+      "date": "2026-06-08",
+      "videos": 8
+    },
+    {
+      "date": "2026-06-07",
+      "videos": 4
+    },
+    {
+      "date": "2026-06-05",
+      "videos": 7
+    },
+    {
+      "date": "2026-06-04",
+      "videos": 5
+    },
+    {
+      "date": "2026-06-03",
+      "videos": 6
+    },
+    {
+      "date": "2026-06-02",
+      "videos": 3
+    },
+    {
+      "date": "2026-06-01",
+      "videos": 1
+    },
+    {
+      "date": "2026-05-31",
+      "videos": 1
+    },
+    {
+      "date": "2026-05-29",
+      "videos": 1
+    },
+    {
+      "date": "2026-05-28",
+      "videos": 1
+    },
+    {
+      "date": "2026-05-25",
+      "videos": 1
+    },
+    {
+      "date": "2026-05-23",
+      "videos": 1
+    },
+    {
+      "date": "2026-05-22",
+      "videos": 2
+    },
+    {
+      "date": "2026-05-17",
+      "videos": 1
+    },
+    {
+      "date": "2026-05-16",
+      "videos": 1
+    },
+    {
+      "date": "2026-05-15",
+      "videos": 1
+    }
+  ],
+  "topKeywordsWeek": [
+    {
+      "keyword": "Reuters",
+      "matches": 5
+    },
+    {
+      "keyword": "Associated Press",
+      "matches": 10
+    },
+    {
+      "keyword": "The Hill",
+      "matches": 4
+    },
+    {
+      "keyword": "MS NOW",
+      "matches": 3
+    },
+    {
+      "keyword": "Louis Rossmann",
+      "matches": 10
+    },
+    {
+      "keyword": "The Daily Show, AI",
+      "matches": 2
+    },
+    {
+      "keyword": "The Interview",
+      "matches": 2
+    },
+    {
+      "keyword": "C‑SPAN",
+      "matches": 4
+    },
+    {
+      "keyword": "testimony, UFO, Giza",
+      "matches": 1
+    },
+    {
+      "keyword": "Conan O'Brien",
+      "matches": 6
+    },
+    {
+      "keyword": "The Daily Show",
+      "matches": 12
+    },
+    {
+      "keyword": "Last Week Tonight",
+      "matches": 4
+    },
+    {
+      "keyword": "AI",
+      "matches": 3
+    },
+    {
+      "keyword": "The Rest Is Science",
+      "matches": 2
+    },
+    {
+      "keyword": "More Perfect Union",
+      "matches": 2
+    },
+    {
+      "keyword": "Samsung",
+      "matches": 1
+    },
+    {
+      "keyword": "UFO, Corbell",
+      "matches": 1
+    }
+  ],
+  "mostViral48h": [
+    {
+      "title": "LIVE: See Donald Trump's name off Kennedy Center when tarp is removed",
+      "channel": "MS NOW",
+      "videoId": "1SvjzURhZO0",
+      "viewsPerHour": 125494,
+      "views": 2005964,
+      "ageHours": 16
+    },
+    {
+      "title": "LIVE: New York Knicks fans celebrate after winning NBA championship",
+      "channel": "Associated Press",
+      "videoId": "n1i6K_nW2y0",
+      "viewsPerHour": 17823,
+      "views": 290707,
+      "ageHours": 16.3
+    },
+    {
+      "title": "Anthropic CEO learns meaning of \"life comes at you fast\" ",
+      "channel": "Louis Rossmann",
+      "videoId": "ZL1GRDrDUww",
+      "viewsPerHour": 8139,
+      "views": 185351,
+      "ageHours": 22.8
+    },
+    {
+      "title": "Brazil vs Morocco: LIVE watch party of 2026 FIFA World Cup",
+      "channel": "Associated Press",
+      "videoId": "ycwyecbqFls",
+      "viewsPerHour": 7803,
+      "views": 182169,
+      "ageHours": 23.3
+    },
+    {
+      "title": "Jon Stewart on Elmo’s Knicks Betrayal & Desi Lydic on Trump’s Iran Oil Heist | The Daily Show",
+      "channel": "The Daily Show",
+      "videoId": "_f5ioBvQTVs",
+      "viewsPerHour": 7394,
+      "views": 233649,
+      "ageHours": 31.6
+    },
+    {
+      "title": "Ford CEO says you shouldn't repair your car because it risks loss of life 🤦 They want to kill repair",
+      "channel": "Louis Rossmann",
+      "videoId": "M2qvkLcy7yA",
+      "viewsPerHour": 5124,
+      "views": 223236,
+      "ageHours": 43.6
+    },
+    {
+      "title": "Trump Name Removal from Kennedy Center",
+      "channel": "C‑SPAN",
+      "videoId": "uZfkRJXVPx8",
+      "viewsPerHour": 2712,
+      "views": 121868,
+      "ageHours": 44.9
+    },
+    {
+      "title": "Timelapse: Crew cover the Kennedy Center signage before removing Trump's name",
+      "channel": "Associated Press",
+      "videoId": "0wiEUv7B5fQ",
+      "viewsPerHour": 2300,
+      "views": 55925,
+      "ageHours": 24.3
+    },
+    {
+      "title": "Celebrations erupt in New York after Knicks win first NBA championship in 53 years",
+      "channel": "Associated Press",
+      "videoId": "Z7QHyvCO31c",
+      "viewsPerHour": 2224,
+      "views": 29520,
+      "ageHours": 13.3
+    },
+    {
+      "title": "The Dreame X40 Ultra is the worst vacuum money can buy",
+      "channel": "Louis Rossmann",
+      "videoId": "cxwK1glWtXI",
+      "viewsPerHour": 1786,
+      "views": 31576,
+      "ageHours": 17.7
+    },
+    {
+      "title": "Thousands protest in Albania against tourism project linked to Jared Kushner",
+      "channel": "Associated Press",
+      "videoId": "Rh1IDc7DPkE",
+      "viewsPerHour": 1459,
+      "views": 27178,
+      "ageHours": 18.6
+    },
+    {
+      "title": "‘Trump can’t rewrite history’: JFK’s grandson on removal of Trump’s name from Kennedy Center",
+      "channel": "MS NOW",
+      "videoId": "zhSDoAY3xqU",
+      "viewsPerHour": 1449,
+      "views": 33934,
+      "ageHours": 23.4
+    },
+    {
+      "title": "Seth Rogen on Male Friendships, Marriage and Hollywood | The Interview",
+      "channel": "The Interview",
+      "videoId": "Kt11UnYXzCw",
+      "viewsPerHour": 661,
+      "views": 23541,
+      "ageHours": 35.6
+    },
+    {
+      "title": "LIVE: New York Knicks fans celebrate after NBA championship win",
+      "channel": "Associated Press",
+      "videoId": "dXs0-ZUtEXc",
+      "viewsPerHour": 441,
+      "views": 5515,
+      "ageHours": 12.5
+    },
+    {
+      "title": "Germany vs Curaçao: LIVE watch party for FIFA World Cup 2026",
+      "channel": "Associated Press",
+      "videoId": "HIKfBBA1-hE",
+      "viewsPerHour": 428,
+      "views": 3468,
+      "ageHours": 8.1
+    },
+    {
+      "title": "Israel says it struck Hezbollah targets in Beirut's southern suburbs",
+      "channel": "Reuters",
+      "videoId": "sBiiDUXApeA",
+      "viewsPerHour": 378,
+      "views": 1772,
+      "ageHours": 4.7
+    },
+    {
+      "title": "Trump's name removed from Kennedy Center",
+      "channel": "The Hill",
+      "videoId": "D4FH27HS928",
+      "viewsPerHour": 278,
+      "views": 6049,
+      "ageHours": 21.7
+    },
+    {
+      "title": "Knicks Win NBA Title After 53 Years | Reuters World News",
+      "channel": "Reuters",
+      "videoId": "OVS8Z2TOuqQ",
+      "viewsPerHour": 266,
+      "views": 1654,
+      "ageHours": 6.2
+    },
+    {
+      "title": "Former DNC Chair brings bold prediction for midterms: Watch Democrats in Ohio stun",
+      "channel": "MS NOW",
+      "videoId": "CLBbXB4UML8",
+      "viewsPerHour": 123,
+      "views": 2912,
+      "ageHours": 23.7
+    },
+    {
+      "title": "British Royals attend Trooping the Colour parade for King's official birthday",
+      "channel": "Associated Press",
+      "videoId": "vCpDlcN0EqM",
+      "viewsPerHour": 107,
+      "views": 539,
+      "ageHours": 5.1
+    },
+    {
+      "title": "Trump says war deal to be signed Sunday as Iran questions timing",
+      "channel": "Reuters",
+      "videoId": "qxCF0E8hxDE",
+      "viewsPerHour": 104,
+      "views": 2357,
+      "ageHours": 22.6
+    },
+    {
+      "title": "Excitement in Boston ahead of Haiti-Scotland World Cup match",
+      "channel": "Reuters",
+      "videoId": "fCDw7vjaVk8",
+      "viewsPerHour": 46,
+      "views": 974,
+      "ageHours": 21.3
+    },
+    {
+      "title": "Elon Musk ENCOURAGES Belfast protests; Trump Admin LAUNCHES denaturalization push | RISING",
+      "channel": "The Hill",
+      "videoId": "t-NnG2civw0",
+      "viewsPerHour": 32,
+      "views": 209,
+      "ageHours": 6.6
+    },
+    {
+      "title": "Tens of thousands march through Rome in rival anti and pro-migration rallies",
+      "channel": "Associated Press",
+      "videoId": "N-GCL6-_aLg",
+      "viewsPerHour": 30,
+      "views": 320,
+      "ageHours": 10.6
+    },
+    {
+      "title": "Iran, unlike Trump, says no Sunday deal signing: Dem House Foreign Affairs member comments on status",
+      "channel": "The Hill",
+      "videoId": "WOZ_jckvrAs",
+      "viewsPerHour": 23,
+      "views": 534,
+      "ageHours": 23.6
+    },
+    {
+      "title": "Jasmine Crockett DEFENDS Karmelo Anthony; Scott Pelley WRONG on Renee Good: Robby Soave | RISING",
+      "channel": "The Hill",
+      "videoId": "eN_je4NJnQQ",
+      "viewsPerHour": 15,
+      "views": 373,
+      "ageHours": 24.6
+    },
+    {
+      "title": "Washington Today (6-12-26): Elon Musk is 1st trillionaire after IPO; U.S.-Iran peace talks progress",
+      "channel": "C‑SPAN",
+      "videoId": "ltRdhXzaK-o",
+      "viewsPerHour": 7,
+      "views": 322,
+      "ageHours": 45.7
+    },
+    {
+      "title": "Tartan Army celebrates Scotland's World Cup return",
+      "channel": "Reuters",
+      "videoId": "9utXyZ_9grM",
+      "viewsPerHour": 5,
+      "views": 105,
+      "ageHours": 22.6
+    },
+    {
+      "title": "CEASEFIRE PODCAST: Cliff May, Evelyn Farkas, Alex Vogel and Dan Kanninen",
+      "channel": "C‑SPAN",
+      "videoId": "iG6FaU7x-DQ",
+      "viewsPerHour": 4,
+      "views": 187,
+      "ageHours": 45.6
+    },
+    {
+      "title": "1 dead and 22 injured after tent collapses at a church event in Virginia",
+      "channel": "Associated Press",
+      "videoId": "FW7q5Mw5GiY",
+      "viewsPerHour": 4,
+      "views": 89,
+      "ageHours": 22
+    }
+  ]
+}
