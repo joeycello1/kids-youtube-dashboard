@@ -11,11 +11,11 @@
     : "";
 
   const sfx = {
-    correct:   new Audio(`${basePath}/sounds/correct.mp3`),
-    lowercase: new Audio(`${basePath}/sounds/lowercase.mp3`),
-    uppercase: new Audio(`${basePath}/sounds/uppercase.mp3`),
-    mixed:     new Audio(`${basePath}/sounds/mixed.mp3`),
-    unknown:   new Audio(`${basePath}/sounds/unknown.mp3`)
+    correct:   new Audio(`${basePath}/static/sounds/correct.mp3`),
+    lowercase: new Audio(`${basePath}/static/sounds/lowercase.mp3`),
+    uppercase: new Audio(`${basePath}/static/sounds/uppercase.mp3`),
+    mixed:     new Audio(`${basePath}/static/sounds/mixed.mp3`),
+    unknown:   new Audio(`${basePath}/static/sounds/unknown.mp3`)
   };
 
 
