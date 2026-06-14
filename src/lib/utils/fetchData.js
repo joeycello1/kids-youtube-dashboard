@@ -1,23 +1,34 @@
-// src/lib/utils/fetchData.js
+export async function loadKidsData(profile) {
+  const filename = `${profile.toLowerCase()}.json`;
 
-export async function loadDashboardData() {
-  const raw = await (await fetch(`${import.meta.env.BASE_URL}data.json`)).json();
-  const stats = await (await fetch(`${import.meta.env.BASE_URL}stats.json`)).json();
+  // Detect if running on GitHub Pages
+  const isGithubPages = window.location.hostname.includes("github.io");
 
-  const viralMap = new Map(
-    stats.mostViral48h.map(v => [v.videoId, v.viewsPerHour])
-  );
+  // Build correct base path
+  const basePath = isGithubPages
+    ? `/${window.location.pathname.split('/')[1]}` // repo name
+    : "";
 
+  const url = `${basePath}/${filename}`;
+
+  const res = await fetch(url);
+
+  if (!res.ok) {
+    throw new Error(`Failed to load ${filename}`);
+  }
+
+  const raw = await res.json();
+  
   const videos = raw.map(v => ({
-    ...v,
-    timestamp: new Date(v.timestamp),
-    firstSeen: new Date(v.firstSeen),
-    viewsPerHour48: viralMap.get(v.videoId) || 0,
-    watched: v.watched === true,
-    keywords: v.keyword
-      ? v.keyword.split(',').map(k => k.trim()).filter(Boolean)
-      : []
-  }));
+  ...v,
+  timestamp: new Date(v.timestamp),
+  firstSeen: new Date(v.firstSeen),
+  watched: v.watched === true,
+  videoCategory: v.videoCategory || "Uncategorized",   // ⭐ ADD THIS
+  keywords: v.keyword
+    ? v.keyword.split(',').map(k => k.trim()).filter(Boolean)
+    : []
+}));
 
-  return { videos, stats };
+  return { videos };
 }

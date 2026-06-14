@@ -1,116 +1,166 @@
 <script>
-  import YouTubePlayer from './YouTubePlayer.svelte';
+  import { onMount, onDestroy } from "svelte";
 
   export let video;
   export let onClose;
-  export let playNextVideo;
+  export let onPlayed;
 
-  let manualStart = true;
+  let player;
+  let apiReady = false;
+  let errorMessage = "";
 
-  // Your real Web App URL
-  const WATCHED_WEBAPP_URL = "https://script.google.com/macros/s/AKfycbyW29beQAqTydTpvRDH5t0tQgz5NE5q6-47roDvHRMYxU2InC6Q60hYjrO2-5TLb2A/exec";
-
-  // Backend sync helper
-  function syncWatched(videoId) {
-    fetch(`${WATCHED_WEBAPP_URL}?action=markWatched&videoId=${videoId}`);
-  }
-
-  function skipVideo() {
-    manualStart = false; // skip is intentional
-
-    // 1. Instant UI update
-    video.watched = true;
-
-    // 2. Backend sync (non-blocking)
-    syncWatched(video.videoId);
-
-    // 3. Move to next video
-    playNextVideo();
-  }
-</script>
-
-<div
-  class="modal-backdrop"
-  role="button"
-  tabindex="0"
-  on:click={onClose}
-  on:keydown={(e) => e.key === 'Enter' && onClose()}
-></div>
-
-<div class="modal">
-  <button class="close-btn" on:click={onClose}>×</button>
-
-  <YouTubePlayer
-    videoId={video.videoId}
-    on:ended={() => {
-      // If the user manually clicked the video, do NOT auto-skip
-      if (manualStart) {
-        manualStart = false;
+  // Load YouTube IFrame API if not already loaded
+  function loadYouTubeAPI() {
+    return new Promise((resolve) => {
+      if (window.YT && window.YT.Player) {
+        resolve();
         return;
       }
 
-      // 1. Instant UI update
-      video.watched = true;
+      const tag = document.createElement("script");
+      tag.src = "https://www.youtube.com/iframe_api";
+      document.body.appendChild(tag);
 
-      // 2. Backend sync
-      syncWatched(video.videoId);
+      window.onYouTubeIframeAPIReady = () => resolve();
+    });
+  }
 
-      // 3. Move to next video
-      playNextVideo();
-    }}
-  />
+  async function initPlayer() {
+  await loadYouTubeAPI();
 
-  <h3>{video.title}</h3>
-  <button class="skip-button" on:click={skipVideo}>
-    Skip
-  </button>
-  <p>{video.timestamp.toLocaleString()}</p>
-</div>
+  player = new YT.Player("player", {
+    videoId: video.videoId,
+    playerVars: {
+      rel: 0,
+      modestbranding: 1,
+      controls: 1,
+      showinfo: 0
+    },
+    events: {
+      onStateChange: (event) => {
+        if (event.data === YT.PlayerState.PLAYING) {
+          console.log("PLAY DETECTED via Player API");
+          onPlayed(video);
+        }
+      },
+
+      onError: (event) => {
+        console.log("YouTube error:", event.data);
+
+        // 100 = not found
+        // 101/150 = embedding disabled
+        if (event.data === 100 || event.data === 101 || event.data === 150) {
+          handleBrokenVideo();
+        }
+      }
+    }
+  });
+}
+
+function handleBrokenVideo() {
+  // 1. Show kid-friendly message
+  errorMessage = "Oh drat! This video is Broken! Try another one.";
+
+  // 2. Mark locally
+  video.broken = true;
+
+  // 3. Update dashboard state
+  videos = [...videos];
+
+  // 4. Send to Apps Script
+  fetch("https://script.google.com/macros/s/YOUR_WEBAPP_ID/exec", {
+    method: "POST",
+    body: JSON.stringify({
+      videoId: video.videoId,
+      channelId: video.channelId,
+      reason: "broken",
+      timestamp: Date.now()
+    })
+  });
+
+  // 5. Close modal after a short delay
+  setTimeout(() => onClose(), 1200);
+}
+
+
+  onMount(() => {
+    initPlayer();
+  });
+
+  onDestroy(() => {
+    if (player && player.destroy) {
+      player.destroy();
+    }
+  });
+</script>
 
 <style>
-  .modal-backdrop {
+  .overlay {
     position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.8);
-    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
   }
 
   .modal {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #000;
-    padding: 16px;
+    position: relative;
+    background: white;
+    padding: 1rem;
+    border-radius: 12px;
+    max-width: 800px;
+    width: 90%;
+    z-index: 10;
+  }
+
+  #player {
+    width: 100%;
+    height: 450px;
     border-radius: 8px;
-    width: 95%;
-    max-width: 880px;
-    z-index: 1001;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
-    color: #fff;
   }
 
-  .close-btn {
-    position: absolute;
-    top: 6px;
-    right: 10px;
-    background: transparent;
-    border: none;
-    font-size: 1.5rem;
-    cursor: pointer;
-    color: #fff;
-  }
-
-  .skip-button {
+  .close {
+    margin-top: 1rem;
     padding: 0.5rem 1rem;
     background: #444;
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     cursor: pointer;
   }
 
-  .skip-button:hover {
-    background: #666;
+  .broken-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 20px;
+    animation: fadeIn 0.3s ease-out;
+    z-index: 20;
   }
 </style>
+
+<div class="overlay" on:click={onClose}>
+  <div class="modal" on:click|stopPropagation>
+    {#if errorMessage}
+    <div class="broken-overlay">{errorMessage}</div>
+    {/if}
+    <div id="player"></div>
+
+    <button class="close" on:click={onClose}>
+      Close
+    </button>
+  </div>
+</div>
