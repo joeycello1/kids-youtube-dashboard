@@ -13,7 +13,7 @@
     "videoCategory": "Cartoons",
     "videoId": "P2Y_VEccE-M",
     "profile": "Both",
-    "watched_jonah": false,
+    "watched_jonah": true,
     "watched_kieran": true
   },
   {
@@ -47,7 +47,7 @@
     "videoCategory": "Cartoons",
     "videoId": "gbqLJ6_W4YQ",
     "profile": "Both",
-    "watched_jonah": false,
+    "watched_jonah": true,
     "watched_kieran": false
   },
   {
@@ -98,7 +98,7 @@
     "videoCategory": "Cartoons",
     "videoId": "d-H2V48Cg1s",
     "profile": "Both",
-    "watched_jonah": false,
+    "watched_jonah": true,
     "watched_kieran": false
   },
   {
@@ -1593,6 +1593,23 @@
     "ratingAvg": 5,
     "videoCategory": "Learning",
     "videoId": "gnnUid8Hof0",
+    "profile": "Both",
+    "watched_jonah": false,
+    "watched_kieran": false
+  },
+  {
+    "timestamp": "2026-06-11T16:30:20.000Z",
+    "firstSeen": "2026-06-15T00:34:33.819Z",
+    "title": "Heute Abend jagen wir MONSTER! ⚔️🧌 | S4 F3 | Ganze Folge | LEGO NINJAGO: Aufstieg der Drachen",
+    "videoUrl": "https://www.youtube.com/watch?v=Rg8Z-EwZlp8",
+    "channelName": "LEGO",
+    "summary": "In dieser Folge entdeckt Jay eine Spur zu seinen verlorenen Erinnerungen, während Fraks Team dem Club der Entdecker bei der Monsterjagd hilft und die Loyalisten ihrer Geheimwaffe näherkommen. Abonniere den LEGO Kanal: 🔔 LEGO NINJAGO: Aufstieg der Drachen – Staffel 4, Folge 3: Heute Abend jagen wir ",
+    "keyword": "lego",
+    "thumbnail": "https://i3.ytimg.com/vi/Rg8Z-EwZlp8/hqdefault.jpg",
+    "views": 13223,
+    "ratingAvg": 5,
+    "videoCategory": "LEGO",
+    "videoId": "Rg8Z-EwZlp8",
     "profile": "Both",
     "watched_jonah": false,
     "watched_kieran": false
