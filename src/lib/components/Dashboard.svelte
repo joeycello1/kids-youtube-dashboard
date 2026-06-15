@@ -37,6 +37,12 @@
     videos = [...videos];     // force Svelte to re-render
     markWatched(video.videoId, profile);  // backend update
   }
+
+  // re-render array on broken
+  function onBroken(video) {
+    video.broken = true;     // update UI state
+    videos = [...videos];    // force Svelte to re-render
+  }
   
   const WATCHED_WEBAPP_URL = "https://script.google.com/macros/s/AKfycbwlSjP3ReIarEvWm-1Le9XysxKDhh78BMtA7hPRBgHMNJLaLTNmykOnYjZkOi9mrF4nBw/exec";
 
@@ -182,6 +188,10 @@
       v.watched = true;     // update UI state
       videos = [...videos]; // force Svelte to re-render
       markWatched(v.videoId, profile); // backend update
+    }}
+    onBroken={(v) => {
+      v.broken = true;
+      videos = [...videos];
     }}
   />
 {/if}
