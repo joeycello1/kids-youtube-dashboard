@@ -43,11 +43,9 @@
         },
 
         onError: (event) => {
-          console.log("YouTube error:", event.data);
-
-          // Show the button, but do NOT auto-report
           if (event.data === 100 || event.data === 101 || event.data === 150) {
             errorMessage = "This video is broken!";
+            callThePolice(video.videoId);
           }
         }
       }
