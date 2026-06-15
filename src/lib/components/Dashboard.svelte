@@ -72,11 +72,15 @@
   //  Search Filter
   // -----------------------------
   $: filtered = categoryFiltered.filter(v =>
-    v.title.toLowerCase().includes(search.toLowerCase()) ||
-    v.channelName.toLowerCase().includes(search.toLowerCase()) ||
+    v.title?.toLowerCase().includes(search.toLowerCase()) ||
+    v.channelName?.toLowerCase().includes(search.toLowerCase()) ||
     v.summary?.toLowerCase().includes(search.toLowerCase()) ||
-    v.keywords.some(k => k.toLowerCase().includes(search.toLowerCase()))
+    (Array.isArray(v.keywords) &&
+      v.keywords.some(k =>
+        k?.toLowerCase().includes(search.toLowerCase())
+      ))
   );
+
 
   // -----------------------------
   //  Watched / Broken Handlers
