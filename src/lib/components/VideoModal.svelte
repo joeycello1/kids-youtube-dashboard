@@ -55,7 +55,7 @@
   }
 
   const BROKEN_WEBAPP_URL =
-    "https://script.google.com/macros/s/AKfycbyG1W21QsS2nwy2eu-75IzAsEoNGBs-HWBn6fEHGUgs1tq_Lpb1wilQyfa0tO9-kWQMuQ/exec";
+    "https://script.google.com/macros/s/AKfycbwlSjP3ReIarEvWm-1Le9XysxKDhh78BMtA7hPRBgHMNJLaLTNmykOnYjZkOi9mrF4nBw/exec";
 
   function callThePolice(videoId) {
     fetch(`${BROKEN_WEBAPP_URL}?action=broken&videoId=${videoId}`);
