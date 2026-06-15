@@ -1,5 +1,22 @@
 [
   {
+    "timestamp": "2026-06-15T20:00:08.000Z",
+    "firstSeen": "2026-06-15T21:57:50.069Z",
+    "title": "Mr. Bean gana una rifa y lo pierde todo | Mr Bean Animated",
+    "videoUrl": "https://www.youtube.com/watch?v=F36ZaJkauA0",
+    "channelName": "Mr Bean",
+    "summary": "Mr. Bean gana una rifa y lo pierde todo en unas vacaciones de caos. Teddy, gaviotas, pasteles y el número de la suerte 77 protagonizan este episodio lleno de sorpresas. 00:00:00 Inicio de la aventura con Teddy\n00:02:49 La rifa del amor comienza\n00:05:02 El número ganador de la rifa\n00:07:37 Competen",
+    "keyword": "mr bean",
+    "thumbnail": "https://i3.ytimg.com/vi/F36ZaJkauA0/hqdefault.jpg",
+    "views": 950,
+    "ratingAvg": 5,
+    "videoCategory": "Cartoons",
+    "videoId": "F36ZaJkauA0",
+    "profile": "Both",
+    "watched_jonah": false,
+    "watched_kieran": false
+  },
+  {
     "timestamp": "2026-06-15T19:00:08.000Z",
     "firstSeen": "2026-06-15T19:36:53.181Z",
     "title": "🤣 The Best PBS KIDS Dad Jokes for Father's Day! 😂 | PBS KIDS",
@@ -48,7 +65,7 @@
     "videoId": "mNjNYNdcr_Q",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": true
   },
   {
     "timestamp": "2026-06-15T15:00:40.000Z",
@@ -165,23 +182,6 @@
     "ratingAvg": 5,
     "videoCategory": "Cartoons",
     "videoId": "d-H2V48Cg1s",
-    "profile": "Both",
-    "watched_jonah": false,
-    "watched_kieran": false
-  },
-  {
-    "timestamp": "2026-06-14T20:00:30.000Z",
-    "firstSeen": "2026-06-15T19:34:24.973Z",
-    "title": "Bean's Medallion Hunt and Camping Queue Chaos | Mr Bean",
-    "videoUrl": "https://www.youtube.com/watch?v=osPofZlbgzM",
-    "channelName": "Mr Bean",
-    "summary": "Bean hunts for his medallion, battles fleas, makes perfume, races scooters at the park, and camps overnight in a shop queue. Chaos with Scrapper the cat and teddy as placeholder. 00:00:00 Exploring a Luxurious New Place\n00:02:27 Searching for Missing Teddy at Home\n00:05:02 Dealing with a Flea Infest",
-    "keyword": "mr bean",
-    "thumbnail": "https://i4.ytimg.com/vi/osPofZlbgzM/hqdefault.jpg",
-    "views": 7046,
-    "ratingAvg": 5,
-    "videoCategory": "Cartoons",
-    "videoId": "osPofZlbgzM",
     "profile": "Both",
     "watched_jonah": false,
     "watched_kieran": false
