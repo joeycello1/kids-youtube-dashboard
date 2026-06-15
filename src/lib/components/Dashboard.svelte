@@ -30,22 +30,12 @@
     v.summary?.toLowerCase().includes(search.toLowerCase()) ||
     v.keywords.some(k => k.toLowerCase().includes(search.toLowerCase()))
   );
-  import { WEBAPP_URL } from "$lib/config";
+  
+  const WATCHED_WEBAPP_URL = "https://script.google.com/macros/s/AKfycbyG1W21QsS2nwy2eu-75IzAsEoNGBs-HWBn6fEHGUgs1tq_Lpb1wilQyfa0tO9-kWQMuQ/exec";
 
-  function handlePlayed(video) {
-    video.watched = true;
-    videos = [...videos];
-
-    const url =
-      `${WEBAPP_URL}?action=watched` +
-      `&kid=${profile}` +
-      `&videoId=${video.videoId}` +
-      `&watched=true` +
-      `&t=${Date.now()}`;
-
-    fetch(url);
+  function markWatched(videoId, kid) {
+    fetch(`${WATCHED_WEBAPP_URL}?action=watched&videoId=${videoId}&kid=${kid}`);
   }
-
 
 </script>
 
@@ -181,10 +171,7 @@
     video={activeVideo}
     profile={profile}
     onClose={() => activeVideo = null}
-    onPlayed={(v) => {
-      console.log("Dashboard received play event for:", v.title);
-      handlePlayed(v);
-    }}
+    onPlayed={(v) => markWatched(v.videoId, profile)}
   />
 {/if}
 </div>
