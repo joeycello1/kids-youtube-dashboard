@@ -126,17 +126,8 @@
     }
   }
 
-  // -----------------------------
-  //  Initial Load
-  // -----------------------------
-  async function loadData() {
-    const { videos: loaded } = await loadKidsData(profile);
-    videos = loaded;
-  }
-
-  onMount(async () => {
-    await loadData();
-    setInterval(checkForUpdates, 60000); // check every 60s
+  onMount(() => {
+    setInterval(checkForUpdates, 60000);
   });
 
   function reloadPage() {
