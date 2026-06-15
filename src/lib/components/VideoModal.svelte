@@ -5,7 +5,7 @@
   export let video;
   export let onClose;
   export let onPlayed;
-  export let profile; // <-- You were using this but never declared it
+  export let profile;
 
   let player;
   let errorMessage = "";
