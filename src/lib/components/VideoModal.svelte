@@ -66,7 +66,9 @@ function handleBrokenVideo() {
 
   // 3. Update dashboard state
   videos = [...videos];
-
+  
+  import { WEBAPP_URL } from "$lib/config";
+  
   // 4. Send to Apps Script
   async function handleBrokenVideo() {
     await fetch(WEBAPP_URL, {
