@@ -51,7 +51,7 @@
           // 100 = not found
           // 101/150 = embedding disabled
           if (event.data === 100 || event.data === 101 || event.data === 150) {
-            handleBrokenVideo();
+            callThePolice();
           }
         }
       }
