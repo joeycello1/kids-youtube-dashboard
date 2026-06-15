@@ -8,11 +8,33 @@
   let player;
   let errorMessage = "";
 
+  // RESTORED: YouTube API loader
+  function loadYouTubeAPI() {
+    return new Promise((resolve) => {
+      if (window.YT && window.YT.Player) {
+        resolve();
+        return;
+      }
+
+      const tag = document.createElement("script");
+      tag.src = "https://www.youtube.com/iframe_api";
+      document.body.appendChild(tag);
+
+      window.onYouTubeIframeAPIReady = () => resolve();
+    });
+  }
+
   async function initPlayer() {
     await loadYouTubeAPI();
 
     player = new YT.Player("player", {
       videoId: video.videoId,
+      playerVars: {
+        rel: 0,
+        modestbranding: 1,
+        controls: 1,
+        showinfo: 0
+      },
       events: {
         onStateChange: (event) => {
           if (event.data === YT.PlayerState.PLAYING) {
@@ -21,6 +43,9 @@
         },
 
         onError: (event) => {
+          console.log("YouTube error:", event.data);
+
+          // Show the button, but do NOT auto-report
           if (event.data === 100 || event.data === 101 || event.data === 150) {
             errorMessage = "This video is broken!";
           }
@@ -29,14 +54,18 @@
     });
   }
 
-  const BROKEN_WEBAPP_URL = "https://script.google.com/macros/s/AKfycbyG1W21QsS2nwy2eu-75IzAsEoNGBs-HWBn6fEHGUgs1tq_Lpb1wilQyfa0tO9-kWQMuQ/exec";
+  const BROKEN_WEBAPP_URL =
+    "https://script.google.com/macros/s/AKfycbyG1W21QsS2nwy2eu-75IzAsEoNGBs-HWBn6fEHGUgs1tq_Lpb1wilQyfa0tO9-kWQMuQ/exec";
 
   function callThePolice(videoId) {
     fetch(`${BROKEN_WEBAPP_URL}?action=broken&videoId=${videoId}`);
   }
 
   onMount(initPlayer);
-  onDestroy(() => player?.destroy());
+
+  onDestroy(() => {
+    if (player?.destroy) player.destroy();
+  });
 </script>
 
 <div class="overlay" on:click={onClose}>
