@@ -9,6 +9,10 @@
   let selectedCategory = "All";
   let activeVideo = null;
 
+  $: if (!Array.isArray(videos)) {
+    videos = [];
+  }
+
   // Build category list
   $: categories = ["All", ...new Set(videos.map(v => v.videoCategory))];
 
