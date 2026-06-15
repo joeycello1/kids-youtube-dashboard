@@ -39,6 +39,7 @@
         onStateChange: (event) => {
           if (event.data === YT.PlayerState.PLAYING) {
             video.watched = true;
+            videos = [...videos];   // <-- forces Svelte to re-render
             onPlayed(video);
           }
         },
@@ -46,6 +47,7 @@
         onError: (event) => {
           if (event.data === 100 || event.data === 101 || event.data === 150) {
             video.broken = true;
+            videos = [...videos];   // <-- forces Svelte to re-render
             errorMessage = "This video is broken!";
             callThePolice(video.videoId);
           }
@@ -73,6 +75,7 @@
     {#if errorMessage}
       <button on:click={() => {
         video.broken = true;    // <-- restore UI state
+        videos = [...videos];   // <-- forces re-render
         callThePolice(video.videoId);
       }}>
         🚨 Call the Police on this Bad Boy 🚨
