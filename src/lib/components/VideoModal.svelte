@@ -68,13 +68,14 @@ function handleBrokenVideo() {
   videos = [...videos];
 
   // 4. Send to Apps Script
-  fetch("https://script.google.com/macros/s/YOUR_WEBAPP_ID/exec", {
+  fetch("https://script.google.com/macros/s/AKfycbyG1W21QsS2nwy2eu-75IzAsEoNGBs-HWBn6fEHGUgs1tq_Lpb1wilQyfa0tO9-kWQMuQ/exec", {
     method: "POST",
     body: JSON.stringify({
+      action: "broken",
+      kid: profile,          // "jonah" or "kieran"
       videoId: video.videoId,
       channelId: video.channelId,
-      reason: "broken",
-      timestamp: Date.now()
+      reason: "broken"
     })
   });
 
