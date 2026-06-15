@@ -13,8 +13,8 @@
     "videoCategory": "Cartoons",
     "videoId": "P2Y_VEccE-M",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": true
   },
   {
     "timestamp": "2026-06-15T13:59:30.000Z",
@@ -30,8 +30,8 @@
     "videoCategory": "Cartoons",
     "videoId": "JF1fZlkEifE",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-15T12:00:09.000Z",
@@ -47,8 +47,8 @@
     "videoCategory": "Cartoons",
     "videoId": "gbqLJ6_W4YQ",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-15T11:00:01.000Z",
@@ -64,8 +64,8 @@
     "videoCategory": "Learning",
     "videoId": "thHdP0ooOVI",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-15T10:00:05.000Z",
@@ -81,8 +81,8 @@
     "videoCategory": "Cartoons",
     "videoId": "PbsET-D6IY8",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": true,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-15T09:00:32.000Z",
@@ -98,8 +98,8 @@
     "videoCategory": "Cartoons",
     "videoId": "d-H2V48Cg1s",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-14T17:00:13.000Z",
@@ -115,8 +115,8 @@
     "videoCategory": "Cartoons",
     "videoId": "wp_GH1WoMhE",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-14T13:59:48.000Z",
@@ -132,8 +132,8 @@
     "videoCategory": "Cartoons",
     "videoId": "f7ixTJyB2pw",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-14T13:00:24.000Z",
@@ -149,8 +149,8 @@
     "videoCategory": "Cartoons",
     "videoId": "-bARSW_G4DQ",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-14T12:30:03.000Z",
@@ -166,8 +166,8 @@
     "videoCategory": "LEGO",
     "videoId": "hRqWtYPotGs",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-14T12:00:23.000Z",
@@ -183,8 +183,8 @@
     "videoCategory": "LEGO",
     "videoId": "XVYJ2lIzAuo",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-14T12:00:09.000Z",
@@ -200,8 +200,8 @@
     "videoCategory": "Cartoons",
     "videoId": "COEtUmSBSOk",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-14T11:00:04.000Z",
@@ -217,8 +217,8 @@
     "videoCategory": "Learning",
     "videoId": "aAHGKja5w5Q",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-14T09:00:19.000Z",
@@ -234,8 +234,8 @@
     "videoCategory": "Cartoons",
     "videoId": "eXmC8R4C2iE",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-13T15:00:37.000Z",
@@ -251,8 +251,8 @@
     "videoCategory": "Cartoons",
     "videoId": "MCKVh8eEkGw",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-13T15:00:02.000Z",
@@ -268,8 +268,8 @@
     "videoCategory": "Learning",
     "videoId": "ItuV_-b4ZQU",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-13T13:59:48.000Z",
@@ -285,25 +285,8 @@
     "videoCategory": "Cartoons",
     "videoId": "RbHP3TXN14o",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
-  },
-  {
-    "timestamp": "2026-06-13T12:30:23.000Z",
-    "firstSeen": "2026-06-15T00:34:33.140Z",
-    "title": "Ein Wunder der verschmolzenen Welten 🏯 | S4 F4 | Ganze Folge | LEGO NINJAGO: Aufstieg der Drachen",
-    "videoUrl": "https://www.youtube.com/watch?v=78Tbum6Mqsw",
-    "channelName": "LEGO",
-    "summary": "In dieser Folge muss sich Soras Team mit den Folgen des Elementarmonsterangriffs auseinandersetzen. Wird es Jay gelingen, seine verlorenen Erinnerungen zurückzugewinnen? Abonniere den LEGO Kanal: 🔔 LEGO NINJAGO: Aufstieg der Drachen – Staffel 4, Folge 4: Ein Wunder der verschmolzenen Welten Sieh di",
-    "keyword": "lego",
-    "thumbnail": "https://i4.ytimg.com/vi/78Tbum6Mqsw/hqdefault.jpg",
-    "views": 10471,
-    "ratingAvg": 5,
-    "videoCategory": "LEGO",
-    "videoId": "78Tbum6Mqsw",
-    "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-13T12:00:01.000Z",
@@ -319,8 +302,8 @@
     "videoCategory": "Cartoons",
     "videoId": "lLg7O0zf06k",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-13T11:00:27.000Z",
@@ -336,8 +319,8 @@
     "videoCategory": "Cartoons",
     "videoId": "B6G0c5zu8MY",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-13T11:00:11.000Z",
@@ -353,8 +336,8 @@
     "videoCategory": "LEGO",
     "videoId": "tG0gHLkbGT8",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-13T09:00:12.000Z",
@@ -370,8 +353,8 @@
     "videoCategory": "Cartoons",
     "videoId": "NyFXrvivg90",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-13T09:00:06.000Z",
@@ -387,25 +370,8 @@
     "videoCategory": "Cartoons",
     "videoId": "lqq9NT42lgs",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
-  },
-  {
-    "timestamp": "2026-06-12T23:00:05.000Z",
-    "firstSeen": "2026-06-15T00:34:43.689Z",
-    "title": "Mr Bean Robot Cleaner Chaos and Stolen Monkey | Mr Bean",
-    "videoUrl": "https://www.youtube.com/watch?v=hgJ3AF99zY0",
-    "channelName": "Mr. Bean",
-    "summary": "Mr Bean faces robot cleaner chaos as his automated vacuum malfunctions. Plus Bean is accused of stealing Binky the monkey from the safari park. Robot disaster and monkey mayhem with Irma and Teddy. 00:00:00 Chasing After a Mischievous Little Creature\n00:02:07 News About the Stolen Monkey Binky\n00:03",
-    "keyword": "mr bean",
-    "thumbnail": "https://i1.ytimg.com/vi/hgJ3AF99zY0/hqdefault.jpg",
-    "views": 7405,
-    "ratingAvg": 5,
-    "videoCategory": "Cartoons",
-    "videoId": "hgJ3AF99zY0",
-    "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-12T12:00:05.000Z",
@@ -421,8 +387,8 @@
     "videoCategory": "Cartoons",
     "videoId": "lPBAUbDFNOw",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-12T11:00:13.000Z",
@@ -438,8 +404,8 @@
     "videoCategory": "Learning",
     "videoId": "6LCSXFZa5Ew",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-11T23:00:35.000Z",
@@ -455,25 +421,8 @@
     "videoCategory": "LEGO",
     "videoId": "2zc_ReK6P3I",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
-  },
-  {
-    "timestamp": "2026-06-11T16:30:20.000Z",
-    "firstSeen": "2026-06-15T00:34:33.819Z",
-    "title": "Heute Abend jagen wir MONSTER! ⚔️🧌 | S4 F3 | Ganze Folge | LEGO NINJAGO: Aufstieg der Drachen",
-    "videoUrl": "https://www.youtube.com/watch?v=Rg8Z-EwZlp8",
-    "channelName": "LEGO",
-    "summary": "In dieser Folge entdeckt Jay eine Spur zu seinen verlorenen Erinnerungen, während Fraks Team dem Club der Entdecker bei der Monsterjagd hilft und die Loyalisten ihrer Geheimwaffe näherkommen. Abonniere den LEGO Kanal: 🔔 LEGO NINJAGO: Aufstieg der Drachen – Staffel 4, Folge 3: Heute Abend jagen wir ",
-    "keyword": "lego",
-    "thumbnail": "https://i3.ytimg.com/vi/Rg8Z-EwZlp8/hqdefault.jpg",
-    "views": 13223,
-    "ratingAvg": 5,
-    "videoCategory": "LEGO",
-    "videoId": "Rg8Z-EwZlp8",
-    "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-11T16:00:33.000Z",
@@ -489,8 +438,8 @@
     "videoCategory": "LEGO",
     "videoId": "w1Gg-5Lg-xk",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-11T15:00:13.000Z",
@@ -506,8 +455,8 @@
     "videoCategory": "Learning",
     "videoId": "JDqpcHGfJ2I",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-11T12:00:15.000Z",
@@ -523,8 +472,8 @@
     "videoCategory": "Cartoons",
     "videoId": "DCoxXt7eUJI",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-11T11:00:34.000Z",
@@ -540,8 +489,8 @@
     "videoCategory": "Learning",
     "videoId": "fa9Gy2q3iZQ",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-11T10:00:14.000Z",
@@ -557,8 +506,8 @@
     "videoCategory": "Cartoons",
     "videoId": "-zFkCh6YzFs",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-10T14:00:21.000Z",
@@ -574,8 +523,8 @@
     "videoCategory": "LEGO",
     "videoId": "H0invxQbei4",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-10T12:00:07.000Z",
@@ -591,8 +540,8 @@
     "videoCategory": "Cartoons",
     "videoId": "954c5tTu8V4",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-09T15:00:44.000Z",
@@ -608,8 +557,8 @@
     "videoCategory": "Learning",
     "videoId": "Q9Vt6NGBVBc",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-09T14:14:26.000Z",
@@ -625,8 +574,8 @@
     "videoCategory": "Cartoons",
     "videoId": "dhEG8TQEOdU",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-09T12:00:33.000Z",
@@ -642,8 +591,8 @@
     "videoCategory": "Cartoons",
     "videoId": "ammfpXECbE4",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-09T12:00:09.000Z",
@@ -659,8 +608,8 @@
     "videoCategory": "Cartoons",
     "videoId": "PyOXpsJasTo",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-08T12:04:56.000Z",
@@ -676,8 +625,8 @@
     "videoCategory": "LEGO",
     "videoId": "tu3R-nVRhVU",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-08T12:00:28.000Z",
@@ -693,8 +642,8 @@
     "videoCategory": "Cartoons",
     "videoId": "Dm5sTxSF7dc",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-08T11:00:12.000Z",
@@ -710,8 +659,8 @@
     "videoCategory": "Learning",
     "videoId": "YPxOfbQSfRc",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-08T09:00:39.000Z",
@@ -727,8 +676,8 @@
     "videoCategory": "Cartoons",
     "videoId": "rKQJ3ltBdgA",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-07T11:00:15.000Z",
@@ -744,8 +693,8 @@
     "videoCategory": "Learning",
     "videoId": "eEMR78v9Dqc",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-06T11:59:49.000Z",
@@ -761,8 +710,8 @@
     "videoCategory": "Cartoons",
     "videoId": "69s5AdqLcmc",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-06T11:00:37.000Z",
@@ -778,8 +727,8 @@
     "videoCategory": "Learning",
     "videoId": "-Qd4-YxTfZI",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-05T11:00:07.000Z",
@@ -795,8 +744,8 @@
     "videoCategory": "Learning",
     "videoId": "fCBq97oF8j0",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-04T15:01:03.000Z",
@@ -812,8 +761,8 @@
     "videoCategory": "Learning",
     "videoId": "HDt_rTPPh70",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-04T08:59:53.000Z",
@@ -829,8 +778,8 @@
     "videoCategory": "Cartoons",
     "videoId": "kNoLjFGh4_M",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-06-02T15:00:47.000Z",
@@ -846,8 +795,8 @@
     "videoCategory": "Learning",
     "videoId": "pyDZpDkU46Y",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-05-30T12:00:06.000Z",
@@ -863,8 +812,8 @@
     "videoCategory": "Cartoons",
     "videoId": "l6WeJ9JqDfU",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-05-28T15:00:54.000Z",
@@ -880,8 +829,8 @@
     "videoCategory": "Learning",
     "videoId": "BlK23YzqXOM",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-05-26T15:00:33.000Z",
@@ -897,8 +846,8 @@
     "videoCategory": "Learning",
     "videoId": "aob7rM5PV5A",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-05-21T15:00:50.000Z",
@@ -914,8 +863,8 @@
     "videoCategory": "Learning",
     "videoId": "uBwkMc1llmM",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-05-19T15:01:15.000Z",
@@ -931,8 +880,8 @@
     "videoCategory": "Learning",
     "videoId": "gePOX4nbMU4",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-05-14T15:01:33.000Z",
@@ -948,8 +897,8 @@
     "videoCategory": "Learning",
     "videoId": "HdieAFhQtPo",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-05-12T15:00:54.000Z",
@@ -965,8 +914,8 @@
     "videoCategory": "Learning",
     "videoId": "mA1lnxfqHk8",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-05-09T15:00:40.000Z",
@@ -982,8 +931,8 @@
     "videoCategory": "Cartoons",
     "videoId": "LtvsdBm0xbs",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-05-07T15:01:07.000Z",
@@ -999,8 +948,8 @@
     "videoCategory": "Learning",
     "videoId": "8H--GLt3h8I",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-05-05T15:01:09.000Z",
@@ -1016,8 +965,8 @@
     "videoCategory": "Learning",
     "videoId": "P8OEz3PvWZQ",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-04-30T15:00:52.000Z",
@@ -1033,8 +982,8 @@
     "videoCategory": "Learning",
     "videoId": "qKM4JzToM-A",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-04-28T15:01:02.000Z",
@@ -1050,8 +999,8 @@
     "videoCategory": "Learning",
     "videoId": "65I_1sgTMLE",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-04-24T19:13:02.000Z",
@@ -1067,8 +1016,8 @@
     "videoCategory": "Cartoons",
     "videoId": "HgWz05AsLxw",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-04-18T12:00:06.000Z",
@@ -1084,8 +1033,8 @@
     "videoCategory": "Cartoons",
     "videoId": "-MV7Hg31usU",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-04-04T15:01:00.000Z",
@@ -1101,8 +1050,8 @@
     "videoCategory": "Cartoons",
     "videoId": "WfAmK8u0Mx8",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-01-31T17:56:37.000Z",
@@ -1118,8 +1067,8 @@
     "videoCategory": "Cartoons",
     "videoId": "DIuDn3RvRdo",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2026-01-24T13:00:16.000Z",
@@ -1135,8 +1084,8 @@
     "videoCategory": "Cartoons",
     "videoId": "4XkapJvLDhA",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2025-12-20T13:00:06.000Z",
@@ -1152,8 +1101,8 @@
     "videoCategory": "Cartoons",
     "videoId": "q_zX1UdJVcM",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2025-09-10T16:00:44.000Z",
@@ -1169,8 +1118,8 @@
     "videoCategory": "Learning",
     "videoId": "PkWU-lMdnJg",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2025-09-03T16:01:19.000Z",
@@ -1186,8 +1135,8 @@
     "videoCategory": "Learning",
     "videoId": "klu7TNy-7qw",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2025-08-27T16:00:42.000Z",
@@ -1203,8 +1152,8 @@
     "videoCategory": "Learning",
     "videoId": "ML2oX207Mwc",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2025-08-20T16:00:42.000Z",
@@ -1220,8 +1169,8 @@
     "videoCategory": "Learning",
     "videoId": "QVw521JjRjA",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2025-08-13T16:00:54.000Z",
@@ -1237,8 +1186,8 @@
     "videoCategory": "Learning",
     "videoId": "WrUX6j9MwUY",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2025-08-06T16:01:05.000Z",
@@ -1254,8 +1203,8 @@
     "videoCategory": "Learning",
     "videoId": "XjR2B3YJH9U",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2025-07-30T16:01:37.000Z",
@@ -1271,8 +1220,8 @@
     "videoCategory": "Learning",
     "videoId": "ui86G8Q5GhQ",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2025-07-23T16:00:41.000Z",
@@ -1288,8 +1237,8 @@
     "videoCategory": "Learning",
     "videoId": "JcxTM7knO80",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2025-05-27T10:00:16.000Z",
@@ -1305,8 +1254,8 @@
     "videoCategory": "Learning",
     "videoId": "4VinwOQkHGg",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2025-05-19T10:01:01.000Z",
@@ -1322,8 +1271,8 @@
     "videoCategory": "Learning",
     "videoId": "WX_E1CAZjaQ",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2025-05-12T14:42:19.000Z",
@@ -1339,8 +1288,8 @@
     "videoCategory": "Learning",
     "videoId": "0jKoOUZ1GBM",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2025-04-28T10:00:21.000Z",
@@ -1356,8 +1305,8 @@
     "videoCategory": "Learning",
     "videoId": "8qdYCpSW2eY",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2025-04-14T10:01:01.000Z",
@@ -1373,8 +1322,8 @@
     "videoCategory": "Learning",
     "videoId": "YR4wtGWK7eE",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2025-03-31T10:00:57.000Z",
@@ -1390,8 +1339,8 @@
     "videoCategory": "Learning",
     "videoId": "RvRU_4XWPlw",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2025-03-24T10:01:12.000Z",
@@ -1407,8 +1356,8 @@
     "videoCategory": "Learning",
     "videoId": "v8cDsAf0nN0",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2025-03-17T10:00:57.000Z",
@@ -1424,8 +1373,8 @@
     "videoCategory": "Learning",
     "videoId": "kKqd0_cydZM",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2025-03-03T11:00:20.000Z",
@@ -1441,8 +1390,8 @@
     "videoCategory": "Learning",
     "videoId": "HhXnRfyUbeQ",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2025-02-24T17:00:02.000Z",
@@ -1458,8 +1407,8 @@
     "videoCategory": "Learning",
     "videoId": "0U4lOGo593k",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2025-02-13T11:00:04.000Z",
@@ -1475,8 +1424,8 @@
     "videoCategory": "Learning",
     "videoId": "annJ7XUxMjk",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2025-02-03T19:30:02.000Z",
@@ -1492,8 +1441,8 @@
     "videoCategory": "Learning",
     "videoId": "XtSq1wcFSEI",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2025-01-27T11:01:13.000Z",
@@ -1509,8 +1458,8 @@
     "videoCategory": "Learning",
     "videoId": "vKxpbmdPSyk",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2025-01-13T11:00:12.000Z",
@@ -1526,8 +1475,8 @@
     "videoCategory": "Learning",
     "videoId": "6WNHyAXIN8c",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2016-06-10T20:30:01.000Z",
@@ -1543,8 +1492,8 @@
     "videoCategory": "Learning",
     "videoId": "EwY6p-r_hyU",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2016-06-02T20:27:43.000Z",
@@ -1560,8 +1509,8 @@
     "videoCategory": "Learning",
     "videoId": "wyRy8kowyM8",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2016-05-26T19:41:25.000Z",
@@ -1577,8 +1526,8 @@
     "videoCategory": "Learning",
     "videoId": "CZhE2p46vJk",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2016-05-19T17:51:00.000Z",
@@ -1594,8 +1543,8 @@
     "videoCategory": "Learning",
     "videoId": "Td_A9H69eE8",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2016-05-12T21:07:56.000Z",
@@ -1611,8 +1560,8 @@
     "videoCategory": "Learning",
     "videoId": "qDcMq1SjR_I",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2016-03-16T21:17:44.000Z",
@@ -1628,8 +1577,8 @@
     "videoCategory": "Learning",
     "videoId": "s__sgOHWNIA",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   },
   {
     "timestamp": "2016-03-09T23:11:38.000Z",
@@ -1645,7 +1594,7 @@
     "videoCategory": "Learning",
     "videoId": "gnnUid8Hof0",
     "profile": "Both",
-    "watched_Jonah": false,
-    "watched_Kieran": false
+    "watched_jonah": false,
+    "watched_kieran": false
   }
 ]
