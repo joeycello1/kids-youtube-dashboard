@@ -77,6 +77,17 @@
     }
   }
 
+  onMount(async () => {
+    await loadData();
+
+    // Check every 60 seconds
+    setInterval(checkForUpdates, 60000);
+  });
+
+  function reloadPage() {
+    location.reload();
+  }
+
 </script>
 
 <style>
