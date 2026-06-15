@@ -154,7 +154,7 @@
   on:click={() => onOpen(video)}
 >
   {#if video.watched}
-    <div class="watched-ribbon">★</div>
+    <div class="watched-ribbon">watched</div>
   {/if}
   {#if video.broken}
     <div class="broken-overlay">
