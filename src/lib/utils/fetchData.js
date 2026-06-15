@@ -18,7 +18,7 @@ export async function loadKidsData(profile) {
   }
 
   const raw = await res.json();
-  
+
   const videos = raw.map(v => ({
     ...v,
 
@@ -32,4 +32,5 @@ export async function loadKidsData(profile) {
   }));
 
   return { videos };
+
 }
