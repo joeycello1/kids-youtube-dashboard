@@ -57,20 +57,19 @@
   });
 }
 
-function handleBrokenVideo() {
-  // 1. Show kid-friendly message
-  errorMessage = "Oh drat! This video is Broken! Try another one.";
-
-  // 2. Mark locally
-  video.broken = true;
-
-  // 3. Update dashboard state
-  videos = [...videos];
-  
   import { WEBAPP_URL } from "$lib/config";
-  
-  // 4. Send to Apps Script
+
   async function handleBrokenVideo() {
+    // 1. Show kid-friendly message
+    errorMessage = "Oh drat! This video is Broken! Try another one.";
+
+    // 2. Mark locally
+    video.broken = true;
+
+    // 3. Update dashboard state
+    videos = [...videos];
+
+    // 4. Send to Apps Script
     await fetch(WEBAPP_URL, {
       method: "POST",
       body: JSON.stringify({
@@ -81,6 +80,7 @@ function handleBrokenVideo() {
         reason: "broken"
       })
     });
+  }
 
   // 5. Close modal after a short delay
   setTimeout(() => onClose(), 1200);
