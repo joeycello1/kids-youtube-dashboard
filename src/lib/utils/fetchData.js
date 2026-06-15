@@ -22,7 +22,7 @@ export async function loadKidsData(profile) {
   const videos = raw.map(v => ({
     ...v,
 
-    watched: activeProfile === "jonah"
+    watched: profile === "jonah"
       ? v.watched_jonah === true
       : v.watched_kieran === true,
 
