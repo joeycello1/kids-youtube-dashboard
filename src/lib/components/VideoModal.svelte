@@ -1,10 +1,9 @@
 <script>
-  import { onMount, onDestroy } from "svelte";
+  import { onMount, onDestroy, createEventDispatcher } from "svelte";
 
   export let video;
-  export let onClose;
-  export let onPlayed;
-  export let onBroken;
+
+  const dispatch = createEventDispatcher();
 
   let player;
   let errorMessage = "";
@@ -40,7 +39,7 @@
         onStateChange: (event) => {
           if (event.data === YT.PlayerState.PLAYING) {
             video.watched = true;
-            onPlayed(video);
+            dispatch("played", video);
           }
         },
 
@@ -49,8 +48,7 @@
             video.broken = true;
             errorMessage = "This video is broken!";
             callThePolice(video.videoId);
-
-            if (onBroken) onBroken(video);
+            dispatch("broken", video);
           }
         }
       }
@@ -71,9 +69,9 @@
   });
 </script>
 
-<div class="overlay" on:click={onClose}>
+<div class="overlay" on:click={() => dispatch("close")}>
   <div class="modal" on:click|stopPropagation>
-    
+
     {#if errorMessage}
       <div class="broken-banner">🚨 This video is broken! 🚨</div>
 
@@ -81,7 +79,7 @@
         on:click={() => {
           video.broken = true;
           callThePolice(video.videoId);
-          if (onBroken) onBroken(video);
+          dispatch("broken", video);
         }}>
         Oh No! This Video is Broken!!
         🚨 Call the Police! 🚨
@@ -90,7 +88,7 @@
 
     <div id="player"></div>
 
-    <button class="close" on:click={onClose}>Close</button>
+    <button class="close" on:click={() => dispatch("close")}>Close</button>
   </div>
 </div>
 
@@ -134,7 +132,6 @@
     cursor: pointer;
   }
 
-  /* Broken banner */
   .broken-banner {
     background: #cc0000;
     color: white;
@@ -146,7 +143,6 @@
     animation: flash 0.6s ease-in-out infinite alternate;
   }
 
-  /* Police button */
   .police-button {
     background: linear-gradient(135deg, #ff1a1a, #cc0000);
     color: white;
@@ -173,7 +169,6 @@
     transform: scale(0.96);
   }
 
-  /* Animations */
   @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
