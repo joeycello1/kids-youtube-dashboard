@@ -4,6 +4,7 @@
   export let video;
   export let onClose;
   export let onPlayed;
+  export let onBroken;
 
   let player;
   let errorMessage = "";
