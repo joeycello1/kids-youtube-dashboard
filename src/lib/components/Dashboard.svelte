@@ -184,7 +184,7 @@
     {#each filtered as video}
       <VideoCard
         {video}
-        onOpen={(v) => activeVideo = v}   <!-- or on:play if your component uses that -->
+        onOpen={(v) => activeVideo = v}
       />
     {/each}
   </div>
