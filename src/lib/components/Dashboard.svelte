@@ -34,18 +34,20 @@
     // 1. Update local state
     video.watched = true;
     videos = [...videos];
-  
-    // 2. Send to backend
+
+    // 2. Send to backend using FormData (NO CORS ISSUES)
+    const form = new FormData();
+    form.append("action", "watched");
+    form.append("kid", profile);
+    form.append("videoId", video.videoId);
+    form.append("watched", "true");
+
     fetch(WEBAPP_URL, {
       method: "POST",
-      body: JSON.stringify({
-        action: "watched",
-        kid: profile,
-        videoId: video.videoId,
-        watched: true
-      })
+      body: form
     });
   }
+
 </script>
 
 <style>
