@@ -30,6 +30,13 @@
     v.summary?.toLowerCase().includes(search.toLowerCase()) ||
     v.keywords.some(k => k.toLowerCase().includes(search.toLowerCase()))
   );
+
+  // re-render array on watched
+  function onPlayed(video) {
+    video.watched = true;     // update UI state
+    videos = [...videos];     // force Svelte to re-render
+    markWatched(video.videoId, profile);  // backend update
+  }
   
   const WATCHED_WEBAPP_URL = "https://script.google.com/macros/s/AKfycbwlSjP3ReIarEvWm-1Le9XysxKDhh78BMtA7hPRBgHMNJLaLTNmykOnYjZkOi9mrF4nBw/exec";
 
@@ -171,7 +178,11 @@
     video={activeVideo}
     profile={profile}
     onClose={() => activeVideo = null}
-    onPlayed={(v) => markWatched(v.videoId, profile)}
+    onPlayed={(v) => {
+      v.watched = true;     // update UI state
+      videos = [...videos]; // force Svelte to re-render
+      markWatched(v.videoId, profile); // backend update
+    }}
   />
 {/if}
 </div>
