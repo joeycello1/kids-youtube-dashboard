@@ -5,6 +5,8 @@
   export let videos = [];
   export let profile = "";
 
+  console.log("Dashboard profile:", profile);
+
   let search = "";
   let selectedCategory = "All";
   let activeVideo = null;
@@ -172,6 +174,7 @@
 {#if activeVideo}
   <VideoModal
     video={activeVideo}
+    profile={profile}
     onClose={() => activeVideo = null}
     onPlayed={(v) => {
       console.log("Dashboard received play event for:", v.title);
