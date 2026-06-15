@@ -28,6 +28,24 @@
     v.summary?.toLowerCase().includes(search.toLowerCase()) ||
     v.keywords.some(k => k.toLowerCase().includes(search.toLowerCase()))
   );
+  import { WEBAPP_URL } from "$lib/config";
+
+  function handlePlayed(video) {
+    // 1. Update local state
+    video.watched = true;
+    videos = [...videos];
+  
+    // 2. Send to backend
+    fetch(WEBAPP_URL, {
+      method: "POST",
+      body: JSON.stringify({
+        action: "watched",
+        kid: profile,
+        videoId: video.videoId,
+        watched: true
+      })
+    });
+  }
 </script>
 
 <style>
@@ -164,6 +182,7 @@
     onPlayed={(v) => {
       console.log("Dashboard received play event for:", v.title);
       v.watched = true;
+      handlePlayed;
       videos = [...videos];
     }}
   />
