@@ -74,7 +74,8 @@
 <div class="overlay" on:click={onClose}>
   <div class="modal" on:click|stopPropagation>
     {#if errorMessage}
-      <button on:click={() => {
+      <button class="police-button"
+        on:click={() => {
         video.broken = true;    // <-- restore UI state
         callThePolice(video.videoId);
         if (onBroken) onBroken(video);
@@ -128,6 +129,47 @@
     border-radius: 6px;
     cursor: pointer;
   }
+
+  .police-button {
+    background: linear-gradient(135deg, #ff1a1a, #cc0000);
+    color: white;
+    font-weight: 900;
+    font-size: 1.1rem;
+    padding: 14px 22px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 12px rgba(255, 0, 0, 0.6), 0 0 4px rgba(255, 255, 255, 0.4) inset;
+    transition: transform 0.15s ease, box-shadow 0.2s ease;
+    animation: policePulse 1.4s infinite ease-in-out;
+  }
+
+  /* Hover: make it feel like a cartoon emergency button */
+  .police-button:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 18px rgba(255, 0, 0, 0.9), 0 0 6px rgba(255, 255, 255, 0.6) inset;
+  }
+
+  /* Active: a quick “siren flash” */
+  .police-button:active {
+    animation: policeFlash 0.25s linear;
+    transform: scale(0.96);
+  }
+
+  /* Pulse animation */
+  @keyframes policePulse {
+    0% { box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); }
+    50% { box-shadow: 0 0 18px rgba(255, 0, 0, 1); }
+    100% { box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); }
+  }
+
+  /* Siren flash animation */
+  @keyframes policeFlash {
+    0% { background: #ff1a1a; }
+    50% { background: #ffffff; color: #ff1a1a; }
+    100% { background: #ff1a1a; }
+  }
+
 
   .broken-overlay {
     position: absolute;
