@@ -4,6 +4,8 @@
 
   export let videos = [];
   export let profile = "";
+  let hasUpdate = false;
+  let updateCount = 0;
 
   console.log("Dashboard profile:", profile);
 
@@ -48,6 +50,31 @@
 
   function markWatched(videoId, kid) {
     fetch(`${WATCHED_WEBAPP_URL}?action=watched&videoId=${videoId}&kid=${kid}`);
+  }
+
+  // monitor for new vids
+  function countNewVideos(oldList, newList) {
+    const oldIds = new Set(oldList.map(v => v.videoId));
+    let count = 0;
+
+    for (const v of newList) {
+      if (!oldIds.has(v.videoId)) {
+        count++;
+      }
+    }
+
+    return count;
+  }
+
+  async function checkForUpdates() {
+    const { videos: fresh } = await loadKidsData(profile);
+
+    const newCount = countNewVideos(videos, fresh);
+
+    if (newCount > 0) {
+      updateCount = newCount;
+      hasUpdate = true;
+    }
   }
 
 </script>
@@ -143,9 +170,27 @@
   to { opacity: 1; transform: translateY(0); }
 }
 
+.update-banner {
+  background: #ffcc00;
+  color: #000;
+  padding: 12px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  border-bottom: 3px solid #e0b200;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
 </style>
 
 <div class="dashboard-container">
+{#if hasUpdate}
+  <div class="update-banner" on:click={reloadPage}>
+    {updateCount} New Videos Added! — click to refresh
+  </div>
+{/if}
 <div class="header">WELCOME!!</div>
 
 <!-- Category Chips -->
