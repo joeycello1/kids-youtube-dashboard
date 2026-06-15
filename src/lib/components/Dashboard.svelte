@@ -55,11 +55,6 @@
   let selectedCategory = "All";
   let activeVideo = null;
 
-  // Ensure videos is always an array
-  $: if (!Array.isArray(videos)) {
-    videos = [];
-  }
-
   // -----------------------------
   //  Category List
   // -----------------------------
