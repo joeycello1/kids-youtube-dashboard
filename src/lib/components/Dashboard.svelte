@@ -36,11 +36,12 @@
     video.watched = true;
     videos = [...videos];
 
-    const url = `${WEBAPP_URL}?action=watched'
-      + `&kid=${profile}`
-      + `&videoId=${video.videoId}`
-      + `&watched=true`
-      + `&t=${Date.now()}`;
+    const url =
+      `${WEBAPP_URL}?action=watched` +
+      `&kid=${profile}` +
+      `&videoId=${video.videoId}` +
+      `&watched=true` +
+      `&t=${Date.now()}`;
 
     fetch(url);
   }

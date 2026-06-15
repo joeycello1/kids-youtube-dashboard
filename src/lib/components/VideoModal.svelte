@@ -61,11 +61,12 @@
   async function handleBrokenVideo() {
     errorMessage = "Oh drat! This video is Broken! Try another one.";
 
-    const url = `${WEBAPP_URL}?action=broken`
-      + `&kid=${profile}`
-      + `&videoId=${video.videoId}`
-      + `&reason=broken`
-      + `&t=${Date.now()}`;
+    const url =
+      `${WEBAPP_URL}?action=broken` +
+      `&kid=${profile}` +
+      `&videoId=${video.videoId}` +
+      `&reason=broken` +
+      `&t=${Date.now()}`;
 
     await fetch(url);
 
