@@ -158,6 +158,11 @@
   {#if video.watched}
     <div class="watched-ribbon">★</div>
   {/if}
+  {#if video.broken}
+    <div class="broken-overlay">
+      🚨 Broken Video 🚨
+    </div>
+  {/if}
 
   <img class="thumb" src={video.thumbnail} alt="thumbnail" />
 

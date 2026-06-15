@@ -38,12 +38,14 @@
       events: {
         onStateChange: (event) => {
           if (event.data === YT.PlayerState.PLAYING) {
+            video.watched = true;
             onPlayed(video);
           }
         },
 
         onError: (event) => {
           if (event.data === 100 || event.data === 101 || event.data === 150) {
+            video.broken = true;
             errorMessage = "This video is broken!";
             callThePolice(video.videoId);
           }
@@ -69,7 +71,10 @@
 <div class="overlay" on:click={onClose}>
   <div class="modal" on:click|stopPropagation>
     {#if errorMessage}
-      <button on:click={() => callThePolice(video.videoId)}>
+      <button on:click={() => {
+        video.broken = true;    // <-- restore UI state
+        callThePolice(video.videoId);
+      }}>
         🚨 Call the Police on this Bad Boy 🚨
       </button>
     {/if}
