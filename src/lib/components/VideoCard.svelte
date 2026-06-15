@@ -154,6 +154,7 @@
   on:click={() => onOpen(video)}
 >
 
+  <pre>{JSON.stringify(video, null, 2)}</pre>
 
   {#if video.watched}
     <div class="watched-ribbon">★</div>

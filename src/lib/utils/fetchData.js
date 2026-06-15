@@ -20,15 +20,16 @@ export async function loadKidsData(profile) {
   const raw = await res.json();
   
   const videos = raw.map(v => ({
-  ...v,
-  timestamp: new Date(v.timestamp),
-  firstSeen: new Date(v.firstSeen),
-  watched: v.watched === true,
-  videoCategory: v.videoCategory || "Uncategorized",   // ⭐ ADD THIS
-  keywords: v.keyword
-    ? v.keyword.split(',').map(k => k.trim()).filter(Boolean)
-    : []
-}));
+    ...v,
+
+    watched: activeProfile === "jonah"
+      ? v.watched_jonah === true
+      : v.watched_kieran === true,
+
+    broken: false,
+
+    videoCategory: v.videoCategory || "Uncategorized"
+  }));
 
   return { videos };
 }
