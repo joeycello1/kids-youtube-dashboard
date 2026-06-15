@@ -1,12 +1,13 @@
 <script>
   import { onMount, onDestroy } from "svelte";
+  import { WEBAPP_URL } from "$lib/config";
 
   export let video;
   export let onClose;
   export let onPlayed;
+  export let profile; // <-- You were using this but never declared it
 
   let player;
-  let apiReady = false;
   let errorMessage = "";
 
   // Load YouTube IFrame API if not already loaded
@@ -26,44 +27,42 @@
   }
 
   async function initPlayer() {
-  await loadYouTubeAPI();
+    await loadYouTubeAPI();
 
-  player = new YT.Player("player", {
-    videoId: video.videoId,
-    playerVars: {
-      rel: 0,
-      modestbranding: 1,
-      controls: 1,
-      showinfo: 0
-    },
-    events: {
-      onStateChange: (event) => {
-        if (event.data === YT.PlayerState.PLAYING) {
-          console.log("PLAY DETECTED via Player API");
-          onPlayed(video);
-        }
+    player = new YT.Player("player", {
+      videoId: video.videoId,
+      playerVars: {
+        rel: 0,
+        modestbranding: 1,
+        controls: 1,
+        showinfo: 0
       },
+      events: {
+        onStateChange: (event) => {
+          if (event.data === YT.PlayerState.PLAYING) {
+            console.log("PLAY DETECTED via Player API");
+            onPlayed(video);
+          }
+        },
 
-      onError: (event) => {
-        console.log("YouTube error:", event.data);
+        onError: (event) => {
+          console.log("YouTube error:", event.data);
 
-        // 100 = not found
-        // 101/150 = embedding disabled
-        if (event.data === 100 || event.data === 101 || event.data === 150) {
-          handleBrokenVideo();
+          // 100 = not found
+          // 101/150 = embedding disabled
+          if (event.data === 100 || event.data === 101 || event.data === 150) {
+            handleBrokenVideo();
+          }
         }
       }
-    }
-  });
-}
-
-  import { WEBAPP_URL } from "$lib/config";
+    });
+  }
 
   async function handleBrokenVideo() {
-    // Show kid-friendly message
+    // 1. Show kid-friendly message
     errorMessage = "Oh drat! This video is Broken! Try another one.";
 
-    // Send to Apps Script
+    // 2. Send to Apps Script
     await fetch(WEBAPP_URL, {
       method: "POST",
       body: JSON.stringify({
@@ -74,12 +73,10 @@
         reason: "broken"
       })
     });
+
+    // 3. Close modal after a short delay
+    setTimeout(() => onClose(), 1200);
   }
-
-  // Close modal after a short delay
-  setTimeout(() => onClose(), 9000);
-}
-
 
   onMount(() => {
     initPlayer();
@@ -91,6 +88,20 @@
     }
   });
 </script>
+
+<div class="overlay" on:click={onClose}>
+  <div class="modal" on:click|stopPropagation>
+    {#if errorMessage}
+      <div class="broken-overlay">{errorMessage}</div>
+    {/if}
+
+    <div id="player"></div>
+
+    <button class="close" on:click={onClose}>
+      Close
+    </button>
+  </div>
+</div>
 
 <style>
   .overlay {
@@ -149,16 +160,3 @@
     z-index: 20;
   }
 </style>
-
-<div class="overlay" on:click={onClose}>
-  <div class="modal" on:click|stopPropagation>
-    {#if errorMessage}
-    <div class="broken-overlay">{errorMessage}</div>
-    {/if}
-    <div id="player"></div>
-
-    <button class="close" on:click={onClose}>
-      Close
-    </button>
-  </div>
-</div>
