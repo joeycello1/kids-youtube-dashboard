@@ -59,25 +59,15 @@
   }
 
   async function handleBrokenVideo() {
-    // 1. Show kid-friendly message
     errorMessage = "Oh drat! This video is Broken! Try another one.";
 
-    // 2. Send to Apps Script using FormData (NO CORS ISSUES)
-    const form = new FormData();
-    form.append("action", "broken");
-    form.append("kid", profile);
-    form.append("videoId", video.videoId);
-    form.append("channelId", video.channelId);
-    form.append("reason", "broken");
+    const url = `${WEBAPP_URL}?action=broken&kid=${profile}&videoId=${video.videoId}&reason=broken`;
 
-    await fetch(WEBAPP_URL, {
-      method: "POST",
-      body: form
-    });
+    await fetch(url);
 
-    // 3. Close modal after a short delay
     setTimeout(() => onClose(), 1200);
   }
+
 
   onMount(() => {
     initPlayer();
