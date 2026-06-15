@@ -58,21 +58,11 @@
     });
   }
 
-  async function handleBrokenVideo() {
-    errorMessage = "Oh drat! This video is Broken! Try another one.";
+  const BROKEN_WEBAPP_URL = "https://script.google.com/macros/s/AKfycbyG1W21QsS2nwy2eu-75IzAsEoNGBs-HWBn6fEHGUgs1tq_Lpb1wilQyfa0tO9-kWQMuQ/exec";
 
-    const url =
-      `${WEBAPP_URL}?action=broken` +
-      `&kid=${profile}` +
-      `&videoId=${video.videoId}` +
-      `&reason=broken` +
-      `&t=${Date.now()}`;
-
-    await fetch(url);
-
-    setTimeout(() => onClose(), 1200);
+  function callThePolice(videoId) {
+    fetch(`${BROKEN_WEBAPP_URL}?action=broken&videoId=${videoId}`);
   }
-
 
   onMount(() => {
     initPlayer();
@@ -88,7 +78,9 @@
 <div class="overlay" on:click={onClose}>
   <div class="modal" on:click|stopPropagation>
     {#if errorMessage}
-      <div class="broken-overlay">{errorMessage}</div>
+      <button on:click={() => callThePolice(video.videoId)}>
+        🚨 Call the Police on this Bad Boy 🚨
+      </button>
     {/if}
 
     <div id="player"></div>
