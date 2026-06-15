@@ -181,9 +181,7 @@
     onClose={() => activeVideo = null}
     onPlayed={(v) => {
       console.log("Dashboard received play event for:", v.title);
-      v.watched = true;
-      handlePlayed;
-      videos = [...videos];
+      handlePlayed(v);
     }}
   />
 {/if}
