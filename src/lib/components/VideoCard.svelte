@@ -163,6 +163,9 @@
       🚨 Broken Video 🚨
     </div>
   {/if}
+  {#if video}
+    <pre>{JSON.stringify(video, null, 2)}</pre>
+  {/if}
 
   <img class="thumb" src={video.thumbnail} alt="thumbnail" />
 
