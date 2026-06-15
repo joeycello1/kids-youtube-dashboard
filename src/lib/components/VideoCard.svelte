@@ -12,7 +12,7 @@
   {/if}
 
   {#if video.broken}
-    <div class="broken-overlay">🚨 Broken Video 🚨</div>
+    <div class="broken-overlay"></div>
   {/if}
 
   <img class="thumb" src={video.thumbnail} alt="thumbnail" />
@@ -104,7 +104,7 @@
   }
 
   /* ⭐ Broken Overlay (your markup referenced this but CSS was missing) */
-  .broken-overlay {
+  /*.broken-overlay {
     position: absolute;
     inset: 0;
     background: rgba(255, 0, 0, 0.55);
