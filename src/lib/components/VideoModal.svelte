@@ -80,7 +80,8 @@
         callThePolice(video.videoId);
         if (onBroken) onBroken(video);
       }}>
-        🚨 Call the Police on this Bad Boy 🚨
+        Oh No! This Video is Broken!!
+        🚨 Call the Police! 🚨
       </button>
     {/if}
 
