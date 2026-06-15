@@ -9,9 +9,9 @@ export async function loadKidsData(profile) {
     ? `/${window.location.pathname.split('/')[1]}` // repo name
     : "";
 
-  const url = `${basePath}/${filename}`;
+  const url = `${basePath}/${filename}?v=${Date.now()}`;
+  const res = await fetch(url, { cache: "no-store" });
 
-  const res = await fetch(url);
 
   if (!res.ok) {
     throw new Error(`Failed to load ${filename}`);
