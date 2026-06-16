@@ -39,6 +39,8 @@
       
       events: {
         onReady: (event) => {
+          console.log("VideoModal onReady fired — sandbox code is running");
+          
           // Grab the iframe YouTube created
           const iframe = event.target.getIframe();
 
