@@ -67,9 +67,7 @@
   function rateVideo(value) {
     video.rating = value; // update UI immediately
 
-    fetch(
-    `${WEBAPP_URL}?action=rate&videoId=${video.videoId}&profile=${profile}&value=${value}`
-    );
+    fetch(`${WEBAPP_URL}?action=rate&videoId=${video.videoId}&profile=${profile}&value=${value}`);
 
     dispatch("rating", { video, value, profile });
   }

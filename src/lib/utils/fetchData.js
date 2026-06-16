@@ -28,6 +28,10 @@ export async function loadKidsData(profile) {
 
     broken: false,
 
+    rating: profile === "jonah"
+      ? v.rating_jonah || ""
+      : v.rating_kieran || "",
+
     videoCategory: v.videoCategory || "Uncategorized"
   }));
 
