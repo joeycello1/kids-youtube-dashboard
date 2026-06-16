@@ -1,5 +1,24 @@
 [
   {
+    "timestamp": "2026-06-16T20:00:35.000Z",
+    "firstSeen": "2026-06-16T22:30:53.373Z",
+    "title": "Mr Bean Loses a Dog Finds a Cat and Causes Chaos | Mr Bean Animated",
+    "videoUrl": "https://www.youtube.com/watch?v=X4f4ZM2fR9k",
+    "channelName": "Mr Bean",
+    "summary": "Mr Bean loses a dog, finds a missing cat called Scrapper and causes chaos along the way. Featuring electric scooters, a birthday balloon card and a coffee shop rip-off. 00:00:00 Broken Chair Causes Chaos at Home\n00:02:20 Struggling to Move Furniture Upstairs\n00:06:38 Scooter Fun at the Skate Park\n00",
+    "keyword": "mr bean",
+    "thumbnail": "https://i1.ytimg.com/vi/X4f4ZM2fR9k/hqdefault.jpg",
+    "views": 1602,
+    "ratingAvg": 5,
+    "videoCategory": "Mr Bean",
+    "videoId": "X4f4ZM2fR9k",
+    "profile": "Both",
+    "watched_jonah": false,
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
+  },
+  {
     "timestamp": "2026-06-16T17:00:30.000Z",
     "firstSeen": "2026-06-16T17:26:58.413Z",
     "title": "Mr Bean Gets Into Trouble At The Dentist 🦷 | Mr Bean Live Action | Full Episodes | Mr Bean",
@@ -13,10 +32,10 @@
     "videoCategory": "Mr Bean",
     "videoId": "phD1ZgBKx4M",
     "profile": "Both",
-    "watched_jonah": true,
-    "watched_kieran": true,
+    "watched_jonah": false,
+    "watched_kieran": false,
     "rating_kieran": null,
-    "rating_jonah": "up"
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-16T16:21:56.000Z",
@@ -35,7 +54,7 @@
     "watched_jonah": false,
     "watched_kieran": false,
     "rating_kieran": null,
-    "rating_jonah": "up"
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-16T15:01:01.000Z",
@@ -52,8 +71,8 @@
     "videoId": "eR5blcjll8o",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false,
-    "rating_kieran": null,
+    "watched_kieran": true,
+    "rating_kieran": "up",
     "rating_jonah": null
   },
   {
@@ -70,10 +89,10 @@
     "videoCategory": "LEGO",
     "videoId": "tLyqTXVlElE",
     "profile": "Both",
-    "watched_jonah": false,
-    "watched_kieran": false,
+    "watched_jonah": true,
+    "watched_kieran": true,
     "rating_kieran": null,
-    "rating_jonah": "up"
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-16T13:00:32.000Z",
@@ -128,7 +147,7 @@
     "videoId": "muH1KY7dS4M",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false,
+    "watched_kieran": true,
     "rating_kieran": null,
     "rating_jonah": null
   },
@@ -147,7 +166,7 @@
     "videoId": "iOcF2izWl7U",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false,
+    "watched_kieran": true,
     "rating_kieran": null,
     "rating_jonah": null
   },
@@ -450,10 +469,10 @@
     "videoCategory": "Cartoons",
     "videoId": "gbqLJ6_W4YQ",
     "profile": "Both",
-    "watched_jonah": true,
+    "watched_jonah": false,
     "watched_kieran": false,
     "rating_kieran": null,
-    "rating_jonah": "down"
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-15T11:00:28.000Z",
@@ -811,7 +830,7 @@
     "videoCategory": "Docs",
     "videoId": "aAHGKja5w5Q",
     "profile": "Both",
-    "watched_jonah": false,
+    "watched_jonah": true,
     "watched_kieran": false,
     "rating_kieran": null,
     "rating_jonah": null
@@ -1172,7 +1191,7 @@
     "videoCategory": "Docs",
     "videoId": "AkqKiglz01c",
     "profile": "Both",
-    "watched_jonah": true,
+    "watched_jonah": false,
     "watched_kieran": false,
     "rating_kieran": null,
     "rating_jonah": null
@@ -1647,7 +1666,7 @@
     "videoCategory": "Cartoons",
     "videoId": "srPOU8cxk_I",
     "profile": "Both",
-    "watched_jonah": true,
+    "watched_jonah": false,
     "watched_kieran": false,
     "rating_kieran": null,
     "rating_jonah": null
@@ -1685,7 +1704,7 @@
     "videoCategory": "Docs",
     "videoId": "YPxOfbQSfRc",
     "profile": "Both",
-    "watched_jonah": true,
+    "watched_jonah": false,
     "watched_kieran": false,
     "rating_kieran": null,
     "rating_jonah": null
@@ -2939,10 +2958,10 @@
     "videoCategory": "Docs",
     "videoId": "R2LYMInJdE8",
     "profile": "Both",
-    "watched_jonah": true,
+    "watched_jonah": false,
     "watched_kieran": false,
     "rating_kieran": null,
-    "rating_jonah": "up"
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-07-30T16:01:37.000Z",
@@ -3661,7 +3680,7 @@
     "videoCategory": "Learning",
     "videoId": "gnnUid8Hof0",
     "profile": "Both",
-    "watched_jonah": true,
+    "watched_jonah": false,
     "watched_kieran": false,
     "rating_kieran": null,
     "rating_jonah": null
