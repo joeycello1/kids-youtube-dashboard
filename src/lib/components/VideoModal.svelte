@@ -1,5 +1,6 @@
 <script>
   import { onMount, onDestroy, createEventDispatcher } from "svelte";
+  import { tick } from "svelte";
 
   export let video;
   export let profile;
@@ -25,6 +26,25 @@
     });
   }
 
+  // ⭐ Overlay logic wrapped correctly
+  async function enableOverlay() {
+    await tick(); // wait for DOM to exist
+
+    const overlay = document.querySelector(".player-overlay");
+    if (!overlay) {
+      console.warn("Overlay not found");
+      return;
+    }
+
+    // Block all UI except center play
+    overlay.classList.add("block-ui");
+
+    // Allow center play button for 1 second
+    setTimeout(() => {
+      overlay.classList.remove("block-ui");
+    }, 1000);
+  }
+
   async function initPlayer() {
     await loadYouTubeAPI();
 
@@ -38,8 +58,11 @@
       },
 
       events: {
-        onReady: (event) => {
+        onReady: async (event) => {
           console.log("VideoModal onReady fired");
+
+          // ⭐ Safe place to enable overlay
+          await enableOverlay();
         },
 
         onStateChange: (event) => {
@@ -81,14 +104,6 @@
   onDestroy(() => {
     if (player?.destroy) player.destroy();
   });
-
-  // Block all UI except center play
-  document.querySelector(".player-overlay").classList.add("block-ui");
-
-  // Allow center play button for 1 second
-  setTimeout(() => {
-    document.querySelector(".player-overlay").classList.remove("block-ui");
-  }, 1000);
 </script>
 
 <div class="overlay" on:click={() => dispatch("close")}>
