@@ -177,6 +177,7 @@
 
   /* ⭐ The invisible shield */
   .player-overlay {
+    background: rgba(255, 0, 0, 0.3) !important;
     position: absolute;
     top: 0;
     left: 0;  
