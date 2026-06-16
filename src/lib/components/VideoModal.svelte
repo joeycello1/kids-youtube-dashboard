@@ -185,7 +185,7 @@
     height: 100%;
     pointer-events: none;
     background: transparent;
-    z-index: 10;
+    z-index: 999999 !important;
 
     /* Fully transparent */
     background: rgba(0, 0, 0, 0);
