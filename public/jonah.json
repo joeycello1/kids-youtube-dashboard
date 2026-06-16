@@ -14,7 +14,7 @@
     "videoId": "_IrEw6CBsSY",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": true
   },
   {
     "timestamp": "2026-06-16T08:00:04.000Z",
@@ -64,7 +64,7 @@
     "videoCategory": "Mr Bean",
     "videoId": "_iZDTTdD2aE",
     "profile": "Both",
-    "watched_jonah": false,
+    "watched_jonah": true,
     "watched_kieran": false
   },
   {
@@ -115,7 +115,7 @@
     "videoCategory": "Mr Bean",
     "videoId": "ZuydJbe69DI",
     "profile": "Both",
-    "watched_jonah": false,
+    "watched_jonah": true,
     "watched_kieran": false
   },
   {
@@ -575,7 +575,7 @@
     "videoId": "ItuV_-b4ZQU",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": true
   },
   {
     "timestamp": "2026-06-13T13:59:48.000Z",
