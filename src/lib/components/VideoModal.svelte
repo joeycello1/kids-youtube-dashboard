@@ -119,7 +119,7 @@
       <div class="player-overlay"></div>
     </div>
 
-    <!-- ⭐ Close button belongs OUTSIDE the wrapper -->
+    <!-- ⭐ Close button OUTSIDE the wrapper -->
     <button class="close" on:click={() => dispatch("close")}>Close</button>
 
   </div>
