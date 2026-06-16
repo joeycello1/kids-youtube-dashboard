@@ -166,7 +166,7 @@
     </button>
 
     <!-- ⭐ Close button OUTSIDE the wrapper -->
-    <button class="close-button" on:click={closeModal}>
+    <button class="close-button" on:click={() => dispatch("close")}>
       Close
     </button>
 
