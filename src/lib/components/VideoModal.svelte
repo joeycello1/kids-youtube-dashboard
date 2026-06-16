@@ -81,6 +81,14 @@
   onDestroy(() => {
     if (player?.destroy) player.destroy();
   });
+
+  // Block all UI except center play
+  document.querySelector(".player-overlay").classList.add("block-ui");
+
+  // Allow center play button for 1 second
+  setTimeout(() => {
+    document.querySelector(".player-overlay").classList.remove("block-ui");
+  }, 1000);
 </script>
 
 <div class="overlay" on:click={() => dispatch("close")}>
@@ -105,7 +113,11 @@
       <button class="rate down" on:click={() => rateVideo("down")}>👎 Don't like</button>
     </div>
 
+    <div class="player-wrapper">
     <div id="player"></div>
+
+    <!-- ⭐ Invisible overlay that blocks all YouTube UI clicks -->
+    <div class="player-overlay"></div>
 
     <button class="close" on:click={() => dispatch("close")}>Close</button>
   </div>
@@ -134,11 +146,40 @@
     animation: popIn 0.25s ease-out;
   }
 
+  .player-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* The actual YouTube player */
   #player {
     width: 100%;
-    height: 450px;
-    border-radius: 8px;
-    background: black;
+    height: 100%;
+  }
+
+  /* ⭐ The invisible shield */
+  .player-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;  
+    width: 100%;
+    height: 100%;
+
+    /* This blocks ALL clicks to YouTube UI */
+    pointer-events: none; /* allow clicks through normally */
+
+    /* Fully transparent */
+    background: rgba(0, 0, 0, 0);
+
+    /* Prevent right-click → open in new tab */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  .player-overlay.block-ui {
+    pointer-events: auto; /* block clicks when needed */
   }
 
   .close {
