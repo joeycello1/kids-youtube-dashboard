@@ -147,8 +147,12 @@
     {/if}
 
     <div class="rating-buttons">
-      <button class="rate up" on:click={() => rateVideo("up")}>👍 I like this</button>
-      <button class="rate down" on:click={() => rateVideo("down")}>👎 Don't like</button>
+      <button class="rate up" on:click={thumbsUp}>
+        👍 I Like This
+      </button>
+      <button class="rate down" on:click={thumbsDown}>
+        👎 Not My Favorite
+      </button>
     </div>
 
     <!-- ⭐ Correct wrapper structure -->
@@ -162,7 +166,9 @@
     </button>
 
     <!-- ⭐ Close button OUTSIDE the wrapper -->
-    <button class="close" on:click={() => dispatch("close")}>Close</button>
+    <button class="close-button" on:click={closeModal}>
+      Close
+    </button>
 
   </div>
 </div>
@@ -235,14 +241,23 @@
     width: 100%;
   }
   
-  .close {
-    margin-top: 1rem;
-    padding: 0.5rem 1rem;
-    background: #444;
-    color: white;
-    border: none;
-    border-radius: 6px;
+  .close-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 10px;
     cursor: pointer;
+    border: none;
+    transition: transform 0.15s ease;
+
+    background: #4da6ff; /* soft friendly blue */
+    color: white;
+    margin-top: 1rem;
+  }
+
+  .close-button:active {
+    transform: scale(0.97);
   }
 
   /* ⭐ Rating Buttons */
