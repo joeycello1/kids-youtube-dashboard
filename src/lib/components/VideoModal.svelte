@@ -28,7 +28,21 @@
   async function initPlayer() {
     await loadYouTubeAPI();
 
-    player = new YT.Player("player", {
+    // ⭐ Create our OWN iframe — sandboxed BEFORE YouTube touches it
+    const iframe = document.createElement("iframe");
+    iframe.id = "player-frame";
+    iframe.setAttribute("sandbox", "allow-scripts allow-same-origin");
+    iframe.setAttribute("allow", "autoplay; encrypted-media");
+    iframe.style.width = "100%";
+    iframe.style.height = "100%";
+
+    // Insert it into the DOM where the player should go
+    const container = document.getElementById("player");
+    container.innerHTML = ""; // clear old content
+    container.appendChild(iframe);
+
+    // ⭐ Tell YouTube to use OUR iframe
+    player = new YT.Player("player-frame", {
       videoId: video.videoId,
       playerVars: {
         rel: 0,
@@ -36,29 +50,10 @@
         controls: 1,
         showinfo: 0
       },
-      
+
       events: {
         onReady: (event) => {
-          console.log("VideoModal onReady fired — sandbox code is running");
-          
-          // Grab the iframe YouTube created
-          const iframe = event.target.getIframe();
-
-          // 1. Sandbox the iframe to block ALL outbound navigation
-          iframe.setAttribute(
-            "sandbox",
-            "allow-scripts allow-same-origin"
-          );
-
-          // 2. Kill window.open inside the iframe
-          try {
-            iframe.contentWindow.open = () => null;
-          } catch (e) {
-            console.warn("Could not override window.open", e);
-          }
-
-          // 3. Optional: block right-click → "Open link in new tab"
-          iframe.addEventListener("contextmenu", (e) => e.preventDefault());
+          console.log("Sandboxed iframe is active — YouTube cannot escape");
         },
 
         onStateChange: (event) => {
@@ -87,9 +82,8 @@
     fetch(`${WEBAPP_URL}?action=broken&videoId=${videoId}`);
   }
 
-  // ⭐ NEW: Rating handler
   function rateVideo(value) {
-    video.rating = value; // update UI immediately
+    video.rating = value;
 
     fetch(`${WEBAPP_URL}?action=rate&videoId=${video.videoId}&profile=${profile}&value=${value}`);
 
@@ -126,7 +120,7 @@
       <button class="rate down" on:click={() => rateVideo("down")}>👎 Don't like</button>
     </div>
 
-    <div id="player"></div>
+    <div id="player" style="width:100%; height:100%;"></div>
 
     <button class="close" on:click={() => dispatch("close")}>Close</button>
   </div>
