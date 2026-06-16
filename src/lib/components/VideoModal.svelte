@@ -9,6 +9,17 @@
 
   let player;
   let errorMessage = "";
+  let isPlaying = false;
+
+  function togglePlay() {
+    if (!player) return;
+
+    if (isPlaying) {
+      player.pauseVideo();
+    } else {
+      player.playVideo();
+    }
+  }
 
   // Load YouTube API
   function loadYouTubeAPI() {
@@ -60,14 +71,26 @@
         onReady: async (event) => {
           console.log("VideoModal onReady fired");
 
-          // ⭐ Safe place to enable overlay
+          // ⭐ Allow external controls to work
+          isPlaying = false;
+
+          // ⭐ Safe place to enable overlay (now permanent block)
           await enableOverlay();
         },
 
         onStateChange: (event) => {
           if (event.data === YT.PlayerState.PLAYING) {
+            isPlaying = true;
             video.watched = true;
             dispatch("played", video);
+          }
+
+          if (event.data === YT.PlayerState.PAUSED) {
+            isPlaying = false;
+          }
+
+          if (event.data === YT.PlayerState.ENDED) {
+            isPlaying = false;
           }
         },
 
@@ -82,6 +105,7 @@
       }
     });
   }
+
 
   const WEBAPP_URL =
     "https://script.google.com/macros/s/AKfycbwlSjP3ReIarEvWm-1Le9XysxKDhh78BMtA7hPRBgHMNJLaLTNmykOnYjZkOi9mrF4nBw/exec";
@@ -133,6 +157,10 @@
       <div class="player-overlay"></div>
     </div>
 
+    <button class="big-button" on:click={togglePlay}>
+      {isPlaying ? "Pause" : "Play"}
+    </button>
+
     <!-- ⭐ Close button OUTSIDE the wrapper -->
     <button class="close" on:click={() => dispatch("close")}>Close</button>
 
@@ -165,9 +193,8 @@
   .player-wrapper {
     position: relative;
     width: 100%;
-    height: 360px;
+    height: 380px;
     overflow: hidden;
-    z-index: 1; /* ⭐ REQUIRED */
   }
 
   /* The actual YouTube player */
@@ -178,13 +205,12 @@
 
   /* ⭐ The invisible shield */
   .player-overlay {
-    background: rgba(255, 0, 0, 0.3) !important;
     position: absolute;
     top: 0;
     left: 0;  
     width: 100%;
     height: 100%;
-    pointer-events: none;
+    pointer-events: auto;
     background: transparent;
     z-index: 9999;
 
@@ -197,10 +223,18 @@
     user-select: none;
   }
 
-  .player-overlay.block-ui {
-    pointer-events: auto; /* block clicks when needed */
+  .big-button {
+    margin-top: 20px;
+    padding: 20px 40px;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 12px;
+    background: #ffcc00;
+    border: none;
+    cursor: pointer;
+    width: 100%;
   }
-
+  
   .close {
     margin-top: 1rem;
     padding: 0.5rem 1rem;
