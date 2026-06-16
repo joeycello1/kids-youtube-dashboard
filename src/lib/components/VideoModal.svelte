@@ -167,6 +167,7 @@
     width: 100%;
     height: 360px;
     overflow: hidden;
+    z-index: 1; /* ⭐ REQUIRED */
   }
 
   /* The actual YouTube player */
@@ -185,7 +186,7 @@
     height: 100%;
     pointer-events: none;
     background: transparent;
-    z-index: 999999 !important;
+    z-index: 9999;
 
     /* Fully transparent */
     background: rgba(0, 0, 0, 0);
