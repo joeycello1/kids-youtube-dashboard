@@ -147,10 +147,10 @@
     {/if}
 
     <div class="rating-buttons">
-      <button class="rate up" on:click={thumbsUp}>
+      <button class="rate up" on:click={() => rateVideo("up")}>
         👍 I Like This
       </button>
-      <button class="rate down" on:click={thumbsDown}>
+      <button class="rate down" on:click={() => rateVideo("down")}>
         👎 Not My Favorite
       </button>
     </div>
@@ -279,12 +279,12 @@
   }
 
   .rate.up {
-    background: #2ecc71;
+    background: #33cc66;
     color: white;
   }
 
   .rate.down {
-    background: #e67e22;
+    background: #ff9933;
     color: white;
   }
 
