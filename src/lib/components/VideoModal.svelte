@@ -166,7 +166,8 @@
   .player-wrapper {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 360px;
+    overflow: hidden;
   }
 
   /* The actual YouTube player */
@@ -182,9 +183,9 @@
     left: 0;  
     width: 100%;
     height: 100%;
-
-    /* This blocks ALL clicks to YouTube UI */
-    pointer-events: none; /* allow clicks through normally */
+    pointer-events: auto;
+    background: transparent;
+    z-index: 10;
 
     /* Fully transparent */
     background: rgba(0, 0, 0, 0);
