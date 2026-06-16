@@ -26,7 +26,6 @@
     });
   }
 
-  // ⭐ Overlay logic wrapped correctly
   async function enableOverlay() {
     await tick(); // wait for DOM to exist
 
@@ -36,12 +35,12 @@
       return;
     }
 
-    // Block all UI except center play
-    overlay.classList.add("block-ui");
+    // ⭐ Allow center play button at first
+    overlay.classList.remove("block-ui");
 
-    // Allow center play button for 1 second
+    // ⭐ After 1 second, block all YouTube UI
     setTimeout(() => {
-      overlay.classList.remove("block-ui");
+      overlay.classList.add("block-ui");
     }, 1000);
   }
 
