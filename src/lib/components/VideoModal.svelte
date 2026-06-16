@@ -113,13 +113,15 @@
       <button class="rate down" on:click={() => rateVideo("down")}>👎 Don't like</button>
     </div>
 
+    <!-- ⭐ Correct wrapper structure -->
     <div class="player-wrapper">
-    <div id="player"></div>
+      <div id="player"></div>
+      <div class="player-overlay"></div>
+    </div>
 
-    <!-- ⭐ Invisible overlay that blocks all YouTube UI clicks -->
-    <div class="player-overlay"></div>
-
+    <!-- ⭐ Close button belongs OUTSIDE the wrapper -->
     <button class="close" on:click={() => dispatch("close")}>Close</button>
+
   </div>
 </div>
 
