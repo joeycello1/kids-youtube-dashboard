@@ -152,7 +152,7 @@
     </div>
   {/if}
 
-  <div class="header">{greeting} — BUILD TEST</div>
+  <div class="header">{greeting}</div>
 
   <!-- Category Chips -->
   <div class="chips">
