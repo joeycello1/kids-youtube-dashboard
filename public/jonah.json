@@ -14,7 +14,9 @@
     "videoId": "_IrEw6CBsSY",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": true
+    "watched_kieran": true,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-16T08:00:04.000Z",
@@ -31,7 +33,9 @@
     "videoId": "XUP9XvPdw_8",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-15T19:00:08.000Z",
@@ -48,7 +52,9 @@
     "videoId": "XMvUdeKINKs",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-15T17:00:14.000Z",
@@ -65,7 +71,9 @@
     "videoId": "_iZDTTdD2aE",
     "profile": "Both",
     "watched_jonah": true,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": "down"
   },
   {
     "timestamp": "2026-06-15T15:36:59.000Z",
@@ -82,7 +90,9 @@
     "videoId": "mNjNYNdcr_Q",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-15T15:00:40.000Z",
@@ -99,7 +109,9 @@
     "videoId": "P2Y_VEccE-M",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-15T15:00:39.000Z",
@@ -116,7 +128,9 @@
     "videoId": "ZuydJbe69DI",
     "profile": "Both",
     "watched_jonah": true,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": "up"
   },
   {
     "timestamp": "2026-06-15T13:59:30.000Z",
@@ -133,7 +147,9 @@
     "videoId": "JF1fZlkEifE",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-15T13:00:34.000Z",
@@ -150,7 +166,9 @@
     "videoId": "8gYiHlCkuwc",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-15T13:00:11.000Z",
@@ -167,7 +185,9 @@
     "videoId": "LhPsh6CdIvo",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-15T13:00:08.000Z",
@@ -184,7 +204,9 @@
     "videoId": "hzHKlHpZ_o8",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-15T12:00:26.000Z",
@@ -201,7 +223,9 @@
     "videoId": "OTT2XxDbWic",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-15T12:00:09.000Z",
@@ -218,7 +242,9 @@
     "videoId": "gbqLJ6_W4YQ",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-15T11:00:28.000Z",
@@ -235,7 +261,9 @@
     "videoId": "5e1hWGbg5jc",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-15T11:00:01.000Z",
@@ -252,7 +280,9 @@
     "videoId": "thHdP0ooOVI",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-15T10:00:05.000Z",
@@ -269,7 +299,9 @@
     "videoId": "PbsET-D6IY8",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-15T09:00:32.000Z",
@@ -286,7 +318,9 @@
     "videoId": "d-H2V48Cg1s",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-15T08:00:29.000Z",
@@ -303,7 +337,9 @@
     "videoId": "uV4RyyEq38I",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-14T17:00:13.000Z",
@@ -320,7 +356,9 @@
     "videoId": "wp_GH1WoMhE",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-14T15:00:19.000Z",
@@ -337,7 +375,9 @@
     "videoId": "KlPRMwBDS0Y",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-14T14:00:22.000Z",
@@ -354,7 +394,9 @@
     "videoId": "3Kt_oTNCHLU",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-14T13:59:48.000Z",
@@ -371,7 +413,9 @@
     "videoId": "f7ixTJyB2pw",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-14T13:00:24.000Z",
@@ -388,7 +432,9 @@
     "videoId": "-bARSW_G4DQ",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-14T13:00:18.000Z",
@@ -405,7 +451,9 @@
     "videoId": "Zbr8RsV_q2E",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-14T13:00:17.000Z",
@@ -422,7 +470,9 @@
     "videoId": "19e_YpqJrbU",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-14T13:00:14.000Z",
@@ -439,7 +489,9 @@
     "videoId": "thHeIvQ-Q0c",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-14T12:30:03.000Z",
@@ -456,7 +508,9 @@
     "videoId": "hRqWtYPotGs",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-14T12:00:23.000Z",
@@ -473,7 +527,9 @@
     "videoId": "XVYJ2lIzAuo",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-14T12:00:09.000Z",
@@ -490,7 +546,9 @@
     "videoId": "COEtUmSBSOk",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-14T11:59:50.000Z",
@@ -507,7 +565,9 @@
     "videoId": "xWfvox4p-0w",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-14T11:00:04.000Z",
@@ -524,7 +584,9 @@
     "videoId": "aAHGKja5w5Q",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-14T09:00:19.000Z",
@@ -541,7 +603,9 @@
     "videoId": "eXmC8R4C2iE",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-14T08:00:25.000Z",
@@ -558,7 +622,9 @@
     "videoId": "U3__G0GS2T0",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-13T15:00:02.000Z",
@@ -575,7 +641,9 @@
     "videoId": "ItuV_-b4ZQU",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": true
+    "watched_kieran": true,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-13T13:59:48.000Z",
@@ -592,7 +660,9 @@
     "videoId": "RbHP3TXN14o",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-13T13:00:30.000Z",
@@ -609,7 +679,9 @@
     "videoId": "QcRytM1TxeM",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-13T13:00:26.000Z",
@@ -626,7 +698,9 @@
     "videoId": "WZc-NEgSsDk",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-13T13:00:10.000Z",
@@ -643,7 +717,9 @@
     "videoId": "uQ35Q4ma9CM",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-13T12:00:01.000Z",
@@ -660,7 +736,9 @@
     "videoId": "lLg7O0zf06k",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-13T11:59:51.000Z",
@@ -677,7 +755,9 @@
     "videoId": "25g2YkQJPQo",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-13T11:00:27.000Z",
@@ -694,7 +774,9 @@
     "videoId": "B6G0c5zu8MY",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-13T11:00:11.000Z",
@@ -711,7 +793,9 @@
     "videoId": "tG0gHLkbGT8",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-13T08:00:16.000Z",
@@ -728,7 +812,9 @@
     "videoId": "faa02oZ08iM",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-12T19:00:00.000Z",
@@ -745,7 +831,9 @@
     "videoId": "NGIHG02EjrE",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-12T13:30:22.000Z",
@@ -762,7 +850,9 @@
     "videoId": "ZBnCJ-UAJGw",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-12T13:00:29.000Z",
@@ -779,7 +869,9 @@
     "videoId": "a-5rKMBqToA",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-12T13:00:13.000Z",
@@ -796,7 +888,9 @@
     "videoId": "ygBTQAN08-8",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-12T13:00:06.000Z",
@@ -813,7 +907,9 @@
     "videoId": "LlTrrgbYRpw",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-12T12:00:05.000Z",
@@ -830,7 +926,9 @@
     "videoId": "lPBAUbDFNOw",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-12T11:59:51.000Z",
@@ -847,7 +945,9 @@
     "videoId": "Cfii-m_OA7Q",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-12T11:00:26.000Z",
@@ -864,7 +964,9 @@
     "videoId": "AkqKiglz01c",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-12T11:00:13.000Z",
@@ -881,7 +983,9 @@
     "videoId": "6LCSXFZa5Ew",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-12T08:00:06.000Z",
@@ -898,7 +1002,9 @@
     "videoId": "UDnq8OFXMac",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-11T23:00:35.000Z",
@@ -915,7 +1021,9 @@
     "videoId": "2zc_ReK6P3I",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-11T19:00:39.000Z",
@@ -932,7 +1040,9 @@
     "videoId": "nKOwSRHz6uY",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-11T16:00:33.000Z",
@@ -949,7 +1059,9 @@
     "videoId": "w1Gg-5Lg-xk",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-11T15:00:13.000Z",
@@ -966,7 +1078,9 @@
     "videoId": "JDqpcHGfJ2I",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-11T14:00:38.000Z",
@@ -983,7 +1097,9 @@
     "videoId": "ZYHa8-YOMMM",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-11T13:15:33.000Z",
@@ -1000,7 +1116,9 @@
     "videoId": "vWNLyRiu4os",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-11T13:00:12.000Z",
@@ -1017,7 +1135,9 @@
     "videoId": "LKUT0Sj-tBE",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-11T12:00:39.000Z",
@@ -1034,7 +1154,9 @@
     "videoId": "F-g3cqMwlAw",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-11T12:00:15.000Z",
@@ -1051,7 +1173,9 @@
     "videoId": "DCoxXt7eUJI",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-11T11:59:54.000Z",
@@ -1068,7 +1192,9 @@
     "videoId": "9Ij_oPL2DlQ",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-11T11:00:34.000Z",
@@ -1085,7 +1211,9 @@
     "videoId": "fa9Gy2q3iZQ",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-11T10:00:14.000Z",
@@ -1102,7 +1230,9 @@
     "videoId": "-zFkCh6YzFs",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-11T08:00:18.000Z",
@@ -1119,7 +1249,9 @@
     "videoId": "_7Ik1qEmnzQ",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-10T14:00:10.000Z",
@@ -1136,7 +1268,9 @@
     "videoId": "lEqCZtmZaxo",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-10T13:00:26.000Z",
@@ -1153,7 +1287,9 @@
     "videoId": "zjehLiHfRrk",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-10T13:00:19.000Z",
@@ -1170,7 +1306,9 @@
     "videoId": "OfeCTW0mszI",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-10T12:00:07.000Z",
@@ -1187,7 +1325,9 @@
     "videoId": "954c5tTu8V4",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-10T11:59:56.000Z",
@@ -1204,7 +1344,9 @@
     "videoId": "pny5tFUw0Ww",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-10T08:00:19.000Z",
@@ -1221,7 +1363,9 @@
     "videoId": "FhWCCCprFVc",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-09T15:00:44.000Z",
@@ -1238,7 +1382,9 @@
     "videoId": "Q9Vt6NGBVBc",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-09T14:14:26.000Z",
@@ -1255,7 +1401,9 @@
     "videoId": "dhEG8TQEOdU",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-09T13:00:37.000Z",
@@ -1272,7 +1420,9 @@
     "videoId": "HFwlSAvQRNw",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-09T13:00:24.000Z",
@@ -1289,7 +1439,9 @@
     "videoId": "dHhS52YRur0",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-09T11:59:51.000Z",
@@ -1306,7 +1458,9 @@
     "videoId": "DLy7wMUlPAk",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-09T08:00:27.000Z",
@@ -1323,7 +1477,9 @@
     "videoId": "uJRMwgRitZ8",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-08T19:00:18.000Z",
@@ -1340,7 +1496,9 @@
     "videoId": "P7KatJVKiB8",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-08T13:00:21.000Z",
@@ -1357,7 +1515,9 @@
     "videoId": "srPOU8cxk_I",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-08T12:04:56.000Z",
@@ -1374,7 +1534,9 @@
     "videoId": "tu3R-nVRhVU",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-08T11:00:12.000Z",
@@ -1391,7 +1553,9 @@
     "videoId": "YPxOfbQSfRc",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-08T11:00:04.000Z",
@@ -1408,7 +1572,9 @@
     "videoId": "SB_PIlMkVVU",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-07T13:00:16.000Z",
@@ -1425,7 +1591,9 @@
     "videoId": "quP3UmGNYh8",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-07T11:59:47.000Z",
@@ -1442,7 +1610,9 @@
     "videoId": "6QteN09Ders",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-07T11:00:15.000Z",
@@ -1459,7 +1629,9 @@
     "videoId": "eEMR78v9Dqc",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-06T13:00:19.000Z",
@@ -1476,7 +1648,9 @@
     "videoId": "lSobYKcamzo",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-06T11:59:49.000Z",
@@ -1493,7 +1667,9 @@
     "videoId": "69s5AdqLcmc",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-06T11:59:49.000Z",
@@ -1510,7 +1686,9 @@
     "videoId": "V4XRbOXKbOc",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-06T11:00:37.000Z",
@@ -1527,7 +1705,9 @@
     "videoId": "-Qd4-YxTfZI",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-05T19:00:25.000Z",
@@ -1544,7 +1724,9 @@
     "videoId": "nv7LW7cN9u8",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-05T13:00:16.000Z",
@@ -1561,7 +1743,9 @@
     "videoId": "jpTtWZ-Xb54",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-05T11:59:46.000Z",
@@ -1578,7 +1762,9 @@
     "videoId": "35mUItQHYEI",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-05T11:31:00.000Z",
@@ -1595,7 +1781,9 @@
     "videoId": "FjasRcarEHg",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-05T11:00:33.000Z",
@@ -1612,7 +1800,9 @@
     "videoId": "1W8Li7FUE-A",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-04T19:00:22.000Z",
@@ -1629,7 +1819,9 @@
     "videoId": "-LQQ1AqeHBY",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-04T15:01:03.000Z",
@@ -1646,7 +1838,9 @@
     "videoId": "HDt_rTPPh70",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-04T13:00:14.000Z",
@@ -1663,7 +1857,9 @@
     "videoId": "qHZ3N-xxiNo",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-04T11:59:55.000Z",
@@ -1680,7 +1876,9 @@
     "videoId": "eo1g6ecChQY",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-04T11:35:23.000Z",
@@ -1697,7 +1895,9 @@
     "videoId": "a5z_c60al9A",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-04T08:59:53.000Z",
@@ -1714,7 +1914,9 @@
     "videoId": "kNoLjFGh4_M",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-03T19:00:27.000Z",
@@ -1731,7 +1933,9 @@
     "videoId": "_hdidyMv4LI",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-02T15:00:47.000Z",
@@ -1748,7 +1952,9 @@
     "videoId": "pyDZpDkU46Y",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-01T19:00:33.000Z",
@@ -1765,7 +1971,9 @@
     "videoId": "RdNuj44-ZDE",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-06-01T11:00:14.000Z",
@@ -1782,7 +1990,9 @@
     "videoId": "awRXRXKCSIs",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-05-30T12:00:06.000Z",
@@ -1799,7 +2009,9 @@
     "videoId": "l6WeJ9JqDfU",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-05-29T11:00:24.000Z",
@@ -1816,7 +2028,9 @@
     "videoId": "yB6yElnDKhw",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-05-28T15:00:54.000Z",
@@ -1833,7 +2047,9 @@
     "videoId": "BlK23YzqXOM",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-05-26T15:00:33.000Z",
@@ -1850,7 +2066,9 @@
     "videoId": "aob7rM5PV5A",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-05-25T11:00:30.000Z",
@@ -1867,7 +2085,9 @@
     "videoId": "JqUw63lGTHY",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-05-22T11:01:19.000Z",
@@ -1884,7 +2104,9 @@
     "videoId": "s5W3tQ6m8U8",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-05-21T15:00:50.000Z",
@@ -1901,7 +2123,9 @@
     "videoId": "uBwkMc1llmM",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-05-19T15:01:15.000Z",
@@ -1918,7 +2142,9 @@
     "videoId": "gePOX4nbMU4",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-05-18T11:01:16.000Z",
@@ -1935,7 +2161,9 @@
     "videoId": "obd0lDfbq8g",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-05-15T11:01:04.000Z",
@@ -1952,7 +2180,9 @@
     "videoId": "dFIogTJg9YQ",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-05-14T15:01:33.000Z",
@@ -1969,7 +2199,9 @@
     "videoId": "HdieAFhQtPo",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-05-12T15:00:54.000Z",
@@ -1986,7 +2218,9 @@
     "videoId": "mA1lnxfqHk8",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-05-11T11:00:13.000Z",
@@ -2003,7 +2237,9 @@
     "videoId": "8hAQ824su-8",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-05-09T15:00:40.000Z",
@@ -2020,7 +2256,9 @@
     "videoId": "LtvsdBm0xbs",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-05-08T11:01:51.000Z",
@@ -2037,7 +2275,9 @@
     "videoId": "z9NPVxqecbs",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-05-07T15:01:07.000Z",
@@ -2054,7 +2294,9 @@
     "videoId": "8H--GLt3h8I",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-05-05T15:01:09.000Z",
@@ -2071,7 +2313,9 @@
     "videoId": "P8OEz3PvWZQ",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-05-04T11:01:12.000Z",
@@ -2088,7 +2332,9 @@
     "videoId": "k0NFzC9VaF0",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-05-01T11:01:50.000Z",
@@ -2105,7 +2351,9 @@
     "videoId": "yIyt0SV-lsk",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-04-30T15:00:52.000Z",
@@ -2122,7 +2370,9 @@
     "videoId": "qKM4JzToM-A",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-04-28T15:01:02.000Z",
@@ -2139,7 +2389,9 @@
     "videoId": "65I_1sgTMLE",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-04-24T19:13:02.000Z",
@@ -2156,7 +2408,9 @@
     "videoId": "HgWz05AsLxw",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-04-18T12:00:06.000Z",
@@ -2173,7 +2427,9 @@
     "videoId": "-MV7Hg31usU",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-04-04T15:01:00.000Z",
@@ -2190,7 +2446,9 @@
     "videoId": "WfAmK8u0Mx8",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-03-20T13:00:04.000Z",
@@ -2207,7 +2465,9 @@
     "videoId": "2f9eNcYGeMk",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-03-03T13:35:38.000Z",
@@ -2224,7 +2484,9 @@
     "videoId": "eklKUHyI9gI",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-01-31T17:56:37.000Z",
@@ -2241,7 +2503,9 @@
     "videoId": "DIuDn3RvRdo",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-01-24T14:00:04.000Z",
@@ -2258,7 +2522,9 @@
     "videoId": "0WvMn06itis",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2026-01-24T13:00:16.000Z",
@@ -2275,7 +2541,9 @@
     "videoId": "4XkapJvLDhA",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-12-20T13:00:06.000Z",
@@ -2292,7 +2560,9 @@
     "videoId": "q_zX1UdJVcM",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-12-02T14:00:11.000Z",
@@ -2309,7 +2579,9 @@
     "videoId": "5q1gcm0wS5E",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-11-15T14:00:15.000Z",
@@ -2326,7 +2598,9 @@
     "videoId": "8j9AOPmuPv4",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-10-31T17:30:03.000Z",
@@ -2343,7 +2617,9 @@
     "videoId": "3scgDv4FlPI",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-10-18T13:01:39.000Z",
@@ -2360,7 +2636,9 @@
     "videoId": "mXWmEoenL90",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-09-12T16:01:39.000Z",
@@ -2377,7 +2655,9 @@
     "videoId": "s0A3UG4Lcw4",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-09-10T16:00:44.000Z",
@@ -2394,7 +2674,9 @@
     "videoId": "PkWU-lMdnJg",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-09-03T16:01:19.000Z",
@@ -2411,7 +2693,9 @@
     "videoId": "klu7TNy-7qw",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-08-30T13:01:05.000Z",
@@ -2428,7 +2712,9 @@
     "videoId": "XCDrw7H63ZE",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-08-27T16:00:42.000Z",
@@ -2445,7 +2731,9 @@
     "videoId": "ML2oX207Mwc",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-08-23T13:01:04.000Z",
@@ -2462,7 +2750,9 @@
     "videoId": "XjRa4qH7kBA",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-08-20T16:00:42.000Z",
@@ -2479,7 +2769,9 @@
     "videoId": "QVw521JjRjA",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-08-16T13:00:52.000Z",
@@ -2496,7 +2788,9 @@
     "videoId": "TE2ncnkZy6k",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-08-13T16:00:54.000Z",
@@ -2513,7 +2807,9 @@
     "videoId": "WrUX6j9MwUY",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-08-09T12:01:33.000Z",
@@ -2530,7 +2826,9 @@
     "videoId": "oXWnnEc6YpA",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-08-06T16:01:05.000Z",
@@ -2547,7 +2845,9 @@
     "videoId": "XjR2B3YJH9U",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-08-02T14:00:43.000Z",
@@ -2564,7 +2864,9 @@
     "videoId": "R2LYMInJdE8",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-07-30T16:01:37.000Z",
@@ -2581,7 +2883,9 @@
     "videoId": "ui86G8Q5GhQ",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-07-23T16:00:41.000Z",
@@ -2598,7 +2902,9 @@
     "videoId": "JcxTM7knO80",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-05-27T10:00:16.000Z",
@@ -2615,7 +2921,9 @@
     "videoId": "4VinwOQkHGg",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-05-19T10:01:01.000Z",
@@ -2632,7 +2940,9 @@
     "videoId": "WX_E1CAZjaQ",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-05-12T14:42:19.000Z",
@@ -2649,7 +2959,9 @@
     "videoId": "0jKoOUZ1GBM",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-04-28T10:00:21.000Z",
@@ -2666,7 +2978,9 @@
     "videoId": "8qdYCpSW2eY",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-04-14T10:01:01.000Z",
@@ -2683,7 +2997,9 @@
     "videoId": "YR4wtGWK7eE",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-03-31T10:00:57.000Z",
@@ -2700,7 +3016,9 @@
     "videoId": "RvRU_4XWPlw",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-03-24T10:01:12.000Z",
@@ -2717,7 +3035,9 @@
     "videoId": "v8cDsAf0nN0",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-03-17T10:00:57.000Z",
@@ -2734,7 +3054,9 @@
     "videoId": "kKqd0_cydZM",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-03-03T11:00:20.000Z",
@@ -2751,7 +3073,9 @@
     "videoId": "HhXnRfyUbeQ",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-02-24T17:00:02.000Z",
@@ -2768,7 +3092,9 @@
     "videoId": "0U4lOGo593k",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-02-13T11:00:04.000Z",
@@ -2785,7 +3111,9 @@
     "videoId": "annJ7XUxMjk",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-02-03T19:30:02.000Z",
@@ -2802,7 +3130,9 @@
     "videoId": "XtSq1wcFSEI",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-01-27T11:01:13.000Z",
@@ -2819,7 +3149,9 @@
     "videoId": "vKxpbmdPSyk",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2025-01-13T11:00:12.000Z",
@@ -2836,7 +3168,9 @@
     "videoId": "6WNHyAXIN8c",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2018-05-26T15:13:17.000Z",
@@ -2853,7 +3187,9 @@
     "videoId": "BO9BXmSR2Es",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2018-04-21T21:09:00.000Z",
@@ -2870,7 +3206,9 @@
     "videoId": "rCFMqcP69MM",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2018-04-14T15:00:04.000Z",
@@ -2887,7 +3225,9 @@
     "videoId": "slXTAbCufIg",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2018-04-07T15:00:01.000Z",
@@ -2904,7 +3244,9 @@
     "videoId": "DEw_6Rufg54",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2018-03-31T15:00:01.000Z",
@@ -2921,7 +3263,9 @@
     "videoId": "8xjnxMUEoJk",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2018-03-18T15:34:05.000Z",
@@ -2938,7 +3282,9 @@
     "videoId": "-TBn3jiF604",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2018-02-16T23:42:52.000Z",
@@ -2955,7 +3301,9 @@
     "videoId": "NYqDrdqE_aI",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2018-01-04T20:07:05.000Z",
@@ -2972,7 +3320,9 @@
     "videoId": "K67wyvCC21s",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2017-12-02T16:19:26.000Z",
@@ -2989,7 +3339,9 @@
     "videoId": "EctgAn4PmSQ",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2017-11-23T17:12:05.000Z",
@@ -3006,7 +3358,9 @@
     "videoId": "6UUmM3C2YvA",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2017-11-18T20:53:39.000Z",
@@ -3023,7 +3377,9 @@
     "videoId": "sNwjxg4KoPY",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2017-11-15T20:53:58.000Z",
@@ -3040,7 +3396,9 @@
     "videoId": "-nKAH60Wa5c",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2017-11-11T22:38:34.000Z",
@@ -3057,7 +3415,9 @@
     "videoId": "NJE-Nadgguc",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2017-11-07T18:07:34.000Z",
@@ -3074,7 +3434,9 @@
     "videoId": "oexrCUGZCPo",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2017-10-26T20:42:53.000Z",
@@ -3091,7 +3453,9 @@
     "videoId": "1If_T91yAK8",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2016-06-10T20:30:01.000Z",
@@ -3108,7 +3472,9 @@
     "videoId": "EwY6p-r_hyU",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2016-06-02T20:27:43.000Z",
@@ -3125,7 +3491,9 @@
     "videoId": "wyRy8kowyM8",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2016-05-26T19:41:25.000Z",
@@ -3142,7 +3510,9 @@
     "videoId": "CZhE2p46vJk",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2016-05-19T17:51:00.000Z",
@@ -3159,7 +3529,9 @@
     "videoId": "Td_A9H69eE8",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2016-05-12T21:07:56.000Z",
@@ -3176,7 +3548,9 @@
     "videoId": "qDcMq1SjR_I",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2016-03-16T21:17:44.000Z",
@@ -3193,7 +3567,9 @@
     "videoId": "s__sgOHWNIA",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   },
   {
     "timestamp": "2016-03-09T23:11:38.000Z",
@@ -3210,6 +3586,8 @@
     "videoId": "gnnUid8Hof0",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false
+    "watched_kieran": false,
+    "rating_kieran": null,
+    "rating_jonah": null
   }
 ]
