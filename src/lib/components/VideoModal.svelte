@@ -36,7 +36,29 @@
         controls: 1,
         showinfo: 0
       },
+      
       events: {
+        onReady: (event) => {
+          // Grab the iframe YouTube created
+          const iframe = event.target.getIframe();
+
+          // 1. Sandbox the iframe to block ALL outbound navigation
+          iframe.setAttribute(
+            "sandbox",
+            "allow-scripts allow-same-origin"
+          );
+
+          // 2. Kill window.open inside the iframe
+          try {
+            iframe.contentWindow.open = () => null;
+          } catch (e) {
+            console.warn("Could not override window.open", e);
+          }
+
+          // 3. Optional: block right-click → "Open link in new tab"
+          iframe.addEventListener("contextmenu", (e) => e.preventDefault());
+        },
+
         onStateChange: (event) => {
           if (event.data === YT.PlayerState.PLAYING) {
             video.watched = true;
