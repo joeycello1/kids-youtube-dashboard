@@ -3,16 +3,43 @@
   export let onOpen;
 </script>
 
+<!--
+  ⭐ PRIORITY LOGIC (top → bottom)
+  1. broken → overrides everything
+  2. rating === "down" → orange overlay
+  3. rating === "up" → green badge
+  4. watched → ribbon
+-->
+
 <div
-  class="card {video.watched ? 'watched' : ''} {video.broken ? 'broken' : ''}"
+  class="card 
+    {video.broken ? 'broken' : ''} 
+    {video.rating === 'down' ? 'rated-down' : ''} 
+    {video.rating === 'up' ? 'rated-up' : ''} 
+    {video.watched ? 'watched' : ''}"
   on:click={() => onOpen(video)}
 >
-  {#if video.watched}
-    <div class="watched-ribbon">watched</div>
-  {/if}
 
+  <!-- ⭐ Broken overlay (highest priority) -->
   {#if video.broken}
     <div class="broken-overlay"></div>
+  {/if}
+
+  <!-- ⭐ Rating: DOWN (second priority) -->
+  {#if !video.broken && video.rating === "down"}
+    <div class="rating-down-overlay">
+      👎 Not sure about this — under review
+    </div>
+  {/if}
+
+  <!-- ⭐ Rating: UP (third priority) -->
+  {#if !video.broken && video.rating === "up"}
+    <div class="rating-up">👍</div>
+  {/if}
+
+  <!-- ⭐ Watched ribbon (lowest priority) -->
+  {#if !video.broken && video.rating !== "down" && video.watched}
+    <div class="watched-ribbon">watched</div>
   {/if}
 
   <img class="thumb" src={video.thumbnail} alt="thumbnail" />
@@ -103,25 +130,39 @@
     pointer-events: none;
   }
 
-  /* ⭐ Broken Overlay (your markup referenced this but CSS was missing) */
-  /*.broken-overlay {
+  /* ⭐ Rating UP badge */
+  .rating-up {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #2ecc71;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    z-index: 12;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.35);
+  }
+
+  /* ⭐ Rating DOWN overlay */
+  .rating-down-overlay {
     position: absolute;
     inset: 0;
-    background: rgba(255, 0, 0, 0.55);
-    color: white;
-    font-size: 1.4rem;
-    font-weight: bold;
+    background: rgba(255, 165, 0, 0.75);
+    color: black;
+    font-weight: 700;
+    font-size: 1.3rem;
     display: flex;
-    align-items: center;
     justify-content: center;
-    text-shadow: 0 0 6px black;
-    z-index: 6;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    z-index: 12;
     pointer-events: none;
   }
 
-  /* Broken diagonal stripes */
-  .card.broken::after {
-    content: "";
+  /* ⭐ Broken Overlay */
+  .broken-overlay {
     position: absolute;
     inset: 0;
     background: repeating-linear-gradient(
@@ -132,7 +173,7 @@
       #000 40px
     );
     opacity: 0.85;
-    z-index: 4;
+    z-index: 14;
     pointer-events: none;
   }
 
@@ -146,17 +187,7 @@
     font-size: 2rem;
     font-weight: 900;
     text-shadow: 0 3px 6px rgba(0,0,0,0.5);
-    z-index: 5;
+    z-index: 15;
     pointer-events: none;
-  }
-
-  @keyframes popIn {
-    0% { transform: scale(0); }
-    70% { transform: scale(1.2); }
-    100% { transform: scale(1); }
-  }
-
-  .card.watched .star-badge {
-    animation: popIn 0.25s ease-out;
   }
 </style>

@@ -103,6 +103,11 @@
     videos = [...videos];
   }
 
+  function onRated(video, value) {
+    video.rating = value;
+    videos = [...videos];
+  }
+
   // -----------------------------
   //  New Video Detection
   // -----------------------------
@@ -187,6 +192,7 @@
       on:close={() => (activeVideo = null)}
       on:played={() => onPlayed(activeVideo)}
       on:broken={() => onBroken(activeVideo)}
+      on:rating={(e) => onRated(e.detail.video, e.detail.value)}
     />
   {/if}
 

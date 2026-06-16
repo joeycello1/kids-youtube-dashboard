@@ -2,6 +2,7 @@
   import { onMount, onDestroy, createEventDispatcher } from "svelte";
 
   export let video;
+  export let profile;
 
   const dispatch = createEventDispatcher();
 
@@ -55,11 +56,22 @@
     });
   }
 
-  const BROKEN_WEBAPP_URL =
+  const WEBAPP_URL =
     "https://script.google.com/macros/s/AKfycbwlSjP3ReIarEvWm-1Le9XysxKDhh78BMtA7hPRBgHMNJLaLTNmykOnYjZkOi9mrF4nBw/exec";
 
   function callThePolice(videoId) {
-    fetch(`${BROKEN_WEBAPP_URL}?action=broken&videoId=${videoId}`);
+    fetch(`${WEBAPP_URL}?action=broken&videoId=${videoId}`);
+  }
+
+  // ⭐ NEW: Rating handler
+  function rateVideo(value) {
+    video.rating = value; // update UI immediately
+
+    fetch(
+    `${WEBAPP_URL}?action=rate&videoId=${video.videoId}&profile=${profile}&value=${value}`
+    );
+
+    dispatch("rating", { video, value, profile });
   }
 
   onMount(initPlayer);
@@ -85,6 +97,12 @@
         🚨 Call the Police! 🚨
       </button>
     {/if}
+
+    <!-- ⭐ NEW: Rating Buttons -->
+    <div class="rating-buttons">
+      <button class="rate up" on:click={() => rateVideo("up")}>👍 I like this</button>
+      <button class="rate down" on:click={() => rateVideo("down")}>👎 Don't like</button>
+    </div>
 
     <div id="player"></div>
 
@@ -130,6 +148,38 @@
     border: none;
     border-radius: 6px;
     cursor: pointer;
+  }
+
+  /* ⭐ Rating Buttons */
+  .rating-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .rate {
+    flex: 1;
+    padding: 12px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.15s ease;
+  }
+
+  .rate.up {
+    background: #2ecc71;
+    color: white;
+  }
+
+  .rate.down {
+    background: #e67e22;
+    color: white;
+  }
+
+  .rate:hover {
+    transform: scale(1.05);
   }
 
   .broken-banner {
