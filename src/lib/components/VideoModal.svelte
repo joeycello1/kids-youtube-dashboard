@@ -28,21 +28,7 @@
   async function initPlayer() {
     await loadYouTubeAPI();
 
-    // ⭐ Create our OWN iframe — sandboxed BEFORE YouTube touches it
-    const iframe = document.createElement("iframe");
-    iframe.id = "player-frame";
-    iframe.setAttribute("sandbox", "allow-scripts allow-same-origin");
-    iframe.setAttribute("allow", "autoplay; encrypted-media");
-    iframe.style.width = "100%";
-    iframe.style.height = "100%";
-
-    // Insert it into the DOM where the player should go
-    const container = document.getElementById("player");
-    container.innerHTML = ""; // clear old content
-    container.appendChild(iframe);
-
-    // ⭐ Tell YouTube to use OUR iframe
-    player = new YT.Player("player-frame", {
+    player = new YT.Player("player", {
       videoId: video.videoId,
       playerVars: {
         rel: 0,
@@ -53,7 +39,7 @@
 
       events: {
         onReady: (event) => {
-          console.log("Sandboxed iframe is active — YouTube cannot escape");
+          console.log("VideoModal onReady fired");
         },
 
         onStateChange: (event) => {
@@ -114,13 +100,12 @@
       </button>
     {/if}
 
-    <!-- ⭐ NEW: Rating Buttons -->
     <div class="rating-buttons">
       <button class="rate up" on:click={() => rateVideo("up")}>👍 I like this</button>
       <button class="rate down" on:click={() => rateVideo("down")}>👎 Don't like</button>
     </div>
 
-    <div id="player" style="width:100%; height:100%;"></div>
+    <div id="player"></div>
 
     <button class="close" on:click={() => dispatch("close")}>Close</button>
   </div>
