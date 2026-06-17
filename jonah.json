@@ -90,7 +90,7 @@
     "videoId": "eR5blcjll8o",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false,
+    "watched_kieran": true,
     "rating_kieran": null,
     "rating_jonah": null
   },
@@ -508,8 +508,8 @@
     "videoId": "kI9524Xf_zk",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false,
-    "rating_kieran": null,
+    "watched_kieran": true,
+    "rating_kieran": "up",
     "rating_jonah": null
   },
   {
@@ -639,44 +639,6 @@
     "ratingAvg": 5,
     "videoCategory": "Mr Bean",
     "videoId": "uV4RyyEq38I",
-    "profile": "Both",
-    "watched_jonah": false,
-    "watched_kieran": false,
-    "rating_kieran": null,
-    "rating_jonah": null
-  },
-  {
-    "timestamp": "2026-06-14T23:00:15.000Z",
-    "firstSeen": "2026-06-16T17:27:00.923Z",
-    "title": "Mr Bean Hunts the Golden Shiny Sticker | Mr Bean",
-    "videoUrl": "https://www.youtube.com/watch?v=UIHjuumez9c",
-    "channelName": "Mr Bean",
-    "summary": "Mr Bean desperately hunts for the mega-rare golden shiny Jamie Studs sticker, but ends up trapped in chaotic dog walking disasters and a bizarre house viewing scheme. Classic Bean comedy chaos. 00:00:00 Bean Explores a Luxurious New Place\n00:02:48 Collecting Jamie Studs Sticker Book\n00:04:37 Searchi",
-    "keyword": "mr bean",
-    "thumbnail": "https://i2.ytimg.com/vi/UIHjuumez9c/hqdefault.jpg",
-    "views": 8443,
-    "ratingAvg": 5,
-    "videoCategory": "Mr Bean",
-    "videoId": "UIHjuumez9c",
-    "profile": "Both",
-    "watched_jonah": false,
-    "watched_kieran": false,
-    "rating_kieran": null,
-    "rating_jonah": null
-  },
-  {
-    "timestamp": "2026-06-14T20:00:30.000Z",
-    "firstSeen": "2026-06-16T17:27:02.129Z",
-    "title": "Bean's Medallion Hunt and Camping Queue Chaos | Mr Bean",
-    "videoUrl": "https://www.youtube.com/watch?v=osPofZlbgzM",
-    "channelName": "Mr Bean",
-    "summary": "Bean hunts for his medallion, battles fleas, makes perfume, races scooters at the park, and camps overnight in a shop queue. Chaos with Scrapper the cat and teddy as placeholder. 00:00:00 Exploring a Luxurious New Place\n00:02:27 Searching for Missing Teddy at Home\n00:05:02 Dealing with a Flea Infest",
-    "keyword": "mr bean",
-    "thumbnail": "https://i4.ytimg.com/vi/osPofZlbgzM/hqdefault.jpg",
-    "views": 7869,
-    "ratingAvg": 5,
-    "videoCategory": "Mr Bean",
-    "videoId": "osPofZlbgzM",
     "profile": "Both",
     "watched_jonah": false,
     "watched_kieran": false,
@@ -1192,9 +1154,9 @@
     "videoId": "LMw58EjXw8g",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false,
-    "rating_kieran": null,
-    "rating_jonah": null
+    "watched_kieran": true,
+    "rating_kieran": "down",
+    "rating_jonah": "down"
   },
   {
     "timestamp": "2026-06-12T19:00:21.000Z",
@@ -1268,8 +1230,8 @@
     "videoId": "Ih46ieAWkzE",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false,
-    "rating_kieran": null,
+    "watched_kieran": true,
+    "rating_kieran": "down",
     "rating_jonah": null
   },
   {
@@ -1972,8 +1934,8 @@
     "profile": "Both",
     "watched_jonah": false,
     "watched_kieran": false,
-    "rating_kieran": null,
-    "rating_jonah": null
+    "rating_kieran": "down",
+    "rating_jonah": "down"
   },
   {
     "timestamp": "2026-06-09T15:01:43.000Z",
