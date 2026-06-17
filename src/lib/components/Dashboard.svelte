@@ -243,23 +243,28 @@
     border-radius: 20px;
     background: #66348e;
     border: 2px solid #ccc;
+    border-radius: 10px;
     color: white;
     cursor: pointer;
+    font-weight: 700;
     user-select: none;
-    transition: 0.2s;
+    transition: transform 0.15s ease;
     font-size: 1.1rem;
     box-shadow: 0 8px 14px rgba(0,0,0,0.45);
   }
 
   .chip:hover {
-    transform: translateY(-2px);
+    transform: scale(1.10);
+    box-shadow: 0 10px 18px rgba(0,0,0,0.55);
   }
 
   .chip.active {
+    transform: scale(1.16);
     background: #4a90e2;
+    transition: transform 0.08s ease-out;
     color: white;
     border-color: #b5d8ff;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.35);
   }
 
   /* Search Box */
