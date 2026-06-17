@@ -1,24 +1,5 @@
 [
   {
-    "timestamp": "2026-06-17T16:00:32.000Z",
-    "firstSeen": "2026-06-17T16:30:36.864Z",
-    "title": "Mr Bean's Disastrous Date and Car Day Out | Mr Bean Animated",
-    "videoUrl": "https://www.youtube.com/watch?v=EtzzmlAaIHQ",
-    "channelName": "Mr Bean",
-    "summary": "Mr Bean's disastrous date and car day out sees him order two of everything, dodge the bill, and crash a trophy race with Teddy by his side. 00:00:00 Arriving at the Health Spa\n00:02:54 Shopping for the Perfect Outfit\n00:05:30 Special Offers and a Teddy Adventure\n00:08:09 Retrieving the Ball Next Doo",
-    "keyword": "mr bean",
-    "thumbnail": "https://i2.ytimg.com/vi/EtzzmlAaIHQ/hqdefault.jpg",
-    "views": 676,
-    "ratingAvg": 5,
-    "videoCategory": "Mr Bean",
-    "videoId": "EtzzmlAaIHQ",
-    "profile": "Both",
-    "watched_jonah": false,
-    "watched_kieran": false,
-    "rating_kieran": null,
-    "rating_jonah": null
-  },
-  {
     "timestamp": "2026-06-17T15:00:24.000Z",
     "firstSeen": "2026-06-17T16:30:37.150Z",
     "title": "Mr Bean vs The Art Gallery Security Guard 🎨 | Bean: the Movie | Mr Bean",
@@ -184,7 +165,7 @@
     "videoCategory": "Cartoons",
     "videoId": "aYWCFHAkPGY",
     "profile": "Both",
-    "watched_jonah": false,
+    "watched_jonah": true,
     "watched_kieran": false,
     "rating_kieran": null,
     "rating_jonah": null
