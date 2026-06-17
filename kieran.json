@@ -1,24 +1,5 @@
 [
   {
-    "timestamp": "2026-06-16T23:00:20.000Z",
-    "firstSeen": "2026-06-17T01:11:47.331Z",
-    "title": "Mr Bean Crashes a Party and Scams Neighbours | Mr Bean Animated",
-    "videoUrl": "https://www.youtube.com/watch?v=M9xRFO9MxA4",
-    "channelName": "Mr Bean",
-    "summary": "Mr Bean crashes a party without an invitation then charges neighbours £5 to spot a rare bird. Mrs Wicket, Teddy, and slapstick chaos ensue. 00:00:00 Mr. Bean Plans a Haunted House Movie\n00:01:22 Mrs. Wicket Stars in the Film\n00:04:34 Intruder Alert and the Breakfast Scene\n00:06:37 Teddy Tug of War W",
-    "keyword": "mr bean",
-    "thumbnail": "https://i2.ytimg.com/vi/M9xRFO9MxA4/hqdefault.jpg",
-    "views": 455,
-    "ratingAvg": 5,
-    "videoCategory": "Mr Bean",
-    "videoId": "M9xRFO9MxA4",
-    "profile": "Both",
-    "watched_jonah": false,
-    "watched_kieran": false,
-    "rating_kieran": null,
-    "rating_jonah": null
-  },
-  {
     "timestamp": "2026-06-16T18:22:41.000Z",
     "firstSeen": "2026-06-17T01:58:51.124Z",
     "title": "Elliot STOLE the Deer Crown?! 👑🦌 | Open Season: Call of Nature | Scholastic After School",
@@ -869,7 +850,7 @@
     "videoId": "XVYJ2lIzAuo",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false,
+    "watched_kieran": true,
     "rating_kieran": null,
     "rating_jonah": null
   },
@@ -1193,8 +1174,8 @@
     "profile": "Both",
     "watched_jonah": false,
     "watched_kieran": false,
-    "rating_kieran": null,
-    "rating_jonah": null
+    "rating_kieran": "down",
+    "rating_jonah": "down"
   },
   {
     "timestamp": "2026-06-12T21:00:15.000Z",
