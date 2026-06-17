@@ -140,6 +140,7 @@
           video.broken = true;
           callThePolice(video.videoId);
           dispatch("broken", video);
+          dispatch("close");
         }}>
         Oh No! This Video is Broken!!
         🚨 Call the Police! 🚨
@@ -150,7 +151,12 @@
       <button class="rate up" on:click={() => rateVideo("up")}>
         <span class="emoji">👍</span> YEP!
       </button>
-      <button class="rate down" on:click={() => rateVideo("down")}>
+      <button class="rate down"
+        on:click={() => {
+          rateVideo("down");
+          dispatch("close");
+          }}
+      >
         <span class="emoji">👎</span> NOPE!
       </button>
     </div>
