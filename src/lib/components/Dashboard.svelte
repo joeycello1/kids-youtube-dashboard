@@ -261,7 +261,7 @@
   .search-box {
     position: relative;
     margin-bottom: 1.5rem;
-    width: 70%;
+    width: 40%;
     display: flex;
     justify-content: center;
     box-shadow: 0 8px 14px rgba(0,0,0,0.45);
