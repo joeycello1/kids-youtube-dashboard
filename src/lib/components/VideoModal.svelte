@@ -201,6 +201,7 @@
     width: 100%;
     height: 380px;
     overflow: hidden;
+    box-shadow: 0 8px 14px rgba(0,0,0,0.45);
   }
 
   /* The actual YouTube player */
@@ -239,7 +240,7 @@
     background: #ffcc00;
     border: none;
     cursor: pointer;
-    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 14px rgba(0,0,0,0.45);
     width: 100%;
     transition: transform 0.15s ease;
   }
@@ -257,7 +258,7 @@
     cursor: pointer;
     border: none;
     transition: transform 0.15s ease;
-    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 14px rgba(0,0,0,0.45);
     background: #7b1484;
     color: white;
     margin-top: 1rem;
@@ -280,7 +281,7 @@
     font-size: 1.7rem;
     font-weight: 700;
     border-radius: 10px;
-    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 14px rgba(0,0,0,0.45);
     cursor: pointer;
     border: none;
     transition: transform 0.15s ease;

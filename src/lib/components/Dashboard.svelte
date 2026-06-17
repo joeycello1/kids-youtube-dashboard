@@ -169,9 +169,15 @@
   <!-- Search -->
   <div class="search-box">
     <input
+      type="text"
       bind:value={search}
       placeholder="Search your videos…"
     />
+    {#if search}
+      <button class="clear-search" on:click={() => search = ""}>
+        ✕
+      </button>
+    {/if}
   </div>
 
   <!-- Video Grid -->
@@ -230,12 +236,14 @@
   .chip {
     padding: 8px 16px;
     border-radius: 20px;
-    background: #eee;
+    background: #66348e;
     border: 2px solid #ccc;
+    color: white;
     cursor: pointer;
     user-select: none;
     transition: 0.2s;
     font-size: 1.1rem;
+    box-shadow: 0 8px 14px rgba(0,0,0,0.45);
   }
 
   .chip:hover {
@@ -245,32 +253,64 @@
   .chip.active {
     background: #4a90e2;
     color: white;
-    border-color: #4a90e2;
+    border-color: #b5d8ff;
     box-shadow: 0 4px 10px rgba(0,0,0,0.25);
   }
 
   /* Search Box */
   .search-box {
+    position: relative;
     margin-bottom: 1.5rem;
-    width: 100%;
+    width: 70%;
     display: flex;
     justify-content: center;
+    box-shadow: 0 8px 14px rgba(0,0,0,0.45);
   }
 
   .search-box input {
-    width: 90%;
-    max-width: 400px;
-    padding: 0.8rem;
-    font-size: 1.2rem;
-    border-radius: 12px;
-    border: 2px solid #ccc;
-    outline: none;
-    transition: 0.2s;
+    width: 100%;
+    padding-right: 40px; /* space for the X */
+    padding-left: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
   }
 
   .search-box input:focus {
     border-color: #4a90e2;
     box-shadow: 0 0 0 3px rgba(74,144,226,0.25);
+  }
+
+  .clear-search {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    background: #ff6666;
+    color: white;
+    border: none;
+    border-radius: 6px;
+
+    width: 26px;
+    height: 26px;
+    font-size: 1.1rem;
+    font-weight: 900;
+
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0 3px 0 rgba(0,0,0,0.25);
+    transition: transform 0.15s ease;
+  }
+
+  .clear-search:active {
+    transform: translateY(calc(-50% + 2px));
+    box-shadow: 0 1px 0 rgba(0,0,0,0.25);
   }
 
   /* Video Grid */
