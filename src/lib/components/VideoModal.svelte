@@ -193,7 +193,7 @@
 
   .modal {
     position: relative;
-    background: white;
+    background: #420c47;
     padding: 1rem;
     border-radius: 12px;
     max-width: 800px;
@@ -262,7 +262,7 @@
     font-weight: 700;
     border-radius: 10px;
     cursor: pointer;
-    border: none;
+    border: 1px solid #ffcc00;
     transition: transform 0.15s ease;
     box-shadow: 0 8px 14px rgba(0,0,0,0.45);
     background: #7b1484;
@@ -289,18 +289,19 @@
     border-radius: 10px;
     box-shadow: 0 8px 14px rgba(0,0,0,0.45);
     cursor: pointer;
-    border: none;
     transition: transform 0.15s ease;
   }
 
   .rate.up {
     background: #228041;
     color: white;
+    border: 1px solid #93591f;
   }
 
   .rate.down {
     background: #93591f;
     color: white;
+    border: 1px solid #228041;
   }
 
   .rate .emoji {
