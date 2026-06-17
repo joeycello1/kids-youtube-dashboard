@@ -162,7 +162,7 @@
     </div>
 
     <button class="big-button" on:click={togglePlay}>
-      {isPlaying ? "Pause" : "Play"}
+      {isPlaying ? "STOP IT!" : "PLAY IT!"}
     </button>
 
     <!-- ⭐ Close button OUTSIDE the wrapper -->
@@ -239,6 +239,11 @@
     border: none;
     cursor: pointer;
     width: 100%;
+    transition: transform 0.15s ease;
+  }
+
+  .big-button:hover {
+    transform: scale(1.03);
   }
   
   .close-button {
@@ -251,13 +256,13 @@
     border: none;
     transition: transform 0.15s ease;
 
-    background: #4da6ff; /* soft friendly blue */
+    background: #7b1484;
     color: white;
     margin-top: 1rem;
   }
 
-  .close-button:active {
-    transform: scale(0.97);
+  .close-button:hover {
+    transform: scale(1.03);
   }
 
   /* ⭐ Rating Buttons */
