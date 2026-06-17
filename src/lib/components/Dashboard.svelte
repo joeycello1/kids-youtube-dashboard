@@ -10,7 +10,9 @@
   // -----------------------------
   //  Random Greeting
   // -----------------------------
-  const greetings = [
+  let greeting = "";
+
+  const defaultGreetings = [
     "Welcome!!",
     "Hello there!",
     "Hiya!",
@@ -31,16 +33,99 @@
     "Shalom!",
     "Yassas!",
     "Wassup!",
-    "Welcome back, adventurer!",
-    "Enter the Fun Zone!",
-    "Ready for action?",
+    "Welcome back!",
     "Let’s watch something awesome!"
   ];
 
-  let greeting = "";
+  // Category-specific greetings
+  const categoryGreetings = {
+    Cartoons: [
+      "C'mon, {name}! Why don't you watch something educational?",
+      "You like cartoons, huh? What about science?",
+      "Cartoon time! Let’s find something hilarious.",
+      "Animation magic coming right up!",
+      "Good choice! Cartoons always hit the spot."
+    ],
+    Science: [
+      "Science mode activated!",
+      "Ready to learn something mind-blowing?",
+      "Let’s explore the universe!",
+      "Experiments await — goggles on!"
+    ],
+    LEGO: [
+      "Minifigure {name} reporting for duty!",
+      "The LEGO universe awaits your next move.",
+      "You’ve unlocked: Builder Mode.",
+      "Warning: High levels of imagination detected"
+    ],
+    "Mr Bean": [
+      "Good choice, {name}! Let’s check out some Mr Bean.",
+      "Time for some Bean-level chaos!",
+      "Mr Bean incoming — prepare for giggles.",
+      "Classic Bean moments coming right up!"
+    ],
+    Minecraft: [
+      "Minecraft time! Let’s dig into something cool.",
+      "Ready to craft an awesome adventure?",
+      "Blocks, mobs, and fun — let’s go!",
+      "Mining some good videos today?"
+    ]
+  };
+
+  function pickGreeting(category) {
+    let list =
+      category && categoryGreetings[category]
+        ? categoryGreetings[category]
+        : defaultGreetings;
+
+    let base = list[Math.floor(Math.random() * list.length)];
+
+    // Capitalize kid name
+    const kidName = profile
+      ? profile.charAt(0).toUpperCase() + profile.slice(1)
+      : null;
+
+    // Seasonal greeting override
+    const seasonal = getSeasonalGreeting();
+    if (!category && seasonal) {
+      base = seasonal;
+    }
+
+    // Time-of-day greeting override (only if no category selected)
+    if (!category && !seasonal) {
+      base = getTimeOfDayGreeting();
+    }
+
+    // Replace {name}
+    if (kidName) {
+      base = base.replace("{name}", kidName);
+    }
+
+    greeting = base;
+  }
+
   onMount(() => {
-    greeting = greetings[Math.floor(Math.random() * greetings.length)];
+    pickGreeting(null);
   });
+
+  function getTimeOfDayGreeting() {
+    const hour = new Date().getHours();
+
+    if (hour < 12) return "Good morning, {name}!";
+    if (hour < 17) return "Good afternoon, {name}!";
+    return "Good evening, {name}!";
+  }
+
+  function getSeasonalGreeting() {
+    const month = new Date().getMonth(); // 0 = Jan
+
+    if (month === 11) return "Happy Holidays, {name}!";
+    if (month === 9) return "Spooky season is here, {name}!";
+    if (month === 5 || month === 6) return "Summer vibes, {name}!";
+    if (month === 2 || month === 3) return "Springtime fun, {name}!";
+
+    return null; // no seasonal override
+  }
 
   // -----------------------------
   //  Update Banner State
@@ -81,7 +166,10 @@
       ))
   );
 
-
+  function capitalize(name) {
+    if (!name) return "";
+    return name.charAt(0).toUpperCase() + name.slice(1);
+  }
   // -----------------------------
   //  Watched / Broken Handlers
   // -----------------------------
@@ -152,14 +240,19 @@
     </div>
   {/if}
 
-  <div class="header">{greeting}</div>
+  {#key greeting}
+    <div class="header">{greeting}</div>
+  {/key}
 
   <!-- Category Chips -->
   <div class="chips">
     {#each categories as cat}
       <div
         class="chip {selectedCategory === cat ? 'active' : ''}"
-        on:click={() => selectedCategory = cat}
+        on:click={() => {
+          selectedCategory = cat;
+          pickGreeting(cat);
+        }}
       >
         {cat}
       </div>
@@ -221,8 +314,9 @@
   }
 
   /* Header (now supports random greeting) */
-  .header {
+  :global(.header) {
     font-size: 3rem;
+    font-weight: 700;
     color: white;
     margin-bottom: 2rem;
     text-align: center;
@@ -340,17 +434,15 @@
 
   /* Animations */
   @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
+    0% { opacity: 0; }
+    100% { opacity: 1; }
   }
 
-  /* Greeting pop animation */
   @keyframes pop {
-    0% { transform: scale(0.6); opacity: 0; }
-    80% { transform: scale(1.1); opacity: 1; }
-    100% { transform: scale(1); }
+    0% { transform: scale(0.5) rotate(-10deg); opacity: 0; }
+    60% { transform: scale(1.2) rotate(3deg); opacity: 1; }
+    100% { transform: scale(1) rotate(0deg); }
   }
-
   /* ------------------------------
    GRID CONTAINER
   ------------------------------ */
