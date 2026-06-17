@@ -32,10 +32,10 @@
     "videoCategory": "Mr Bean",
     "videoId": "TRPKOcBcZgk",
     "profile": "Both",
-    "watched_jonah": false,
+    "watched_jonah": true,
     "watched_kieran": false,
     "rating_kieran": null,
-    "rating_jonah": null
+    "rating_jonah": "up"
   },
   {
     "timestamp": "2026-06-16T18:22:41.000Z",
@@ -70,7 +70,7 @@
     "videoCategory": "Mr Bean",
     "videoId": "phD1ZgBKx4M",
     "profile": "Both",
-    "watched_jonah": false,
+    "watched_jonah": true,
     "watched_kieran": false,
     "rating_kieran": null,
     "rating_jonah": null
