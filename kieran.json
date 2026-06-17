@@ -13,10 +13,10 @@
     "videoCategory": "Mr Bean",
     "videoId": "te9kff54x2c",
     "profile": "Both",
-    "watched_jonah": false,
-    "watched_kieran": false,
+    "watched_jonah": true,
+    "watched_kieran": true,
     "rating_kieran": null,
-    "rating_jonah": null
+    "rating_jonah": "up"
   },
   {
     "timestamp": "2026-06-17T08:00:31.000Z",
@@ -91,7 +91,7 @@
     "profile": "Both",
     "watched_jonah": false,
     "watched_kieran": false,
-    "rating_kieran": null,
+    "rating_kieran": "down",
     "rating_jonah": null
   },
   {
@@ -1159,44 +1159,6 @@
     "rating_jonah": null
   },
   {
-    "timestamp": "2026-06-12T22:02:35.000Z",
-    "firstSeen": "2026-06-17T01:58:53.116Z",
-    "title": "The Ghost Next Door Part 1 | Spooky Cartoons for Kids | Goosebumps | Scholastic After School",
-    "videoUrl": "https://www.youtube.com/watch?v=ylcGIDjQzWs",
-    "channelName": "Scholastic After School",
-    "summary": "Subscribe to Scholastic After School for the best TV shows! ⭐️ Check out Camp Lakebottom playlist for non-stop fun: 🎬 Tune in to our playlist for more Karma's World episodes: Step into the world of Goosebumps — where every episode brings a new nightmare. From monster librarians and haunted summer c",
-    "keyword": "science",
-    "thumbnail": "https://i2.ytimg.com/vi/ylcGIDjQzWs/hqdefault.jpg",
-    "views": 218,
-    "ratingAvg": 5,
-    "videoCategory": "Science",
-    "videoId": "ylcGIDjQzWs",
-    "profile": "Both",
-    "watched_jonah": false,
-    "watched_kieran": false,
-    "rating_kieran": "down",
-    "rating_jonah": "down"
-  },
-  {
-    "timestamp": "2026-06-12T21:00:15.000Z",
-    "firstSeen": "2026-06-17T01:58:53.706Z",
-    "title": "A Kind of Spark Full Season | Full Episodes | Season 1 | Scholastic After School",
-    "videoUrl": "https://www.youtube.com/watch?v=LMw58EjXw8g",
-    "channelName": "Scholastic After School",
-    "summary": "Addie has a meltdown on a school trip and finds a strange witch jar. It’s the start of a life changing adventure full of friendship, frenemies, and a mystery that must be solved. Watch our NEWLY added series A Kind of Spark. Addie is a bright and sparky autistic girl dreaming of acceptance in a cons",
-    "keyword": "science",
-    "thumbnail": "https://i1.ytimg.com/vi/LMw58EjXw8g/hqdefault.jpg",
-    "views": 1662,
-    "ratingAvg": 5,
-    "videoCategory": "Science",
-    "videoId": "LMw58EjXw8g",
-    "profile": "Both",
-    "watched_jonah": false,
-    "watched_kieran": true,
-    "rating_kieran": "down",
-    "rating_jonah": "down"
-  },
-  {
     "timestamp": "2026-06-12T19:00:21.000Z",
     "firstSeen": "2026-06-17T01:58:53.847Z",
     "title": "Diamond's Diva Moments 🙄💅✨ Full Episodes of Paris & Pups | @ScholasticAfterSchool",
@@ -1933,7 +1895,7 @@
     "videoId": "yEqemjWqVEs",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false,
+    "watched_kieran": true,
     "rating_kieran": null,
     "rating_jonah": null
   },
@@ -1955,25 +1917,6 @@
     "watched_kieran": false,
     "rating_kieran": null,
     "rating_jonah": null
-  },
-  {
-    "timestamp": "2026-06-09T15:01:45.000Z",
-    "firstSeen": "2026-06-17T01:58:45.934Z",
-    "title": "ASL The Cold War",
-    "videoUrl": "https://www.youtube.com/watch?v=0S0zGpwaozg",
-    "channelName": "Learn Bright",
-    "summary": "What you will learn in The Cold War:\n0:00 Introduction\n0:38 What was the cold war?\n1:15 When did it happen?\n2:03 Who was involved and where did it happen?\n3:39 Why did the Cold War happen?\n4:09 The effects of the creation of nuclear weapons\n4:46 The end of the war\n5:06 Review of the facts Find and F",
-    "keyword": "social studies",
-    "thumbnail": "https://i1.ytimg.com/vi/0S0zGpwaozg/hqdefault.jpg",
-    "views": 127,
-    "ratingAvg": 5,
-    "videoCategory": "Science",
-    "videoId": "0S0zGpwaozg",
-    "profile": "Both",
-    "watched_jonah": false,
-    "watched_kieran": false,
-    "rating_kieran": "down",
-    "rating_jonah": "down"
   },
   {
     "timestamp": "2026-06-09T15:01:43.000Z",
