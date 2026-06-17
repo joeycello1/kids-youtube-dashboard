@@ -148,10 +148,10 @@
 
     <div class="rating-buttons">
       <button class="rate up" on:click={() => rateVideo("up")}>
-        👍 I Like This
+        <span class="emoji">👍</span> YEP!
       </button>
       <button class="rate down" on:click={() => rateVideo("down")}>
-        👎 Not My Favorite
+        <span class="emoji">👎</span> NOPE!
       </button>
     </div>
 
@@ -234,10 +234,12 @@
     padding: 20px 40px;
     font-size: 2rem;
     font-weight: bold;
+    color: #7b1484;
     border-radius: 12px;
     background: #ffcc00;
     border: none;
     cursor: pointer;
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.25);
     width: 100%;
     transition: transform 0.15s ease;
   }
@@ -255,7 +257,7 @@
     cursor: pointer;
     border: none;
     transition: transform 0.15s ease;
-
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.25);
     background: #7b1484;
     color: white;
     margin-top: 1rem;
@@ -275,22 +277,31 @@
   .rate {
     flex: 1;
     padding: 12px;
-    font-size: 1.1rem;
+    font-size: 1.7rem;
     font-weight: 700;
     border-radius: 10px;
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.25);
     cursor: pointer;
     border: none;
     transition: transform 0.15s ease;
   }
 
   .rate.up {
-    background: #33cc66;
+    background: #228041;
     color: white;
   }
 
   .rate.down {
-    background: #ff9933;
+    background: #93591f;
     color: white;
+  }
+
+  .rate .emoji {
+    font-size: 1.8rem;
+    font-weight: 900;
+    line-height: 1;
+    display: inline-block;
+    margin-right: 0.4rem;
   }
 
   .rate:hover {
