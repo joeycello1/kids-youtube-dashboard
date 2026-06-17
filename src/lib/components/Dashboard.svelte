@@ -205,14 +205,19 @@
 </div>
 
 <style>
+  :global(#app) {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0; /* removes the auto-centering */
+  }
+
   .dashboard-container {
     min-height: 100vh;
     background: linear-gradient(135deg, #401a60, #b365f2);
     font-family: "Inter", system-ui, sans-serif;
-    padding: 2rem;
+    padding: 2rem 3rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   /* Header (now supports random greeting) */
@@ -259,9 +264,10 @@
 
   /* Search Box */
   .search-box {
+    margin: 0 auto 1.5rem auto; /* centers it horizontally */
     position: relative;
     margin-bottom: 1.5rem;
-    width: 40%;
+    width: min(500px, 90%);
     display: flex;
     justify-content: center;
     box-shadow: 0 8px 14px rgba(0,0,0,0.45);
@@ -313,16 +319,6 @@
     box-shadow: 0 1px 0 rgba(0,0,0,0.25);
   }
 
-  /* Video Grid */
-  .grid {
-    width: 100%;
-    max-width: 1200px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 16px;
-    animation: fadeIn 0.4s ease-out;
-  }
-
   /* Update Banner */
   .update-banner {
     background: #ffcc00;
@@ -348,6 +344,50 @@
     0% { transform: scale(0.6); opacity: 0; }
     80% { transform: scale(1.1); opacity: 1; }
     100% { transform: scale(1); }
+  }
+
+  /* ------------------------------
+   GRID CONTAINER
+  ------------------------------ */
+  .grid {
+    display: grid;
+    margin-top: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem 0 2rem;
+    width: 100%;
+  }
+
+  .grid > * {
+    animation: fadeIn 0.4s ease-out;
+  }
+
+  /* ------------------------------
+    RESPONSIVE BREAKPOINTS
+  ------------------------------ */
+
+  /* Large screens: bigger cards, more breathing room */
+  @media (min-width: 1400px) {
+    .grid {
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+  }
+
+  /* Tablets: fewer columns, bigger cards */
+  @media (max-width: 900px) {
+    .grid {
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 1.2rem;
+    }
+  }
+
+  /* Phones: giant cards, 1–2 per row */
+  @media (max-width: 600px) {
+    .grid {
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 1rem;
+    }
   }
 </style>
 

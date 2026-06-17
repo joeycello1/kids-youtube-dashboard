@@ -14,11 +14,27 @@
   function togglePlay() {
     if (!player) return;
 
-    if (isPlaying) {
+    const state = player.getPlayerState ? player.getPlayerState() : null;
+
+    // If currently playing, pause
+    if (state === 1 || isPlaying) {
       player.pauseVideo();
-    } else {
-      player.playVideo();
+      isPlaying = false;
+      return;
     }
+
+    // Otherwise, play
+    player.playVideo();
+    isPlaying = true;
+  }
+
+  function restartVideo() {
+    if (!player) return;
+
+    // Stop (reset to 0) then auto-play
+    player.stopVideo();
+    player.playVideo();
+    isPlaying = true;
   }
 
   // Load YouTube API
@@ -68,13 +84,11 @@
       },
 
       events: {
-        onReady: async (event) => {
+        onReady: async () => {
           console.log("VideoModal onReady fired");
 
-          // ⭐ Allow external controls to work
           isPlaying = false;
 
-          // ⭐ Safe place to enable overlay (now permanent block)
           await enableOverlay();
         },
 
@@ -106,7 +120,6 @@
     });
   }
 
-
   const WEBAPP_URL =
     "https://script.google.com/macros/s/AKfycbwlSjP3ReIarEvWm-1Le9XysxKDhh78BMtA7hPRBgHMNJLaLTNmykOnYjZkOi9mrF4nBw/exec";
 
@@ -117,7 +130,9 @@
   function rateVideo(value) {
     video.rating = value;
 
-    fetch(`${WEBAPP_URL}?action=rate&videoId=${video.videoId}&profile=${profile}&value=${value}`);
+    fetch(
+      `${WEBAPP_URL}?action=rate&videoId=${video.videoId}&profile=${profile}&value=${value}`
+    );
 
     dispatch("rating", { video, value, profile });
   }
@@ -131,59 +146,71 @@
 
 <div class="overlay" on:click={() => dispatch("close")}>
   <div class="modal" on:click|stopPropagation>
-
     {#if errorMessage}
       <div class="broken-banner">🚨 This video is broken! 🚨</div>
 
-      <button class="police-button"
+      <button
+        class="police-button"
         on:click={() => {
           video.broken = true;
           callThePolice(video.videoId);
           dispatch("broken", video);
           dispatch("close");
-        }}>
+        }}
+      >
         Oh No! This Video is Broken!!
         🚨 Call the Police! 🚨
       </button>
     {/if}
 
+    <!-- Rating buttons ABOVE video -->
     <div class="rating-buttons">
       <button class="rate up" on:click={() => rateVideo("up")}>
         <span class="emoji">👍</span> YEP!
       </button>
-      <button class="rate down"
+      <button
+        class="rate down"
         on:click={() => {
           rateVideo("down");
           dispatch("close");
-          }}
+        }}
       >
         <span class="emoji">👎</span> NOPE!
       </button>
     </div>
 
-    <!-- ⭐ Correct wrapper structure -->
+    <!-- Video area -->
     <div class="player-wrapper">
       <div id="player"></div>
       <div class="player-overlay"></div>
     </div>
 
-    <button class="big-button" on:click={togglePlay}>
-      {isPlaying ? "STOP IT!" : "PLAY IT!"}
-    </button>
+    <!-- Controls BELOW video -->
+    <div class="controls">
+      <button class="restart-button" on:click={restartVideo}>
+        ⏮️ START ME OVER
+      </button>
 
-    <!-- ⭐ Close button OUTSIDE the wrapper -->
+      <button class="play-button" on:click={togglePlay}>
+        {isPlaying ? "STOP ME!" : "PLAY ME!"}
+      </button>
+    </div>
+
+    <!-- Close button at bottom -->
     <button class="close-button" on:click={() => dispatch("close")}>
-      Close
+      Close Me (bye bye)
     </button>
-
   </div>
 </div>
 
 <style>
+  /* ------------------------------
+     OVERLAY + MODAL
+  ------------------------------ */
   .overlay {
     position: fixed;
     inset: 0;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -196,85 +223,71 @@
     background: #420c47;
     padding: 1rem;
     border-radius: 12px;
-    max-width: 800px;
-    width: 90%;
+    width: 90vw;
+    max-width: 1200px;
+    height: 90vh;
+    max-height: 800px;
     z-index: 10;
     animation: popIn 0.25s ease-out;
+    display: flex;
+    flex-direction: column;
   }
 
+  /* ------------------------------
+     VIDEO WRAPPER
+  ------------------------------ */
   .player-wrapper {
     position: relative;
     width: 100%;
-    height: 380px;
+    flex: 1;
     overflow: hidden;
-    box-shadow: 0 8px 14px rgba(0,0,0,0.45);
+    box-shadow: 0 8px 14px rgba(0, 0, 0, 0.45);
+    background: black;
   }
 
-  /* The actual YouTube player */
   #player {
     width: 100%;
     height: 100%;
   }
 
-  /* ⭐ The invisible shield */
   .player-overlay {
     position: absolute;
-    top: 0;
-    left: 0;  
-    width: 100%;
-    height: 100%;
+    inset: 0;
     pointer-events: auto;
     background: transparent;
     z-index: 9999;
-
-    /* Fully transparent */
-    background: rgba(0, 0, 0, 0);
-
-    /* Prevent right-click → open in new tab */
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
   }
 
-  .big-button {
-    margin-top: 20px;
-    padding: 20px 40px;
-    font-size: 2rem;
-    font-weight: bold;
-    color: #7b1484;
-    border-radius: 12px;
-    background: #ffcc00;
-    border: none;
-    cursor: pointer;
-    box-shadow: 0 8px 14px rgba(0,0,0,0.45);
-    width: 100%;
-    transition: transform 0.15s ease;
-  }
+  /* ------------------------------
+     UNIVERSAL BUTTON FEEL
+  ------------------------------ */
 
-  .big-button:hover {
+  /* Hover = gentle grow */
+  button:hover {
     transform: scale(1.03);
   }
-  
-  .close-button {
-    width: 100%;
-    padding: 12px;
-    font-size: 1.1rem;
-    font-weight: 700;
+
+  /* Click = squish */
+  button:active {
+    transform: scale(0.92);
+    transition: transform 0.05s ease-out;
+  }
+
+  /* All buttons share these traits */
+  button {
+    cursor: pointer;
     border-radius: 10px;
-    cursor: pointer;
-    border: 1px solid #ffcc00;
+    font-weight: 700;
     transition: transform 0.15s ease;
-    box-shadow: 0 8px 14px rgba(0,0,0,0.45);
-    background: #7b1484;
-    color: white;
-    margin-top: 1rem;
+    box-shadow: 0 8px 14px rgba(0, 0, 0, 0.45);
   }
 
-  .close-button:hover {
-    transform: scale(1.03);
-  }
-
-  /* ⭐ Rating Buttons */
+  /* ------------------------------
+     RATING BUTTONS
+  ------------------------------ */
   .rating-buttons {
     display: flex;
     gap: 1rem;
@@ -285,11 +298,7 @@
     flex: 1;
     padding: 12px;
     font-size: 1.7rem;
-    font-weight: 700;
-    border-radius: 10px;
-    box-shadow: 0 8px 14px rgba(0,0,0,0.45);
-    cursor: pointer;
-    transition: transform 0.15s ease;
+    border: none;
   }
 
   .rate.up {
@@ -307,15 +316,54 @@
   .rate .emoji {
     font-size: 1.8rem;
     font-weight: 900;
-    line-height: 1;
-    display: inline-block;
     margin-right: 0.4rem;
   }
 
-  .rate:hover {
-    transform: scale(1.05);
+  /* ------------------------------
+     CONTROL BAR (Restart + Play)
+  ------------------------------ */
+  .controls {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
   }
 
+  .restart-button,
+  .play-button {
+    padding: 16px;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 12px;
+  }
+
+  .restart-button {
+    flex: 0 0 30%;
+    background: #ff9900;
+    color: #420c47;
+  }
+
+  .play-button {
+    flex: 1;
+    background: #ffcc00;
+    color: #7b1484;
+  }
+
+  /* ------------------------------
+     CLOSE BUTTON
+  ------------------------------ */
+  .close-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    border: 1px solid #ffcc00;
+    background: #7b1484;
+    color: white;
+    margin-top: 1rem;
+  }
+
+  /* ------------------------------
+     BROKEN VIDEO + POLICE BUTTON
+  ------------------------------ */
   .broken-banner {
     background: #cc0000;
     color: white;
@@ -335,24 +383,23 @@
     padding: 14px 22px;
     border: none;
     border-radius: 12px;
-    cursor: pointer;
     width: 100%;
     margin-bottom: 1rem;
-    box-shadow: 0 0 12px rgba(255, 0, 0, 0.6), 0 0 4px rgba(255, 255, 255, 0.4) inset;
-    transition: transform 0.15s ease, box-shadow 0.2s ease;
     animation: policePulse 1.4s infinite ease-in-out;
   }
 
   .police-button:hover {
     transform: scale(1.08);
-    box-shadow: 0 0 18px rgba(255, 0, 0, 0.9), 0 0 6px rgba(255, 255, 255, 0.6) inset;
   }
 
   .police-button:active {
-    animation: policeFlash 0.25s linear;
     transform: scale(0.96);
+    animation: policeFlash 0.25s linear;
   }
 
+  /* ------------------------------
+     ANIMATIONS
+  ------------------------------ */
   @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -381,3 +428,4 @@
     100% { opacity: 0.6; }
   }
 </style>
+

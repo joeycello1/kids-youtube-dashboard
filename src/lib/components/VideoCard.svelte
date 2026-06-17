@@ -3,16 +3,8 @@
   export let onOpen;
 </script>
 
-<!--
-  ⭐ PRIORITY LOGIC (top → bottom)
-  1. broken → overrides everything
-  2. rating === "down" → orange overlay
-  3. rating === "up" → green badge
-  4. watched → ribbon
--->
-
 <div
-  class="card 
+  class="video-card 
     {video.broken ? 'broken' : ''} 
     {video.rating === 'down' ? 'rated-down' : ''} 
     {video.rating === 'up' ? 'rated-up' : ''} 
@@ -51,143 +43,120 @@
 </div>
 
 <style>
-  .card {
-    position: relative;
-    background: #4b2a78;
-    border-radius: 16px;
-    overflow: hidden;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 8px 14px rgba(0,0,0,0.45);
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
-  }
+  /* ------------------------------
+   CARD CONTAINER
+------------------------------ */
+.video-card {
+  background: #420c47;
+  border-radius: 16px;
+  padding: 0.6rem;
+  box-shadow: 0 8px 14px rgba(0,0,0,0.45);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  position: relative;
+  overflow: hidden;
+}
 
-  .card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 12px 20px rgba(0,0,0,0.55);
-  }
+/* Hover = gentle lift */
+.video-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.55);
+}
 
-  /* Thumbnail */
-  .thumb {
-    width: 100%;
-    height: 160px;
-    object-fit: cover;
-    background: #2d1a45;
-    position: relative;
-  }
+/* Click = squish */
+.video-card:active {
+  transform: scale(0.92);
+  transition: transform 0.08s ease-out;
+}
 
-  .thumb::after {
-    content: "";
-    position: absolute;
-    z-index: 1;
-    inset: 0;
-    background: linear-gradient(to bottom, rgba(0,0,0,0) 40%, rgba(0,0,0,0.35));
-  }
+/* ------------------------------
+   THUMBNAIL
+------------------------------ */
+.thumb {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.35);
+}
 
-  /* Info section */
-  .info {
-    padding: 1rem;
-    color: white;
-  }
+/* ------------------------------
+   INFO AREA
+------------------------------ */
+.info {
+  margin-top: 0.6rem;
+}
 
-  .title {
-    font-weight: 700;
-    margin-bottom: 0.4rem;
-    font-size: 1.1rem;
-    line-height: 1.2;
-  }
+.title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #ffcc00;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.4);
+  line-height: 1.2;
+}
 
-  .channel {
-    color: #d3c6e8;
-    font-size: 0.9rem;
-  }
+.channel {
+  font-size: 0.9rem;
+  color: #e6c8e8;
+  opacity: 0.9;
+}
 
-  /* ⭐ Watched Ribbon */
-  .watched-ribbon {
-    position: absolute;
-    top: 12px;
-    left: -40px;
-    background: #d84848;
-    color: white;
-    padding: 6px 50px;
-    font-size: 0.9rem;
-    font-weight: bold;
-    transform: rotate(-45deg);
-    box-shadow: 0 3px 8px rgba(0,0,0,0.35);
-    pointer-events: none;
-    letter-spacing: 0.5px;
-    z-index: 10;
-  }
+/* ------------------------------
+   BADGES + OVERLAYS
+------------------------------ */
 
-  /* Dim watched cards */
-  .card.watched::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0,0,0,0.45);
-    z-index: 4;
-    pointer-events: none;
-  }
+/* Rating UP badge */
+.rating-up {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 1.8rem;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: rgba(34,128,65,0.75);
+  backdrop-filter: blur(4px);
+  z-index: 5;
+}
 
-  /* ⭐ Rating UP badge */
-  .rating-up {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: #2ecc71;
-    color: white;
-    padding: 6px 10px;
-    border-radius: 12px;
-    font-size: 1.2rem;
-    z-index: 12;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.35);
-  }
+/* Rating DOWN overlay */
+.rating-down-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(147,89,31,0.85);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  text-align: center;
+  z-index: 6;
+  border-radius: 16px;
+}
 
-  /* ⭐ Rating DOWN overlay */
-  .rating-down-overlay {
-    position: absolute;
-    inset: 0;
-    background: rgba(255, 165, 0, 0.75);
-    color: black;
-    font-weight: 700;
-    font-size: 1.3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 1rem;
-    z-index: 12;
-    pointer-events: none;
-  }
+/* Broken overlay */
+.broken-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(204,0,0,0.85);
+  border-radius: 16px;
+  z-index: 7;
+}
 
-  /* ⭐ Broken Overlay */
-  .broken-overlay {
-    position: absolute;
-    inset: 0;
-    background: repeating-linear-gradient(
-      -45deg,
-      #ffcc00,
-      #ffcc00 20px,
-      #000 20px,
-      #000 40px
-    );
-    opacity: 0.85;
-    z-index: 14;
-    pointer-events: none;
-  }
-
-  .card.broken::before {
-    content: "BROKEN";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-10deg);
-    color: white;
-    font-size: 2rem;
-    font-weight: 900;
-    text-shadow: 0 3px 6px rgba(0,0,0,0.5);
-    z-index: 15;
-    pointer-events: none;
-  }
+/* Watched ribbon */
+.watched-ribbon {
+  position: absolute;
+  top: 8px;
+  left: -20px;
+  background: #228041;
+  color: white;
+  font-weight: 900;
+  padding: 4px 40px;
+  transform: rotate(-20deg);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+  z-index: 4;
+}
 </style>
