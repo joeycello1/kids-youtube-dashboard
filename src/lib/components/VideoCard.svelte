@@ -141,9 +141,30 @@
 .broken-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(204,0,0,0.85);
-  border-radius: 16px;
-  z-index: 7;
+  background: repeating-linear-gradient(
+    -45deg,
+    #ffcc00,
+    #ffcc00 20px,
+    #000 20px,
+    #000 40px
+  );
+  opacity: 0.85;
+  z-index: 4;
+  pointer-events: none;
+}
+
+.broken-overlay::after {
+  content: "BROKEN";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-10deg);
+  color: white;
+  font-size: 2rem;
+  font-weight: 900;
+  text-shadow: 0 3px 6px rgba(0,0,0,0.5);
+  z-index: 5;
+  pointer-events: none;
 }
 
 /* Watched ribbon */
