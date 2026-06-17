@@ -1,24 +1,5 @@
 [
   {
-    "timestamp": "2026-06-16T20:00:35.000Z",
-    "firstSeen": "2026-06-16T22:30:53.373Z",
-    "title": "Mr Bean Loses a Dog Finds a Cat and Causes Chaos | Mr Bean Animated",
-    "videoUrl": "https://www.youtube.com/watch?v=X4f4ZM2fR9k",
-    "channelName": "Mr Bean",
-    "summary": "Mr Bean loses a dog, finds a missing cat called Scrapper and causes chaos along the way. Featuring electric scooters, a birthday balloon card and a coffee shop rip-off. 00:00:00 Broken Chair Causes Chaos at Home\n00:02:20 Struggling to Move Furniture Upstairs\n00:06:38 Scooter Fun at the Skate Park\n00",
-    "keyword": "mr bean",
-    "thumbnail": "https://i1.ytimg.com/vi/X4f4ZM2fR9k/hqdefault.jpg",
-    "views": 1602,
-    "ratingAvg": 5,
-    "videoCategory": "Mr Bean",
-    "videoId": "X4f4ZM2fR9k",
-    "profile": "Both",
-    "watched_jonah": false,
-    "watched_kieran": false,
-    "rating_kieran": null,
-    "rating_jonah": null
-  },
-  {
     "timestamp": "2026-06-16T17:00:30.000Z",
     "firstSeen": "2026-06-16T17:26:58.413Z",
     "title": "Mr Bean Gets Into Trouble At The Dentist 🦷 | Mr Bean Live Action | Full Episodes | Mr Bean",
@@ -70,7 +51,7 @@
     "videoCategory": "Learning",
     "videoId": "eR5blcjll8o",
     "profile": "Both",
-    "watched_jonah": false,
+    "watched_jonah": true,
     "watched_kieran": true,
     "rating_kieran": "up",
     "rating_jonah": null
@@ -266,25 +247,6 @@
     "rating_jonah": null
   },
   {
-    "timestamp": "2026-06-15T23:00:03.000Z",
-    "firstSeen": "2026-06-16T17:26:59.278Z",
-    "title": "Mr Bean Teddy Bank Heist Goes Wrong | Mr Bean Animated",
-    "videoUrl": "https://www.youtube.com/watch?v=jbVeeSFb88A",
-    "channelName": "Mr Bean",
-    "summary": "Mr Bean's day spirals into chaos — Teddy gets into trouble, a stage hypnotist loses control, and a bank heist goes spectacularly wrong when the police close in. 00:00:00 Mr. Bean Wins a Teddy Bear\n00:03:22 Bean Plays Catch With a Child\n00:05:30 Hypnotist Puts Volunteer on Stage\n00:07:03 Hypnotist Ma",
-    "keyword": "mr bean",
-    "thumbnail": "https://i3.ytimg.com/vi/jbVeeSFb88A/hqdefault.jpg",
-    "views": 5291,
-    "ratingAvg": 5,
-    "videoCategory": "Mr Bean",
-    "videoId": "jbVeeSFb88A",
-    "profile": "Both",
-    "watched_jonah": false,
-    "watched_kieran": false,
-    "rating_kieran": null,
-    "rating_jonah": null
-  },
-  {
     "timestamp": "2026-06-15T19:00:08.000Z",
     "firstSeen": "2026-06-16T17:27:40.388Z",
     "title": "🤣 The Best PBS KIDS Dad Jokes for Father's Day! 😂 | PBS KIDS",
@@ -375,7 +337,7 @@
     "videoId": "JF1fZlkEifE",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false,
+    "watched_kieran": true,
     "rating_kieran": null,
     "rating_jonah": null
   },
@@ -413,7 +375,7 @@
     "videoId": "LhPsh6CdIvo",
     "profile": "Both",
     "watched_jonah": false,
-    "watched_kieran": false,
+    "watched_kieran": true,
     "rating_kieran": null,
     "rating_jonah": null
   },
@@ -1704,7 +1666,7 @@
     "videoCategory": "Docs",
     "videoId": "YPxOfbQSfRc",
     "profile": "Both",
-    "watched_jonah": false,
+    "watched_jonah": true,
     "watched_kieran": false,
     "rating_kieran": null,
     "rating_jonah": null
@@ -3034,7 +2996,7 @@
     "videoCategory": "Learning",
     "videoId": "WX_E1CAZjaQ",
     "profile": "Both",
-    "watched_jonah": false,
+    "watched_jonah": true,
     "watched_kieran": false,
     "rating_kieran": null,
     "rating_jonah": null
