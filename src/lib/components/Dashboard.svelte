@@ -134,7 +134,7 @@
   let hasUpdate = false;
   let updateCount = 0;
 
-  // -----------------------------
+// -----------------------------
 //  Initial UI State
 // -----------------------------
 const today = new Date().toISOString().slice(0, 10);
@@ -152,7 +152,9 @@ $: categories = ["New Today", ...new Set(videos.map(v => v.videoCategory))];
 // -----------------------------
 //  New Videos
 // -----------------------------
-$: newVideos = videos.filter(v => v.firstSeen?.startsWith(today));
+$: newVideos = videos.filter(v => 
+  v.firstSeen?.startsWith(today)
+);
 
 // -----------------------------
 //  Category Filter
@@ -161,24 +163,32 @@ $: categoryFiltered =
   selectedCategory === "New Today"
     ? newVideos
     : selectedCategory
-      ? videos.filter(v => v.videoCategory === selectedCategory)
-      : videos;
+      ? videos.filter(v => 
+          v.videoCategory === selectedCategory &&
+          v.firstSeen <= today // <-- future-proofing here too
+        )
+      : videos.filter(v => v.firstSeen <= today);
 
 // -----------------------------
-//  Search Filter
+//  Search Filter (GLOBAL FILTER)
 // -----------------------------
 $: filtered = firstLoad
   ? newVideos
   : search
-    ? videos.filter(v =>
-        v.title?.toLowerCase().includes(search.toLowerCase()) ||
-        v.channelName?.toLowerCase().includes(search.toLowerCase()) ||
-        v.summary?.toLowerCase().includes(search.toLowerCase()) ||
-        (Array.isArray(v.keywords) &&
-          v.keywords.some(k =>
-            k?.toLowerCase().includes(search.toLowerCase())
-          ))
-      )
+    ? videos.filter(v => {
+        // Hide future videos globally
+        if (v.firstSeen > today) return false;
+
+        return (
+          v.title?.toLowerCase().includes(search.toLowerCase()) ||
+          v.channelName?.toLowerCase().includes(search.toLowerCase()) ||
+          v.summary?.toLowerCase().includes(search.toLowerCase()) ||
+          (Array.isArray(v.keywords) &&
+            v.keywords.some(k =>
+              k?.toLowerCase().includes(search.toLowerCase())
+            ))
+        );
+      })
     : categoryFiltered;
 
   function capitalize(name) {
