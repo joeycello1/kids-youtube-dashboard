@@ -1,6 +1,9 @@
 <script>
   export let video;
   export let onOpen;
+
+  const today = new Date().toISOString().slice(0, 10);
+  $: isNew = video.firstSeen?.startsWith(today);
 </script>
 
 <div
@@ -32,6 +35,11 @@
   <!-- ⭐ Watched ribbon (lowest priority) -->
   {#if !video.broken && video.rating !== "down" && video.watched}
     <div class="watched-ribbon">watched</div>
+  {/if}
+
+  <!-- ⭐ New Video ribbon -->
+  {#if isNew}
+    <div class="new-ribbon">NEW!</div>
   {/if}
 
   <img class="thumb" src={video.thumbnail} alt="thumbnail" />
@@ -180,4 +188,20 @@
   box-shadow: 0 4px 8px rgba(0,0,0,0.4);
   z-index: 4;
 }
+
+.new-ribbon {
+  position: absolute;
+  top: 140px;
+  left: -8px;
+  background: #ff3e00;
+  color: white;
+  padding: 4px 12px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  transform: rotate(-15deg);
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+  pointer-events: none;
+}
+
 </style>
