@@ -270,6 +270,9 @@ $: filtered = firstLoad
         }}
       >
         {cat}
+        {#if cat === "New Today"}
+          ({newVideos.length})
+        {/if}
       </div>
     {/each}
   </div>
@@ -301,14 +304,20 @@ $: filtered = firstLoad
   </div>
 
   <!-- Video Grid -->
-  <div class="grid">
-    {#each filtered as video}
-      <VideoCard
-        {video}
-        onOpen={(v) => activeVideo = v}
-      />
-    {/each}
-  </div>
+  {#if firstLoad && newVideos.length === 0}
+      <div class="no-new">
+        No Brand New videos today... yet.<br> Check out your favorite categories!
+      </div>
+    {:else}
+    <div class="grid">
+      {#each filtered as video}
+        <VideoCard
+          {video}
+          onOpen={(v) => activeVideo = v}
+        />
+      {/each}
+    </div>
+  {/if}
 
   <!-- Modal -->
   {#if activeVideo}
@@ -348,6 +357,13 @@ $: filtered = firstLoad
     margin-bottom: 2rem;
     text-align: center;
     animation: fadeIn 0.4s ease-out, pop 0.4s ease-out;
+  }
+
+  .no-new {
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(222, 219, 22);
+    line-height: normal;
   }
 
   /* Category Chips */
