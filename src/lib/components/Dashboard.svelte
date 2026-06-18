@@ -134,37 +134,51 @@
   let updateCount = 0;
 
   // -----------------------------
-  //  UI State
-  // -----------------------------
-  let search = "";
-  let selectedCategory = "All";
-  let activeVideo = null;
+//  Initial UI State
+// -----------------------------
+const today = new Date().toISOString().slice(0, 10);
 
-  // -----------------------------
-  //  Category List
-  // -----------------------------
-  $: categories = ["All", ...new Set(videos.map(v => v.videoCategory))];
+let selectedCategory = "New Today";
+let firstLoad = true;
+let search = "";
+let activeVideo = null;
 
-  // -----------------------------
-  //  Category Filter
-  // -----------------------------
-  $: categoryFiltered =
-    selectedCategory === "All"
-      ? videos
-      : videos.filter(v => v.videoCategory === selectedCategory);
+// -----------------------------
+//  Category List
+// -----------------------------
+$: categories = ["New Today", ...new Set(videos.map(v => v.videoCategory))];
 
-  // -----------------------------
-  //  Search Filter
-  // -----------------------------
-  $: filtered = categoryFiltered.filter(v =>
-    v.title?.toLowerCase().includes(search.toLowerCase()) ||
-    v.channelName?.toLowerCase().includes(search.toLowerCase()) ||
-    v.summary?.toLowerCase().includes(search.toLowerCase()) ||
-    (Array.isArray(v.keywords) &&
-      v.keywords.some(k =>
-        k?.toLowerCase().includes(search.toLowerCase())
-      ))
-  );
+// -----------------------------
+//  New Videos
+// -----------------------------
+$: newVideos = videos.filter(v => v.firstSeen?.startsWith(today));
+
+// -----------------------------
+//  Category Filter
+// -----------------------------
+$: categoryFiltered =
+  selectedCategory === "New Today"
+    ? newVideos
+    : selectedCategory
+      ? videos.filter(v => v.videoCategory === selectedCategory)
+      : videos;
+
+// -----------------------------
+//  Search Filter
+// -----------------------------
+$: filtered = firstLoad
+  ? newVideos
+  : search
+    ? videos.filter(v =>
+        v.title?.toLowerCase().includes(search.toLowerCase()) ||
+        v.channelName?.toLowerCase().includes(search.toLowerCase()) ||
+        v.summary?.toLowerCase().includes(search.toLowerCase()) ||
+        (Array.isArray(v.keywords) &&
+          v.keywords.some(k =>
+            k?.toLowerCase().includes(search.toLowerCase())
+          ))
+      )
+    : categoryFiltered;
 
   function capitalize(name) {
     if (!name) return "";
@@ -250,6 +264,7 @@
       <div
         class="chip {selectedCategory === cat ? 'active' : ''}"
         on:click={() => {
+          firstLoad = false;
           selectedCategory = cat;
           pickGreeting(cat);
         }}
@@ -264,10 +279,22 @@
     <input
       type="text"
       bind:value={search}
+      on:input={() => {
+        firstLoad = false;
+        if (!search) {
+          firstLoad = true;
+          selectedCategory = "New Today";
+        }
+      }}
       placeholder="Search your videos…"
     />
     {#if search}
-      <button class="clear-search" on:click={() => search = ""}>
+      <button class="clear-search" on:click={() => {
+          search = "";
+          firstLoad = true;
+          selectedCategory = "New Today";
+        }}
+      >
         ✕
       </button>
     {/if}
