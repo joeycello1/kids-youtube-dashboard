@@ -374,10 +374,10 @@
     "videoCategory": "Learn",
     "videoId": "eR5blcjll8o",
     "profile": "Both",
-    "watched_jonah": false,
+    "watched_jonah": true,
     "watched_kieran": true,
     "rating_kieran": null,
-    "rating_jonah": null
+    "rating_jonah": "up"
   },
   {
     "timestamp": "2026-06-16T14:00:31.000Z",
@@ -4231,7 +4231,7 @@
     "videoCategory": "Docs",
     "videoId": "XjRa4qH7kBA",
     "profile": "Both",
-    "watched_jonah": false,
+    "watched_jonah": true,
     "watched_kieran": false,
     "rating_kieran": null,
     "rating_jonah": null
