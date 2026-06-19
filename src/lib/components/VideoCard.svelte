@@ -2,7 +2,7 @@
   export let video;
   export let onOpen;
 
-  const today = new Date().toISOString().slice(0, 10);
+  const today = new Date().toLocaleDateString("en-CA"); // en-CA gives YYYY-MM-DD reliably
   $: isNew = video.firstSeen?.startsWith(today);
 </script>
 
