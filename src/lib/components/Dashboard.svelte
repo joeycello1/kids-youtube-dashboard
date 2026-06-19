@@ -2,10 +2,15 @@
   import VideoCard from './VideoCard.svelte';
   import VideoModal from './VideoModal.svelte';
   import { onMount } from "svelte";
-  import { loadKidsData } from "../utils/fetchData.js";   // ✅ Correct import
+  import { loadKidsData } from "../utils/fetchData.js";
 
   export let videos = [];
   export let profile = "";
+
+  // -----------------------------
+  //  Guest Mode
+  // -----------------------------
+  const readOnly = profile === "guest";
 
   // -----------------------------
   //  Random Greeting
@@ -37,7 +42,6 @@
     "Let’s watch something awesome!"
   ];
 
-  // Category-specific greetings
   const categoryGreetings = {
     Cartoons: [
       "C'mon, {name}! Why don't you watch something educational?",
@@ -80,23 +84,19 @@
 
     let base = list[Math.floor(Math.random() * list.length)];
 
-    // Capitalize kid name
     const kidName = profile
       ? profile.charAt(0).toUpperCase() + profile.slice(1)
       : null;
 
-    // Seasonal greeting override
     const seasonal = getTimeOfDayGreeting();
     if (!category && seasonal) {
       base = seasonal;
     }
 
-    // Time-of-day greeting override (only if no category selected)
     if (!category && !seasonal) {
       base = getTimeOfDayGreeting();
     }
 
-    // Replace {name}
     if (kidName) {
       base = base.replace("{name}", kidName);
     }
@@ -106,6 +106,11 @@
 
   onMount(() => {
     pickGreeting(null);
+
+    // Disable update polling for Guest
+    if (!readOnly) {
+      setInterval(checkForUpdates, 60000);
+    }
   });
 
   function getTimeOfDayGreeting() {
@@ -118,14 +123,14 @@
   }
 
   function getSeasonalGreeting() {
-    const month = new Date().getMonth(); // 0 = Jan
+    const month = new Date().getMonth();
 
     if (month === 11) return "Happy Holidays, {name}!";
     if (month === 9) return "Spooky season is here, {name}!";
     if (month === 5 || month === 6) return "Summer vibes, {name}!";
     if (month === 2 || month === 3) return "Springtime fun, {name}!";
 
-    return null; // no seasonal override
+    return null;
   }
 
   // -----------------------------
@@ -134,68 +139,69 @@
   let hasUpdate = false;
   let updateCount = 0;
 
-// -----------------------------
-//  Initial UI State
-// -----------------------------
-const today = new Date().toLocaleDateString("en-CA"); // en-CA gives YYYY-MM-DD reliably
+  // -----------------------------
+  //  Initial UI State
+  // -----------------------------
+  const today = new Date().toLocaleDateString("en-CA");
 
-let selectedCategory = "New Today";
-let firstLoad = true;
-let search = "";
-let activeVideo = null;
+  let selectedCategory = "New Today";
+  let firstLoad = true;
+  let search = "";
+  let activeVideo = null;
 
-// -----------------------------
-//  Category List
-// -----------------------------
-$: categories = ["New Today", ...new Set(videos.map(v => v.videoCategory))];
+  // -----------------------------
+  //  Category List
+  // -----------------------------
+  $: categories = ["New Today", ...new Set(videos.map(v => v.videoCategory))];
 
-// -----------------------------
-//  New Videos
-// -----------------------------
-$: newVideos = videos.filter(v => 
-  new Date(v.firstSeen).toISOString().slice(0, 10) === today
-);
+  // -----------------------------
+  //  New Videos
+  // -----------------------------
+  $: newVideos = videos.filter(v =>
+    new Date(v.firstSeen).toISOString().slice(0, 10) === today
+  );
 
-// -----------------------------
-//  Category Filter
-// -----------------------------
-$: categoryFiltered =
-  selectedCategory === "New Today"
+  // -----------------------------
+  //  Category Filter
+  // -----------------------------
+  $: categoryFiltered =
+    selectedCategory === "New Today"
+      ? newVideos
+      : selectedCategory
+        ? videos.filter(v =>
+            v.videoCategory === selectedCategory &&
+            new Date(v.firstSeen).toISOString().slice(0, 10) <= today
+          )
+        : videos.filter(v => new Date(v.firstSeen) <= new Date(today));
+
+  // -----------------------------
+  //  Search Filter
+  // -----------------------------
+  $: filtered = firstLoad
     ? newVideos
-    : selectedCategory
-      ? videos.filter(v => 
-          v.videoCategory === selectedCategory &&
-          new Date(v.firstSeen).toISOString().slice(0, 10) <= today
-        )
-      : videos.filter(v => new Date(v.firstSeen) <= new Date(today));
+    : search
+      ? videos.filter(v => {
+          if (new Date(v.firstSeen) > new Date(today)) return false;
 
-// -----------------------------
-//  Search Filter (GLOBAL FILTER)
-// -----------------------------
-$: filtered = firstLoad
-  ? newVideos
-  : search
-    ? videos.filter(v => {
-        if (new Date(v.firstSeen) > new Date(today)) return false;
-
-        return (
-          v.title?.toLowerCase().includes(search.toLowerCase()) ||
-          v.channelName?.toLowerCase().includes(search.toLowerCase()) ||
-          v.summary?.toLowerCase().includes(search.toLowerCase()) ||
-          (Array.isArray(v.keywords) &&
-            v.keywords.some(k =>
-              k?.toLowerCase().includes(search.toLowerCase())
-            ))
-        );
-      })
-    : categoryFiltered;
+          return (
+            v.title?.toLowerCase().includes(search.toLowerCase()) ||
+            v.channelName?.toLowerCase().includes(search.toLowerCase()) ||
+            v.summary?.toLowerCase().includes(search.toLowerCase()) ||
+            (Array.isArray(v.keywords) &&
+              v.keywords.some(k =>
+                k?.toLowerCase().includes(search.toLowerCase())
+              ))
+          );
+        })
+      : categoryFiltered;
 
   function capitalize(name) {
     if (!name) return "";
     return name.charAt(0).toUpperCase() + name.slice(1);
   }
+
   // -----------------------------
-  //  Watched / Broken Handlers
+  //  Watched / Broken / Rating
   // -----------------------------
   const WATCHED_WEBAPP_URL =
     "https://script.google.com/macros/s/AKfycbwlSjP3ReIarEvWm-1Le9XysxKDhh78BMtA7hPRBgHMNJLaLTNmykOnYjZkOi9mrF4nBw/exec";
@@ -205,17 +211,20 @@ $: filtered = firstLoad
   }
 
   function onPlayed(video) {
+    if (readOnly) return;
     video.watched = true;
     videos = [...videos];
     markWatched(video.videoId, profile);
   }
 
   function onBroken(video) {
+    if (readOnly) return;
     video.broken = true;
     videos = [...videos];
   }
 
   function onRated(video, value) {
+    if (readOnly) return;
     video.rating = value;
     videos = [...videos];
   }
@@ -247,10 +256,6 @@ $: filtered = firstLoad
     }
   }
 
-  onMount(() => {
-    setInterval(checkForUpdates, 60000);
-  });
-
   function reloadPage() {
     location.reload();
   }
@@ -258,7 +263,7 @@ $: filtered = firstLoad
 
 <div class="dashboard-container">
 
-  {#if hasUpdate}
+  {#if !readOnly && hasUpdate}
     <div class="update-banner" on:click={reloadPage}>
       {updateCount} New Videos Added! — click to refresh
     </div>
@@ -323,6 +328,7 @@ $: filtered = firstLoad
       {#each filtered as video}
         <VideoCard
           {video}
+          {readOnly}
           onOpen={(v) => activeVideo = v}
         />
       {/each}
@@ -334,6 +340,7 @@ $: filtered = firstLoad
     <VideoModal
       video={activeVideo}
       profile={profile}
+      {readOnly}
       on:close={() => (activeVideo = null)}
       on:played={() => onPlayed(activeVideo)}
       on:broken={() => onBroken(activeVideo)}

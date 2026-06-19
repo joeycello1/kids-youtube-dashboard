@@ -67,10 +67,19 @@
       }, 150);
       return;
     }
+    
     if (trimmed === "Kieran") {
       sfx.correct.play();
       setTimeout(() => {
         dispatch("login", { profile: "kieran" });
+      }, 150);
+      return;
+    }
+    
+    if (trimmed === "Guest") {
+      sfx.correct.play();
+      setTimeout(() => {
+        dispatch("login", { profile: "guest" });
       }, 150);
       return;
     }
