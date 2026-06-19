@@ -153,7 +153,7 @@ $: categories = ["New Today", ...new Set(videos.map(v => v.videoCategory))];
 //  New Videos
 // -----------------------------
 $: newVideos = videos.filter(v => 
-  v.firstSeen?.startsWith(today)
+  new Date(v.firstSeen).toISOString().slice(0, 10) === today
 );
 
 // -----------------------------
@@ -165,9 +165,9 @@ $: categoryFiltered =
     : selectedCategory
       ? videos.filter(v => 
           v.videoCategory === selectedCategory &&
-          v.firstSeen <= today // <-- future-proofing here too
+          new Date(v.firstSeen).toISOString().slice(0, 10) <= today
         )
-      : videos.filter(v => v.firstSeen <= today);
+      : videos.filter(v => new Date(v.firstSeen) <= new Date(today));
 
 // -----------------------------
 //  Search Filter (GLOBAL FILTER)
@@ -176,8 +176,7 @@ $: filtered = firstLoad
   ? newVideos
   : search
     ? videos.filter(v => {
-        // Hide future videos globally
-        if (v.firstSeen > today) return false;
+        if (new Date(v.firstSeen) > new Date(today)) return false;
 
         return (
           v.title?.toLowerCase().includes(search.toLowerCase()) ||
