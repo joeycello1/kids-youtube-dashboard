@@ -279,6 +279,7 @@
       <div
         class="chip {selectedCategory === cat ? 'active' : ''}"
         on:click={() => {
+          search = "";
           firstLoad = false;
           selectedCategory = cat;
           pickGreeting(cat);
