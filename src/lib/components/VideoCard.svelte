@@ -191,7 +191,7 @@
 
 .new-ribbon {
   position: absolute;
-  top: 140px;
+  top: 120px;
   left: -8px;
   background: #ff3e00;
   color: white;
