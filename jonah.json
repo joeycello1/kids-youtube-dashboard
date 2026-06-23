@@ -6477,24 +6477,5 @@
     "watched_kieran": false,
     "rating_kieran": null,
     "rating_jonah": null
-  },
-  {
-    "timestamp": "2026-06-23",
-    "firstSeen": "2026-06-23",
-    "title": "Best of Classic Simpsons",
-    "videoUrl": "https://www.youtube.com/watch?v=3R6IO5lx_Z0",
-    "channelName": "Brian Gibbens",
-    "summary": "",
-    "keyword": "",
-    "thumbnail": "https://i.ytimg.com/vi/3R6IO5lx_Z0/hqdefault.jpg",
-    "views": "",
-    "ratingAvg": "",
-    "videoCategory": "The Simpsons",
-    "videoId": "3R6IO5lx_Z0",
-    "profile": "Both",
-    "watched_jonah": false,
-    "watched_kieran": false,
-    "rating_kieran": null,
-    "rating_jonah": null
   }
 ]
